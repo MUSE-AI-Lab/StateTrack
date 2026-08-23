@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response directly and accurately answers the probe about what is known about the user.",
+    "constraint_rationale": "The behavior response adheres to the persistent setup by accurately recalling all stored facts without error or contradiction.",
+    "recall_rationale": "The separate recall response explicitly and accurately names the active persistent instruction."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response directly and accurately answers the probe about what is known about the user.\",\"constraint_rationale\":\"The behavior response adheres to the persistent setup by accurately recalling all stored facts without error or contradiction.\",\"recall_rationale\":\"The separate recall response explicitly and accurately names the active persistent instruction.\"}",
+  "usage": {
+    "prompt_tokens": 264,
+    "completion_tokens": 654,
+    "total_tokens": 918,
+    "completion_tokens_details": {
+      "reasoning_tokens": 574
+    }
+  },
+  "duration_s": 3.0480653000995517,
+  "request_id": "chatcmpl-349af785e141fb7099546057238aadb4"
+}

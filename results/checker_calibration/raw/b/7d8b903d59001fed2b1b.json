@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response accurately answers the immediate probe by listing all the provided user details.",
+    "constraint_rationale": "The response correctly adheres to all persistent rules given in the setup.",
+    "recall_rationale": "The separate recall response is empty and fails to state the active rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response accurately answers the immediate probe by listing all the provided user details.\",\"constraint_rationale\":\"The response correctly adheres to all persistent rules given in the setup.\",\"recall_rationale\":\"The separate recall response is empty and fails to state the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 350,
+    "total_tokens": 550,
+    "completion_tokens_details": {
+      "reasoning_tokens": 276
+    }
+  },
+  "duration_s": 3.054642700124532,
+  "request_id": "chatcmpl-10efe5138118729535c0e19151a2e3bb"
+}

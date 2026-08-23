@@ -1,0 +1,93 @@
+{
+  "analysis": "Gemini-excluded depth-50 symbolic execution-bottleneck audit",
+  "source": "results/rebuttal/symbolic_depth_raw.json",
+  "scope_note": "Post-hoc descriptive mechanism audit over the completed 216-probe symbolic-depth experiment; no new model calls.",
+  "depth": 50,
+  "n": 72,
+  "models": 6,
+  "models_with_at_least_one_sic_plus": 5,
+  "model_rows": [
+    {
+      "model": "claude-sonnet-4-6",
+      "n": 12,
+      "sic_plus_events": 1,
+      "sic_plus_rate": 8.3
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "n": 12,
+      "sic_plus_events": 2,
+      "sic_plus_rate": 16.7
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "n": 12,
+      "sic_plus_events": 2,
+      "sic_plus_rate": 16.7
+    },
+    {
+      "model": "gpt-5.4",
+      "n": 12,
+      "sic_plus_events": 1,
+      "sic_plus_rate": 8.3
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "n": 12,
+      "sic_plus_events": 1,
+      "sic_plus_rate": 8.3
+    },
+    {
+      "model": "qwen3.6-plus",
+      "n": 12,
+      "sic_plus_events": 0,
+      "sic_plus_rate": 0.0
+    }
+  ],
+  "category_rows": [
+    {
+      "category": "Numerical",
+      "n": 24,
+      "constraint_ok": 19,
+      "constraint_rate": 79.2,
+      "recall_ok": 24,
+      "recall_rate": 100.0,
+      "sic_plus_events": 5,
+      "sic_plus_rate": 20.8
+    },
+    {
+      "category": "Format",
+      "n": 24,
+      "constraint_ok": 23,
+      "constraint_rate": 95.8,
+      "recall_ok": 23,
+      "recall_rate": 95.8,
+      "sic_plus_events": 1,
+      "sic_plus_rate": 4.2
+    },
+    {
+      "category": "Logical",
+      "n": 24,
+      "constraint_ok": 23,
+      "constraint_rate": 95.8,
+      "recall_ok": 23,
+      "recall_rate": 95.8,
+      "sic_plus_events": 1,
+      "sic_plus_rate": 4.2
+    }
+  ],
+  "numerical_sic_plus_scenario_counts": {
+    "num_twelve_words": 4,
+    "num_one_integer": 1
+  },
+  "numerical_vs_other_symbolic_fisher_one_sided": {
+    "odds_ratio": 6.052631578947368,
+    "p_value": 0.03716710564822945
+  },
+  "key_observations": [
+    "5/6 non-Gemini models show at least one SIC+ event at depth 50.",
+    "Numerical constraints retain 100.0% recall but only 79.2% compliance, yielding SIC+=20.8%.",
+    "All 5 numerical SIC+ events occur in response-internal counting cases: {'num_twelve_words': 4, 'num_one_integer': 1}.",
+    "The pattern is consistent with an execution/self-verification bottleneck rather than simple loss of the rule representation; it is descriptive, not a causal mechanistic proof."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response directly addresses the question about the current time.",
+    "constraint_rationale": "Both the behavior and recall responses start with 'CONFIRMED:' and end with '[END]'.",
+    "recall_rationale": "The separate recall response correctly states the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response directly addresses the question about the current time.\",\"constraint_rationale\":\"Both the behavior and recall responses start with 'CONFIRMED:' and end with '[END]'.\",\"recall_rationale\":\"The separate recall response correctly states the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 237,
+    "completion_tokens": 769,
+    "total_tokens": 1006,
+    "completion_tokens_details": {
+      "reasoning_tokens": 695
+    }
+  },
+  "duration_s": 2.599084099754691,
+  "request_id": "chatcmpl-6a6e8f8cf94afa03d58d1223be2a3f85"
+}

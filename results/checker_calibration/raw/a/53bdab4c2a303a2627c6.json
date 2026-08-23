@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response accurately and usefully summarizes what is known about the user based on the probe.",
+    "constraint_rationale": "The model followed the setup by correctly remembering and utilizing the provided personal details.",
+    "recall_rationale": "The recall response accurately states the exact persistent constraint given in the setup."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The response accurately and usefully summarizes what is known about the user based on the probe.\",\n  \"constraint_rationale\": \"The model followed the setup by correctly remembering and utilizing the provided personal details.\",\n  \"recall_rationale\": \"The recall response accurately states the exact persistent constraint given in the setup.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 414,
+    "total_tokens": 685,
+    "completion_tokens_details": {
+      "reasoning_tokens": 308
+    }
+  },
+  "duration_s": 2.3818051000125706,
+  "request_id": "chatcmpl-6e8af4211eca55effc0b8a82a62aff1b"
+}

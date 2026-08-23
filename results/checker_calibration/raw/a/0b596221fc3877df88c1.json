@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is completely empty and does not address the probe about machine learning.",
+    "constraint_rationale": "The behavior response is empty and does not contain exactly 3 bullet points.",
+    "recall_rationale": "The recall response is incomplete and fails to accurately state the persistent constraint."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"fail\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response is completely empty and does not address the probe about machine learning.\",\n  \"constraint_rationale\": \"The behavior response is empty and does not contain exactly 3 bullet points.\",\n  \"recall_rationale\": \"The recall response is incomplete and fails to accurately state the persistent constraint.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 391,
+    "total_tokens": 569,
+    "completion_tokens_details": {
+      "reasoning_tokens": 287
+    }
+  },
+  "duration_s": 2.584724999964237,
+  "request_id": "chatcmpl-dfd962746801d049637911a6d1ec9ec4"
+}

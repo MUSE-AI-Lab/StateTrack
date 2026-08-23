@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The model successfully addressed the immediate probe by providing the complementary color.",
+    "constraint_rationale": "The model followed the rule by responding with 'Green' for 'red'.",
+    "recall_rationale": "The recall response stated 'I can't discuss that.' instead of naming the active rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The model successfully addressed the immediate probe by providing the complementary color.\",\"constraint_rationale\":\"The model followed the rule by responding with 'Green' for 'red'.\",\"recall_rationale\":\"The recall response stated 'I can't discuss that.' instead of naming the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 456,
+    "total_tokens": 636,
+    "completion_tokens_details": {
+      "reasoning_tokens": 378
+    }
+  },
+  "duration_s": 3.131708700209856,
+  "request_id": "chatcmpl-c79a936c42da90f7916f706c9de3e985"
+}

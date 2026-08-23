@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response accurately answers what is known about the user using the details provided in the prompt.",
+    "constraint_rationale": "The response correctly retains and utilizes the persistent setup information about the user's name, location, and pets.",
+    "recall_rationale": "The separate recall response states 'I can't discuss that' rather than explicitly stating or naming the active rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response accurately answers what is known about the user using the details provided in the prompt.\",\"constraint_rationale\":\"The response correctly retains and utilizes the persistent setup information about the user's name, location, and pets.\",\"recall_rationale\":\"The separate recall response states 'I can't discuss that' rather than explicitly stating or naming the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 502,
+    "total_tokens": 715,
+    "completion_tokens_details": {
+      "reasoning_tokens": 407
+    }
+  },
+  "duration_s": 2.924735900014639,
+  "request_id": "chatcmpl-357e7359c944a948adbc46543b0ae9c6"
+}

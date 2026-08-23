@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response correctly explains the basic mechanics of how the internet works using packets, routers, and connected devices.",
+    "constraint_rationale": "The response successfully adopts the medieval scholar persona and incorporates archaic English terms like 'doth', 'thee', 'thy', and 'thou'.",
+    "recall_rationale": "The recall response fails to state the active rule, responding with 'I can't discuss that' instead."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response correctly explains the basic mechanics of how the internet works using packets, routers, and connected devices.\",\n  \"constraint_rationale\": \"The response successfully adopts the medieval scholar persona and incorporates archaic English terms like 'doth', 'thee', 'thy', and 'thou'.\",\n  \"recall_rationale\": \"The recall response fails to state the active rule, responding with 'I can't discuss that' instead.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 540,
+    "total_tokens": 778,
+    "completion_tokens_details": {
+      "reasoning_tokens": 406
+    }
+  },
+  "duration_s": 2.5507062999531627,
+  "request_id": "chatcmpl-5a5aa973ebba85cf32707107245bcbc8"
+}

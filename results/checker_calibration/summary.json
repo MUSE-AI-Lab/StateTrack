@@ -1,0 +1,46 @@
+{
+  "version": "statetrack-model-assisted-checker-audit-v1",
+  "judge_model": "gemini-3.6-flash-c2",
+  "temperature": 0,
+  "items": 70,
+  "adjudicated_items": 1,
+  "pass_exact_agreement": 0.9857142857142858,
+  "prompt_source_sha256": "0f992225a54fe0893966ef5794d97983dbb81cb6b51ee09e72b1ebf6f87a8542",
+  "input_sha256": "ee635cc711607fa66a77a1dc33b748bf635e95c7e00bb82a2914cff21b3ba830",
+  "task_agreement": {
+    "n": 70,
+    "confusion": {
+      "both_pass": 45,
+      "registered_only": 3,
+      "audit_only": 17,
+      "both_fail": 5
+    },
+    "agreement": 0.7142857142857143,
+    "cohen_kappa": 0.19908466819221984,
+    "excluded_unclear": 0
+  },
+  "constraint_agreement": {
+    "n": 70,
+    "confusion": {
+      "both_pass": 54,
+      "registered_only": 3,
+      "audit_only": 0,
+      "both_fail": 13
+    },
+    "agreement": 0.9571428571428572,
+    "cohen_kappa": 0.8698884758364314,
+    "excluded_unclear": 0
+  },
+  "recall_agreement": {
+    "n": 70,
+    "confusion": {
+      "both_pass": 47,
+      "registered_only": 3,
+      "audit_only": 0,
+      "both_fail": 20
+    },
+    "agreement": 0.9571428571428572,
+    "cohen_kappa": 0.8995215311004786,
+    "excluded_unclear": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response provides a clear and informative overview of machine learning.",
+    "constraint_rationale": "The behavior response includes exactly 3 bullet points.",
+    "recall_rationale": "The recall response explicitly and accurately states the active persistent rule requiring exactly 3 bullet points in every response."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response provides a clear and informative overview of machine learning.\",\"constraint_rationale\":\"The behavior response includes exactly 3 bullet points.\",\"recall_rationale\":\"The recall response explicitly and accurately states the active persistent rule requiring exactly 3 bullet points in every response.\"}",
+  "usage": {
+    "prompt_tokens": 329,
+    "completion_tokens": 606,
+    "total_tokens": 935,
+    "completion_tokens_details": {
+      "reasoning_tokens": 531
+    }
+  },
+  "duration_s": 2.3685627998784184,
+  "request_id": "chatcmpl-4fce06d75f15e3c2fc9fc9100597d7f8"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response accurately explains quantum computing in an accessible manner.",
+    "constraint_rationale": "The behavior response consistently adheres to the pirate dialect persistent rule.",
+    "recall_rationale": "The separate recall response explicitly and accurately quotes the active persistent rule while maintaining the persona."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response accurately explains quantum computing in an accessible manner.\",\"constraint_rationale\":\"The behavior response consistently adheres to the pirate dialect persistent rule.\",\"recall_rationale\":\"The separate recall response explicitly and accurately quotes the active persistent rule while maintaining the persona.\"}",
+  "usage": {
+    "prompt_tokens": 326,
+    "completion_tokens": 402,
+    "total_tokens": 728,
+    "completion_tokens_details": {
+      "reasoning_tokens": 330
+    }
+  },
+  "duration_s": 2.3825142001733184,
+  "request_id": "chatcmpl-d34723ff301df61f0cdd62d5700512c8"
+}

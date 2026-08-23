@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not answer the time question.",
+    "constraint_rationale": "The behavior response is empty and fails to include the required start and end markers.",
+    "recall_rationale": "The recall response is empty and does not state the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is empty and does not answer the time question.\",\"constraint_rationale\":\"The behavior response is empty and fails to include the required start and end markers.\",\"recall_rationale\":\"The recall response is empty and does not state the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 530,
+    "total_tokens": 695,
+    "completion_tokens_details": {
+      "reasoning_tokens": 456
+    }
+  },
+  "duration_s": 3.139741000253707,
+  "request_id": "chatcmpl-ff80b675bf9ccf1858d3dc16cc46db29"
+}

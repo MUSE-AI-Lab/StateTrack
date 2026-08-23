@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response directly and accurately answers the prompt about what is known about the user.",
+    "constraint_rationale": "The behavior response correctly utilizes the persistent information provided in the setup.",
+    "recall_rationale": "The recall response is completely blank and fails to state the persistent setup."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response directly and accurately answers the prompt about what is known about the user.\",\n  \"constraint_rationale\": \"The behavior response correctly utilizes the persistent information provided in the setup.\",\n  \"recall_rationale\": \"The recall response is completely blank and fails to state the persistent setup.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 447,
+    "total_tokens": 660,
+    "completion_tokens_details": {
+      "reasoning_tokens": 344
+    }
+  },
+  "duration_s": 2.4262923998758197,
+  "request_id": "chatcmpl-1bfdfa638e61418cdd09ecd8ce6ffb75"
+}

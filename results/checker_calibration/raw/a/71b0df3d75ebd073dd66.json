@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The model correctly performs the required math (6 * 7 = 42) based on the user's input.",
+    "constraint_rationale": "The model followed the rule to multiply the number in the user's message by 7 and include the result.",
+    "recall_rationale": "The recall response is incomplete and cuts off before stating the multiplier (7) or the rest of the rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The model correctly performs the required math (6 * 7 = 42) based on the user's input.\",\n  \"constraint_rationale\": \"The model followed the rule to multiply the number in the user's message by 7 and include the result.\",\n  \"recall_rationale\": \"The recall response is incomplete and cuts off before stating the multiplier (7) or the rest of the rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 533,
+    "total_tokens": 746,
+    "completion_tokens_details": {
+      "reasoning_tokens": 404
+    }
+  },
+  "duration_s": 2.4058540002442896,
+  "request_id": "chatcmpl-9dd92a67bcbad9fe8290c3f90fa2e45b"
+}

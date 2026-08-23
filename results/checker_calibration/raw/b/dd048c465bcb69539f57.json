@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not address the question about quantum computing.",
+    "constraint_rationale": "The behavior response is empty and does not demonstrate the required pirate dialect.",
+    "recall_rationale": "The recall response only contains a greeting ('Ahoy there,') and fails to name the active persistent rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"fail\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response is empty and does not address the question about quantum computing.\",\n  \"constraint_rationale\": \"The behavior response is empty and does not demonstrate the required pirate dialect.\",\n  \"recall_rationale\": \"The recall response only contains a greeting ('Ahoy there,') and fails to name the active persistent rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 502,
+    "total_tokens": 676,
+    "completion_tokens_details": {
+      "reasoning_tokens": 392
+    }
+  },
+  "duration_s": 2.3112466000020504,
+  "request_id": "chatcmpl-4289e1c0633e14977ad2ac9de87620a3"
+}

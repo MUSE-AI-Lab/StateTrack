@@ -1,0 +1,40 @@
+{
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "case_audit.csv",
+      "size": 8000,
+      "sha256": "efa292096b9c40d34de828d362ea26a39f31ab5d03cbae81119fc54d0f6b0a5f"
+    },
+    {
+      "path": "judged_outputs.json",
+      "size": 96595,
+      "sha256": "dd92f4a9b9a870a8a82eedd4ad1572353e8b1f70e70d396eca3769596ae7f216"
+    },
+    {
+      "path": "raw_subject_outputs.json",
+      "size": 280277,
+      "sha256": "d2bd5c7c5284d837b5028ddacf201b60320f59124921b6209bdde7f5abb55870"
+    },
+    {
+      "path": "selected_cases.json",
+      "size": 161149,
+      "sha256": "6da365b27edba98b855b5695596a0ee274905a6e05047c68c560d49222a74ee3"
+    },
+    {
+      "path": "sgd_manifest.json",
+      "size": 84222,
+      "sha256": "6d69602339894f7268f5fad9195ff8a00d62a619ce3f61be0e193dc30d684ad4"
+    },
+    {
+      "path": "summary.json",
+      "size": 14666,
+      "sha256": "bd433dad035056df91a7051fee4240cdaf5aa9c7c4e58cbbd93b79c82f7d9fb9"
+    },
+    {
+      "path": "summary.md",
+      "size": 506,
+      "sha256": "4707fbdc0f39a7bed1e15c0500035bf2d4e3d375fe341d0fc7b24e2445585aa6"
+    }
+  ]
+}

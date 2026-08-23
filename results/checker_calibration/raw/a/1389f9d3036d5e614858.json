@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "pass",
+    "task_rationale": "The response usefully addresses the probe by explaining that location information is required to provide the weather.",
+    "constraint_rationale": "The response failed to end with the exact word count in brackets as required by the setup.",
+    "recall_rationale": "The recall response accurately states the persistent constraint."
+  },
+  "raw_content": "```json\n{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"pass\",\"task_rationale\":\"The response usefully addresses the probe by explaining that location information is required to provide the weather.\",\"constraint_rationale\":\"The response failed to end with the exact word count in brackets as required by the setup.\",\"recall_rationale\":\"The recall response accurately states the persistent constraint.\"}\n```",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 419,
+    "total_tokens": 637,
+    "completion_tokens_details": {
+      "reasoning_tokens": 337
+    }
+  },
+  "duration_s": 5.805234699975699,
+  "request_id": "chatcmpl-e3988e126d554bbf31a72319bc6ad5ff"
+}

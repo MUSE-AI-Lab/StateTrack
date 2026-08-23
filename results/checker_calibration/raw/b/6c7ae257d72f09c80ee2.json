@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The model correctly responded with 'green' to the input 'red'.",
+    "constraint_rationale": "The model adhered to the color complement mapping rule provided in the prompt.",
+    "recall_rationale": "The separate recall response was left blank and failed to state the active rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The model correctly responded with 'green' to the input 'red'.\",\"constraint_rationale\":\"The model adhered to the color complement mapping rule provided in the prompt.\",\"recall_rationale\":\"The separate recall response was left blank and failed to state the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 456,
+    "total_tokens": 628,
+    "completion_tokens_details": {
+      "reasoning_tokens": 382
+    }
+  },
+  "duration_s": 2.431190100032836,
+  "request_id": "chatcmpl-0f1fcb87273a124f270c4b8d86063a81"
+}

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "StateTrack-Bench: Characterizing State Integrity Collapse in Long-Horizon Dialogues"
+message: "If you use this repository, please cite the accompanying EMNLP 2026 paper."
+type: software
+authors:
+  - family-names: Zhu
+    given-names: Yancheng
+    orcid: https://orcid.org/0009-0007-2290-9601
+  - family-names: Yuan
+    given-names: Yifan
+    orcid: https://orcid.org/0009-0008-2425-4191
+repository-code: https://github.com/xzzvsxd/StateTrack
+version: "1.0.0"
+date-released: 2026-08-24

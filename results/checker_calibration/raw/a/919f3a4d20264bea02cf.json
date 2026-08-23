@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response directly and correctly answered the probe 'red' with its complement.",
+    "constraint_rationale": "The response adhered to the active rule mapping red to green.",
+    "recall_rationale": "The recall response accurately quoted the active persistent rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The behavior response directly and correctly answered the probe 'red' with its complement.\",\n  \"constraint_rationale\": \"The response adhered to the active rule mapping red to green.\",\n  \"recall_rationale\": \"The recall response accurately quoted the active persistent rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 593,
+    "total_tokens": 811,
+    "completion_tokens_details": {
+      "reasoning_tokens": 496
+    }
+  },
+  "duration_s": 3.184604600071907,
+  "request_id": "chatcmpl-b376809bae42e02b953f9f2f47d56f8c"
+}

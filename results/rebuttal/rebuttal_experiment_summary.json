@@ -1,0 +1,154 @@
+{
+  "experiment_id": "p1_rebuttal_20260708",
+  "models": [
+    "gpt-5.4",
+    "gpt-5.4-mini",
+    "claude-sonnet-4-6",
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-pro",
+    "deepseek-v4-flash",
+    "qwen3.6-plus"
+  ],
+  "dynamic_summary": [
+    {
+      "condition": "base_after_change",
+      "n": 35,
+      "stale_enforced": 1,
+      "stale_rate": 2.9,
+      "updated_or_clean": 33,
+      "updated_or_clean_rate": 94.3
+    },
+    {
+      "condition": "stale_ssa",
+      "n": 35,
+      "stale_enforced": 26,
+      "stale_rate": 74.3,
+      "updated_or_clean": 7,
+      "updated_or_clean_rate": 20.0
+    },
+    {
+      "condition": "updated_ledger_ssa",
+      "n": 35,
+      "stale_enforced": 0,
+      "stale_rate": 0.0,
+      "updated_or_clean": 34,
+      "updated_or_clean_rate": 97.1
+    }
+  ],
+  "split_summary": [
+    {
+      "model": "gpt-5.4",
+      "n": 10,
+      "immediate_task": 80.0,
+      "constraint_only": 100.0,
+      "strict_joint": 80.0,
+      "recall": 100.0,
+      "sic_plus": 0.0,
+      "sic_minus": 0.0
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "n": 10,
+      "immediate_task": 80.0,
+      "constraint_only": 90.0,
+      "strict_joint": 70.0,
+      "recall": 100.0,
+      "sic_plus": 10.0,
+      "sic_minus": 0.0
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n": 10,
+      "immediate_task": 80.0,
+      "constraint_only": 60.0,
+      "strict_joint": 40.0,
+      "recall": 10.0,
+      "sic_plus": 10.0,
+      "sic_minus": 60.0
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "n": 10,
+      "immediate_task": 40.0,
+      "constraint_only": 30.0,
+      "strict_joint": 20.0,
+      "recall": 0.0,
+      "sic_plus": 0.0,
+      "sic_minus": 30.0
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "n": 10,
+      "immediate_task": 60.0,
+      "constraint_only": 90.0,
+      "strict_joint": 50.0,
+      "recall": 90.0,
+      "sic_plus": 10.0,
+      "sic_minus": 10.0
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "n": 10,
+      "immediate_task": 50.0,
+      "constraint_only": 100.0,
+      "strict_joint": 50.0,
+      "recall": 100.0,
+      "sic_plus": 0.0,
+      "sic_minus": 0.0
+    },
+    {
+      "model": "qwen3.6-plus",
+      "n": 10,
+      "immediate_task": 90.0,
+      "constraint_only": 100.0,
+      "strict_joint": 90.0,
+      "recall": 100.0,
+      "sic_plus": 0.0,
+      "sic_minus": 0.0
+    }
+  ],
+  "sic_by_category": [
+    {
+      "category": "Numerical",
+      "n": 14,
+      "constraint_only": 71.4,
+      "recall": 71.4,
+      "sic_plus": 7.1,
+      "sic_minus": 7.1
+    },
+    {
+      "category": "Format",
+      "n": 14,
+      "constraint_only": 78.6,
+      "recall": 78.6,
+      "sic_plus": 7.1,
+      "sic_minus": 7.1
+    },
+    {
+      "category": "Persona",
+      "n": 14,
+      "constraint_only": 71.4,
+      "recall": 71.4,
+      "sic_plus": 7.1,
+      "sic_minus": 7.1
+    },
+    {
+      "category": "Factual",
+      "n": 14,
+      "constraint_only": 92.9,
+      "recall": 64.3,
+      "sic_plus": 0.0,
+      "sic_minus": 28.6
+    },
+    {
+      "category": "Logical",
+      "n": 14,
+      "constraint_only": 92.9,
+      "recall": 71.4,
+      "sic_plus": 0.0,
+      "sic_minus": 21.4
+    }
+  ],
+  "cost_usd": 0.6565,
+  "note": "Split audit immediate-task labels were rejudged with the final rubric that counts reasonable missing-information caveats as task-satisfied."
+}

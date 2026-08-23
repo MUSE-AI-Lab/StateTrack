@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The model appropriately responded to the weather query by explaining its inability to access real-time weather data.",
+    "constraint_rationale": "The model followed the persistent rule by ending the response with the exact word count in brackets.",
+    "recall_rationale": "The recall response correctly named the active persistent rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The model appropriately responded to the weather query by explaining its inability to access real-time weather data.\",\n  \"constraint_rationale\": \"The model followed the persistent rule by ending the response with the exact word count in brackets.\",\n  \"recall_rationale\": \"The recall response correctly named the active persistent rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 1691,
+    "total_tokens": 1934,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1584
+    }
+  },
+  "duration_s": 4.256485199555755,
+  "request_id": "chatcmpl-53ebe14ea9e06bcc1e9fcbbffeb75268"
+}

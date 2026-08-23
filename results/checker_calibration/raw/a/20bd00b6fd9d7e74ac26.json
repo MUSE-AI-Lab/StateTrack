@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response tells a classic joke, addressing the probe directly.",
+    "constraint_rationale": "The response is entirely in all capital letters.",
+    "recall_rationale": "The recall response accurately states the persistent constraint."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The response tells a classic joke, addressing the probe directly.\",\"constraint_rationale\":\"The response is entirely in all capital letters.\",\"recall_rationale\":\"The recall response accurately states the persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 233,
+    "total_tokens": 442,
+    "completion_tokens_details": {
+      "reasoning_tokens": 172
+    }
+  },
+  "duration_s": 2.811206200160086,
+  "request_id": "chatcmpl-a7aa66b33e14ac2318727425080a0073"
+}

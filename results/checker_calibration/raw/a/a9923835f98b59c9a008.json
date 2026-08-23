@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty.",
+    "constraint_rationale": "The behavior response is empty, failing to adopt the requested medieval persona and archaic English.",
+    "recall_rationale": "The recall response is empty."
+  },
+  "raw_content": "```json\n{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is empty.\",\"constraint_rationale\":\"The behavior response is empty, failing to adopt the requested medieval persona and archaic English.\",\"recall_rationale\":\"The recall response is empty.\"}\n```",
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 349,
+    "total_tokens": 531,
+    "completion_tokens_details": {
+      "reasoning_tokens": 284
+    }
+  },
+  "duration_s": 6.052863100077957,
+  "request_id": "chatcmpl-8c79268a57b34eccac677f6ac8852982"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not answer the prompt about quantum computing.",
+    "constraint_rationale": "The behavior response is empty, failing to demonstrate the required pirate dialect.",
+    "recall_rationale": "The recall response greets the user in pirate dialect rather than stating what the persistent constraint is."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"fail\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response is empty and does not answer the prompt about quantum computing.\",\n  \"constraint_rationale\": \"The behavior response is empty, failing to demonstrate the required pirate dialect.\",\n  \"recall_rationale\": \"The recall response greets the user in pirate dialect rather than stating what the persistent constraint is.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 187,
+    "completion_tokens": 523,
+    "total_tokens": 710,
+    "completion_tokens_details": {
+      "reasoning_tokens": 417
+    }
+  },
+  "duration_s": 3.961117099970579,
+  "request_id": "chatcmpl-7bb98a1ca4dd9056b7e6c2e35f6a803f"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response provides a joke as requested.",
+    "constraint_rationale": "The behavior response is formatted entirely in uppercase text.",
+    "recall_rationale": "The recall response accurately states the persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response provides a joke as requested.\",\"constraint_rationale\":\"The behavior response is formatted entirely in uppercase text.\",\"recall_rationale\":\"The recall response accurately states the persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 184,
+    "completion_tokens": 466,
+    "total_tokens": 650,
+    "completion_tokens_details": {
+      "reasoning_tokens": 407
+    }
+  },
+  "duration_s": 2.183331999927759,
+  "request_id": "chatcmpl-8571242cc5710446dbcee3211c73fdbe"
+}

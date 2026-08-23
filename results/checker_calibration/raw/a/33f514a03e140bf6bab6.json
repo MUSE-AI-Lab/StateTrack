@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The response is incomplete and cut off mid-sentence.",
+    "constraint_rationale": "The prompt contained a number (6), but the response failed to multiply it by 7 and include the result (42).",
+    "recall_rationale": "The recall response is incomplete and fails to state the active persistent constraint."
+  },
+  "raw_content": "```json\n{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The response is incomplete and cut off mid-sentence.\",\"constraint_rationale\":\"The prompt contained a number (6), but the response failed to multiply it by 7 and include the result (42).\",\"recall_rationale\":\"The recall response is incomplete and fails to state the active persistent constraint.\"}\n```",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 484,
+    "total_tokens": 688,
+    "completion_tokens_details": {
+      "reasoning_tokens": 397
+    }
+  },
+  "duration_s": 7.396938200108707,
+  "request_id": "chatcmpl-7f158aeb5eac18195083ca12d933f744"
+}

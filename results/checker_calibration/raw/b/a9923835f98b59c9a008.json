@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "No behavior response was provided to answer the question about how the internet works.",
+    "constraint_rationale": "No behavior response was provided to evaluate adherence to the archaic English persona.",
+    "recall_rationale": "No separate recall response was provided to state the active rule."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"No behavior response was provided to answer the question about how the internet works.\",\"constraint_rationale\":\"No behavior response was provided to evaluate adherence to the archaic English persona.\",\"recall_rationale\":\"No separate recall response was provided to state the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 378,
+    "total_tokens": 547,
+    "completion_tokens_details": {
+      "reasoning_tokens": 306
+    }
+  },
+  "duration_s": 2.5887528997845948,
+  "request_id": "chatcmpl-9032a93741e91d1893d55e7b0d5a85b6"
+}

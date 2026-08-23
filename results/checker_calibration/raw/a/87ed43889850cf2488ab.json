@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response correctly identifies the number in the prompt and performs the calculation.",
+    "constraint_rationale": "The response accurately multiplies the provided number (6) by 7 and includes the result (42).",
+    "recall_rationale": "The recall response accurately states the active persistent constraint."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The response correctly identifies the number in the prompt and performs the calculation.\",\n  \"constraint_rationale\": \"The response accurately multiplies the provided number (6) by 7 and includes the result (42).\",\n  \"recall_rationale\": \"The recall response accurately states the active persistent constraint.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 456,
+    "total_tokens": 676,
+    "completion_tokens_details": {
+      "reasoning_tokens": 351
+    }
+  },
+  "duration_s": 2.8715622001327574,
+  "request_id": "chatcmpl-031b6407f8dc8957dc3466ba5805ef68"
+}

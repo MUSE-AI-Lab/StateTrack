@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The model appropriately addresses the question by stating its inability to access real-time information.",
+    "constraint_rationale": "The behavior response correctly begins with 'CONFIRMED:' and ends with '[END]'.",
+    "recall_rationale": "The recall response accurately quotes the active persistent constraint."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The model appropriately addresses the question by stating its inability to access real-time information.\",\"constraint_rationale\":\"The behavior response correctly begins with 'CONFIRMED:' and ends with '[END]'.\",\"recall_rationale\":\"The recall response accurately quotes the active persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 255,
+    "completion_tokens": 476,
+    "total_tokens": 731,
+    "completion_tokens_details": {
+      "reasoning_tokens": 400
+    }
+  },
+  "duration_s": 6.356395800132304,
+  "request_id": "chatcmpl-199b1156da88e7816e91f327762a494d"
+}

@@ -1,0 +1,1668 @@
+{
+  "dataset": "Schema-Guided Dialogue Dataset (SGD)",
+  "repository": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+  "ref": "master",
+  "commit": "e852981ae34990f4358979625854259302feaa78",
+  "retrieval_method": "GitHub Contents API directory indexes plus raw file URLs",
+  "retrieved_at": "2026-07-15T15:45:14.755113+00:00",
+  "files": [
+    {
+      "split": "train",
+      "name": "dialogues_001.json",
+      "relative_path": "snapshot/train/dialogues_001.json",
+      "size": 3128575,
+      "git_blob_sha": "8a6c8c418c4d7f37442831c06064451fb2c5b303",
+      "sha256": "5ce28a6e656bc88c1da29c983d243d5a81eb37de92698da3864d1cf02894ca24",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_001.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_002.json",
+      "relative_path": "snapshot/train/dialogues_002.json",
+      "size": 2233395,
+      "git_blob_sha": "30b2010162fcf053807ce468c5fecc48ee2cf6ea",
+      "sha256": "56a06f9762593b27f5b34225de4ce37da5e83c9c5747e56bca2899f147d88b3e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_002.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_003.json",
+      "relative_path": "snapshot/train/dialogues_003.json",
+      "size": 1804298,
+      "git_blob_sha": "868886a2a63d467a8e4c59742d6cf956b6a0bd03",
+      "sha256": "aae3d8d141c8c36bc5268ca573044b4e82d4534947c169d951a1f229b9852029",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_003.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_004.json",
+      "relative_path": "snapshot/train/dialogues_004.json",
+      "size": 2502125,
+      "git_blob_sha": "ca113a6882c7d5a32f058181285f12822858f948",
+      "sha256": "4f4aa821e01d7d9efd44c2e89264d37e428045e7058bf3b3c6be0eaec09eddce",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_004.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_005.json",
+      "relative_path": "snapshot/train/dialogues_005.json",
+      "size": 2089510,
+      "git_blob_sha": "be8a1381f9fa4691270eb8457cd5e015d3e64e9e",
+      "sha256": "e19563efc34dead580435331d39ec3183c79230fa361b2e2d79035af242dd90b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_005.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_006.json",
+      "relative_path": "snapshot/train/dialogues_006.json",
+      "size": 1957196,
+      "git_blob_sha": "f4e1c0747187819bed224ae89d2e2e8f2b0a3ff2",
+      "sha256": "6b4829cb18185f063b81d271b847aa6915ef970cb592a2366edbec56d4b4c746",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_006.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_007.json",
+      "relative_path": "snapshot/train/dialogues_007.json",
+      "size": 2012361,
+      "git_blob_sha": "c25097a99b68f2c8cfb319352c5b3b26a08434c4",
+      "sha256": "59adf47264e106df1ce4a59d2c88e95b5a12497e6f5e3e5464381c2a7526837c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_007.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_008.json",
+      "relative_path": "snapshot/train/dialogues_008.json",
+      "size": 2703055,
+      "git_blob_sha": "9e69da81eab888dbc0c21747d4f2fe149f265840",
+      "sha256": "36614c125ce310dd162b62d624b8bcd117053cf727978458b6c36b6592f6e757",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_008.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_009.json",
+      "relative_path": "snapshot/train/dialogues_009.json",
+      "size": 3177831,
+      "git_blob_sha": "385084755039a68b34c0bb1ecad6d9a4cc5a13fd",
+      "sha256": "d8cc086374bbce168a03169341687eaa9f886fe25f8b8dd5bd6832f6f441951d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_009.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_010.json",
+      "relative_path": "snapshot/train/dialogues_010.json",
+      "size": 3679169,
+      "git_blob_sha": "87474af3c7e1d199b4dba863975c00241381e4bf",
+      "sha256": "d8658cd35bd4b6d274720d14308ec721f238d70cc37ea947c38f9d83a0267c1b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_010.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_011.json",
+      "relative_path": "snapshot/train/dialogues_011.json",
+      "size": 2328620,
+      "git_blob_sha": "1b981ef9a2df3f2b26996d11a6cfa2741b7c3dae",
+      "sha256": "66f7eb72a46fa379d85e53ae607e5920a4fa14a4a99765d91ee67f3675fdf4d7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_011.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_012.json",
+      "relative_path": "snapshot/train/dialogues_012.json",
+      "size": 1945135,
+      "git_blob_sha": "930f326fdc09d744319b60092ed8e1e96a70b201",
+      "sha256": "483b09fc9ad3d5b7285d2e1bc44057f1286ea3e73d7ff191fcec5e1acb364412",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_012.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_013.json",
+      "relative_path": "snapshot/train/dialogues_013.json",
+      "size": 2187442,
+      "git_blob_sha": "287d1119c0e2c884f8d97b3c16dfe1cdc2ba3337",
+      "sha256": "c6592a97753a8d3be8bae0099b3877e21f293a12d8daf9bcdcbec7289d5f1be3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_013.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_014.json",
+      "relative_path": "snapshot/train/dialogues_014.json",
+      "size": 2126844,
+      "git_blob_sha": "2ae55cfa7a91bcfc90e5cbe725743dfcb4774378",
+      "sha256": "5cd6cc68c676a2546a3312eda0f29be170ab5f0d6c602c9548ffa2c095037c7b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_014.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_015.json",
+      "relative_path": "snapshot/train/dialogues_015.json",
+      "size": 1744364,
+      "git_blob_sha": "51142436ad99739bf7d6573f52482e292af59794",
+      "sha256": "b698e8db9b0898186453ec9fcec5f80ab043cfe301447d28dc577e99bd3acfd3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_015.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_016.json",
+      "relative_path": "snapshot/train/dialogues_016.json",
+      "size": 1857379,
+      "git_blob_sha": "bd390b78e5bbf9f3c3052b08976d281e192f2d9e",
+      "sha256": "5a7d85a3058f38bf40290782721865c3d816f43841e0cd302b21167eefecf449",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_016.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_017.json",
+      "relative_path": "snapshot/train/dialogues_017.json",
+      "size": 3043775,
+      "git_blob_sha": "4696dff0acfb78019593f0fa88e2d017ead174aa",
+      "sha256": "0eb666f375ba2cc6362c88c02cfd255b702a2b8216e30fce200f630bcca99fa0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_017.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_018.json",
+      "relative_path": "snapshot/train/dialogues_018.json",
+      "size": 3272644,
+      "git_blob_sha": "91a784d5d4a5a62130ba0ec338c291c7911076d9",
+      "sha256": "ceadf059b7c4ec5e31b7b53ee696198c7a5baa2ff03544b81b4adbe9cb7eca05",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_018.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_019.json",
+      "relative_path": "snapshot/train/dialogues_019.json",
+      "size": 2457615,
+      "git_blob_sha": "293ba7d1cae92175b0406368936cf670000db327",
+      "sha256": "96adb06dd0605bb3536bc5e795d045d745a035e9d1c2ed05f7e89937fe883fb9",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_019.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_020.json",
+      "relative_path": "snapshot/train/dialogues_020.json",
+      "size": 1683144,
+      "git_blob_sha": "c6da57818f88be17322f3a49c4009dfda9b66a42",
+      "sha256": "b2a3cd6d8e677c6a9d342f5703a947525b17b906348cd944a4da1c449ff4f3a4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_020.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_021.json",
+      "relative_path": "snapshot/train/dialogues_021.json",
+      "size": 2311967,
+      "git_blob_sha": "f237f066378e4a533c43ba0df5c9aaf9e74f4204",
+      "sha256": "f13f15b1b62f62d4ae6b71db4f37a1843861d8c1c8907fd0fde19451c08576e9",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_021.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_022.json",
+      "relative_path": "snapshot/train/dialogues_022.json",
+      "size": 1701259,
+      "git_blob_sha": "3f283a1f4efaba104b8797e1bdce0556366adefa",
+      "sha256": "01a403f462a62b324f94de598c279b5adbaee55ac10c7aed72d798aa5924c510",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_022.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_023.json",
+      "relative_path": "snapshot/train/dialogues_023.json",
+      "size": 2733844,
+      "git_blob_sha": "ec57daf63685aab12c621ef58b14b9f974d280de",
+      "sha256": "73bf6f4be084de8fafa347257f39cf7c312bc488178dd2ce667f6e5f8baddb82",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_023.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_024.json",
+      "relative_path": "snapshot/train/dialogues_024.json",
+      "size": 2882867,
+      "git_blob_sha": "8ce99bbe356d39ca4e8f8e3c2170d7d9e4c62982",
+      "sha256": "fc951b44990efac041bbbd993172b954d3d55af8230a00ce78ba8bbd50daf82a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_024.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_025.json",
+      "relative_path": "snapshot/train/dialogues_025.json",
+      "size": 2508401,
+      "git_blob_sha": "f134f363ee666d853cf36e1ce466bb32af651f9e",
+      "sha256": "8305b0d85317d77c5b6ebf128ba4d5e2410e248071a49eb2e05b1ee347c1833d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_025.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_026.json",
+      "relative_path": "snapshot/train/dialogues_026.json",
+      "size": 1795205,
+      "git_blob_sha": "67f821b91f8398d23cce74b267048ccf0fdcae6b",
+      "sha256": "2b2e2c497c870d39c575892c7aae38b08cd4e39bd3a795be1e8550330e747800",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_026.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_027.json",
+      "relative_path": "snapshot/train/dialogues_027.json",
+      "size": 3214939,
+      "git_blob_sha": "46ddf7d1ff6454c5061ab4d8d00fa3e7dd4c17ad",
+      "sha256": "63b5dd62e100afa001b596cda967f5bc86f93dc1072bd00bdc57a198ff691268",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_027.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_028.json",
+      "relative_path": "snapshot/train/dialogues_028.json",
+      "size": 2970619,
+      "git_blob_sha": "b422c60f9b6ebcb4641772fdb9dd0dac704b976d",
+      "sha256": "225af9eebcb34f90ab1c9634c5771c9e6179019fdb903884ff70a5833b77620c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_028.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_029.json",
+      "relative_path": "snapshot/train/dialogues_029.json",
+      "size": 2757385,
+      "git_blob_sha": "8322b337cf7436023379e10f8e4733660b9c93aa",
+      "sha256": "87b61fd3495d851df7fa66ce43084431a7cd19154c1de32c0d6949bf6c74bae9",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_029.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_030.json",
+      "relative_path": "snapshot/train/dialogues_030.json",
+      "size": 2986214,
+      "git_blob_sha": "6684bf3106b9fa37f154b256bffc2dbd95ba2c01",
+      "sha256": "82b282eb98a4a26832b5e87d85fdfa8e19b1073a5a903123f7a28d056c4ec2b7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_030.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_031.json",
+      "relative_path": "snapshot/train/dialogues_031.json",
+      "size": 3173364,
+      "git_blob_sha": "9e741a70285f8cd95a6478f32e9f1165fb3ff07c",
+      "sha256": "45e31767734dc89d825b8f84c37fdd258250bb1e0b63d8a8e775c99dde07547e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_031.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_032.json",
+      "relative_path": "snapshot/train/dialogues_032.json",
+      "size": 2099971,
+      "git_blob_sha": "c49203698a58b1d6cbc905e59f8ca1cc84b6478b",
+      "sha256": "70a0916baba1e2fbeaef8bc8c2086cd3f31555a8eaec6d0eed80e483ed2b9a59",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_032.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_033.json",
+      "relative_path": "snapshot/train/dialogues_033.json",
+      "size": 1415091,
+      "git_blob_sha": "12754d92c9fa13062a546dfd4defd0dc2da18afc",
+      "sha256": "74c23ae93203ed5672015ce13d01c01d80d4f3a3ccd64c8f62f52e0b7c411871",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_033.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_034.json",
+      "relative_path": "snapshot/train/dialogues_034.json",
+      "size": 3187990,
+      "git_blob_sha": "d618e24895c02d393eda68dacb9b897a913e4dce",
+      "sha256": "782a499577aba5dc0f11edb6ed803cb8023bd4828a914cb4ff712966604e36cb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_034.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_035.json",
+      "relative_path": "snapshot/train/dialogues_035.json",
+      "size": 1880139,
+      "git_blob_sha": "6beb640483abd42fc3ec002520065513f0887cfa",
+      "sha256": "d6cf92ad829d275f15a62409ab8d24187a5e120b09d8f545d16d898ed4a36fd7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_035.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_036.json",
+      "relative_path": "snapshot/train/dialogues_036.json",
+      "size": 2271996,
+      "git_blob_sha": "91ac93e57fe6f1541f7d53dc5d7a3d9239714248",
+      "sha256": "34223f6b06febfc5b86b0b20324e98b42e9ab4ca7e9c9797c6ba4e49e86e5cce",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_036.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_037.json",
+      "relative_path": "snapshot/train/dialogues_037.json",
+      "size": 4335433,
+      "git_blob_sha": "a84c43b5c84f4f4b81f5e9044a99ce238e0c2ed1",
+      "sha256": "6e6bd6787f30640305ce0dc1b1dac8fa3d9b53ab0dd28c224519ff727cea916f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_037.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_038.json",
+      "relative_path": "snapshot/train/dialogues_038.json",
+      "size": 2522702,
+      "git_blob_sha": "2372d2ddd0c539ab826ec6a1f614922f981f7b62",
+      "sha256": "936ee784006908d323d558b84e1646dd932a3b4978bc03deafa1da6e2776e6f0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_038.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_039.json",
+      "relative_path": "snapshot/train/dialogues_039.json",
+      "size": 2016820,
+      "git_blob_sha": "08a901e9f63360ef4749786f6693d718da4ab557",
+      "sha256": "155da94cb95bdbc95e52062459e46b98cce4c8e049b956c5f285ce7a821a08c3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_039.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_040.json",
+      "relative_path": "snapshot/train/dialogues_040.json",
+      "size": 1801095,
+      "git_blob_sha": "8078866d2c8e32ae663a37b2b237a838bc2fdff2",
+      "sha256": "c807c28a3d1dbbe8ecaddd96ed97ac7b67918b12181e07eb89fb046ef6084891",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_040.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_041.json",
+      "relative_path": "snapshot/train/dialogues_041.json",
+      "size": 2803330,
+      "git_blob_sha": "5c14489d2d9ed896e9ca1240637d9593fc896c83",
+      "sha256": "d24455e00ea88b20a94cfd54581b30b224c207b20a197484ef9b27022af47f05",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_041.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_042.json",
+      "relative_path": "snapshot/train/dialogues_042.json",
+      "size": 1661780,
+      "git_blob_sha": "6a3dc4a6045dd4bad09639dcdd73594e5e5072ca",
+      "sha256": "51d94d5d602cbf51c819c8f79a25f45174ebc3191c8ea3b2278d5b6c96742d51",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_042.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_043.json",
+      "relative_path": "snapshot/train/dialogues_043.json",
+      "size": 1648319,
+      "git_blob_sha": "01130d7ba35c6a87b6ddaf894e2519099d0086ce",
+      "sha256": "98c9cc7865bc70e67123cc4e64daad8843d5750552bae2559d7bb95aae782c0a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_043.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_044.json",
+      "relative_path": "snapshot/train/dialogues_044.json",
+      "size": 4091935,
+      "git_blob_sha": "11e0ac2ee9d3c5cecc162f62378a976b33400737",
+      "sha256": "8d3024399540122bef422925f2508ead00bcd85e4f07e16236de87747555fe5f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_044.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_045.json",
+      "relative_path": "snapshot/train/dialogues_045.json",
+      "size": 2795079,
+      "git_blob_sha": "49fb9f0fb7f00787def456534e5523884448c111",
+      "sha256": "056df88c7bbff91bcc9b8fe009bfc6f01400aa59feae549cace7d5caa823dcb0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_045.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_046.json",
+      "relative_path": "snapshot/train/dialogues_046.json",
+      "size": 3270897,
+      "git_blob_sha": "9c8d4baab015979966c73ee2d674b535b459fa84",
+      "sha256": "79c92a6fbb92481deb5fe00127359c6029724b49ade4913704a08ce397938eeb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_046.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_047.json",
+      "relative_path": "snapshot/train/dialogues_047.json",
+      "size": 3589299,
+      "git_blob_sha": "4c4d466bd73b95b30814a2d8cc7cb1ce302de9d2",
+      "sha256": "fbe4e810316077148a2d96c8197928486a547946b44b9fce96eafa4f6fa4e0e7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_047.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_048.json",
+      "relative_path": "snapshot/train/dialogues_048.json",
+      "size": 3522631,
+      "git_blob_sha": "ed4f7f1a166d8767b1eeb05e47853cd76e1ce394",
+      "sha256": "882d7c255da334163b024a6fd511c5eaeedfd507da4db350e4ed2cde393cc787",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_048.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_049.json",
+      "relative_path": "snapshot/train/dialogues_049.json",
+      "size": 3662320,
+      "git_blob_sha": "d470fcaa45ae3c7e32205bfb2dbd91bce6ebc303",
+      "sha256": "fa48932032d150414a97d12f9cde4d1ac00bcc593bb30c43a45f2b802f293ed5",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_049.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_050.json",
+      "relative_path": "snapshot/train/dialogues_050.json",
+      "size": 3233186,
+      "git_blob_sha": "624c7ec0f9e4eee62697aa1a4fb42398b8f82b95",
+      "sha256": "40543b657e832ab34b4bb4733ecbf1e7d1f15566674e49191c70261d29490aba",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_050.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_051.json",
+      "relative_path": "snapshot/train/dialogues_051.json",
+      "size": 3924048,
+      "git_blob_sha": "a35893c310ae39a0ccd606b3bd48b25a9639907e",
+      "sha256": "e8eef63422e756f420c60ddfd3bcae3fc5caddf3370c31fa7fa3648a3579bbdc",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_051.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_052.json",
+      "relative_path": "snapshot/train/dialogues_052.json",
+      "size": 4652256,
+      "git_blob_sha": "38f554f1759dffc9e1bfc1cf2af739c3201e501c",
+      "sha256": "6736abeb95425a570f6ae5b1dd75967849957cabbdc550a9372a9a7646aba898",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_052.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_053.json",
+      "relative_path": "snapshot/train/dialogues_053.json",
+      "size": 4363710,
+      "git_blob_sha": "fa2ee99c12bdeb33fafca1576a5b1e71b07748f8",
+      "sha256": "2825a26dbed8e7aba44677fd2f387d131991921506a5c8647a75c1c905571491",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_053.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_054.json",
+      "relative_path": "snapshot/train/dialogues_054.json",
+      "size": 4313652,
+      "git_blob_sha": "be57070c50f53e0c79b0a462eab84fde1bd30a6c",
+      "sha256": "68e7ed4999fc4f21615e9f61a613309ab0560ed53e5e5837ccb96956ee2c5c2f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_054.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_055.json",
+      "relative_path": "snapshot/train/dialogues_055.json",
+      "size": 4290683,
+      "git_blob_sha": "7165d8d97bb5b5575a58668b7532d47a3c30e652",
+      "sha256": "c1e4d78a6137b9e3232f0d8a0045f81ac0bbda937cc6187621406f6279885034",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_055.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_056.json",
+      "relative_path": "snapshot/train/dialogues_056.json",
+      "size": 4518344,
+      "git_blob_sha": "41db0a7bd8c420ac8ef55bc9c38be765ac0bf360",
+      "sha256": "b4c4293c6cc1eea766025b0ba658e52070d6ef743afb73b1fb5531d280776977",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_056.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_057.json",
+      "relative_path": "snapshot/train/dialogues_057.json",
+      "size": 4124305,
+      "git_blob_sha": "3640ac8c3324a2d6733c5272373cf279475f24f5",
+      "sha256": "7586422916e6f7c943b97b304f2724e6eefbe4ee1dd42b9d45413c1fc457cfc2",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_057.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_058.json",
+      "relative_path": "snapshot/train/dialogues_058.json",
+      "size": 4405722,
+      "git_blob_sha": "20ec306015bbda41d2debc3b46b38a1450af5a29",
+      "sha256": "7ff43d0030fa5f32eb92aa87f3b4086d760d55ebefe0318b17ccf6c11795556e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_058.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_059.json",
+      "relative_path": "snapshot/train/dialogues_059.json",
+      "size": 3947089,
+      "git_blob_sha": "c6ce874cc1099a9631a334778ae92e7e51e5812b",
+      "sha256": "d5597d0c8e9a904aeeb722e8d8c3a8d15a92eacf1713241fe9c05bd470b625a5",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_059.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_060.json",
+      "relative_path": "snapshot/train/dialogues_060.json",
+      "size": 4571269,
+      "git_blob_sha": "b4fdc96c72aaed612156a37caa7efc64ac5f66a1",
+      "sha256": "12d510c5644954820f48eb80601d599722672f6759aefdd7774d55d6b509f333",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_060.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_061.json",
+      "relative_path": "snapshot/train/dialogues_061.json",
+      "size": 3331178,
+      "git_blob_sha": "9ab312a7161e8ecbcd41b0b4be5cbd980994c803",
+      "sha256": "1b1b9c6c8a8113f49e18998512f7d5fea2141be7bec48aac201f306586ac15ce",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_061.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_062.json",
+      "relative_path": "snapshot/train/dialogues_062.json",
+      "size": 3827504,
+      "git_blob_sha": "5382260b17864cb3520ec2e73c6759a9d093dc92",
+      "sha256": "4c4d76ffc33419e835087d081ff1d469f0b9e65b8d5c372b43d4680c286bbd45",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_062.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_063.json",
+      "relative_path": "snapshot/train/dialogues_063.json",
+      "size": 3405227,
+      "git_blob_sha": "dd3c64d6ed72c1f69f86d99f54a8649122edbf55",
+      "sha256": "ab015c005d3e1d26bdcd970aee1992d7084453d57f82e2be9795846157eb8fa9",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_063.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_064.json",
+      "relative_path": "snapshot/train/dialogues_064.json",
+      "size": 2909404,
+      "git_blob_sha": "78ec28c50bbb8282b7fa42f16120a4c40b39264d",
+      "sha256": "ac2fac08f9f1673be6bd1cf6cec44dbd8d35861f658567313ef8d7b7f8c1908c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_064.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_065.json",
+      "relative_path": "snapshot/train/dialogues_065.json",
+      "size": 2617451,
+      "git_blob_sha": "1eed2155f20ff659a1eb0264fa8793e99f74bd7e",
+      "sha256": "a9bd32fb9cce88b4bd0a4a11b136423401ba6e14fb5be306fe1eda9e485e8760",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_065.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_066.json",
+      "relative_path": "snapshot/train/dialogues_066.json",
+      "size": 4602133,
+      "git_blob_sha": "4003b65ab21721b354bef2a5f4fcf8d33bf302f9",
+      "sha256": "9b6145e988296f133c5414db17798098b97ef01bda44b7b1740ade97c268770e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_066.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_067.json",
+      "relative_path": "snapshot/train/dialogues_067.json",
+      "size": 3561936,
+      "git_blob_sha": "a61080fa9195388f48327703eac7abd4d0fb292f",
+      "sha256": "d16cfeda3585639f9ccbac0b5d1fa5c755d9b87bafa95ac737ddd40d7b1fe7a7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_067.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_068.json",
+      "relative_path": "snapshot/train/dialogues_068.json",
+      "size": 4761708,
+      "git_blob_sha": "db6c75371ed2344e79955b7bd63076cd25ab33f6",
+      "sha256": "ba2f245f26ba2c13463d34f8a8d1635347974a9f0e423bda53ca4bc15fb82a17",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_068.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_069.json",
+      "relative_path": "snapshot/train/dialogues_069.json",
+      "size": 3806392,
+      "git_blob_sha": "eb12977315b06cbbc9f8d6039bb550c8e2371c1b",
+      "sha256": "319035b2843a089f352f2e7fbb06544c7d68d86ebbba57ebc3bbf3725c07a9cd",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_069.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_070.json",
+      "relative_path": "snapshot/train/dialogues_070.json",
+      "size": 5178701,
+      "git_blob_sha": "0415b51cc0715b261de49ed5cfc45cc570a6971f",
+      "sha256": "ca37b41fefd5af07b4d9fba75c3268d6831f2ce49f5bf4e6d5412e39c764f0a8",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_070.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_071.json",
+      "relative_path": "snapshot/train/dialogues_071.json",
+      "size": 4438526,
+      "git_blob_sha": "08af271dc07387afa86c8ce69e67a53a78e76f3d",
+      "sha256": "59a78ab61ef8e419c7c2791e028db3704254a196f73e79a890274f09e7e65801",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_071.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_072.json",
+      "relative_path": "snapshot/train/dialogues_072.json",
+      "size": 5743859,
+      "git_blob_sha": "dd758aa8fc9ea162fee06f1db649af24fba9327d",
+      "sha256": "c0e8dd91f70c150ef02118b15152da7f973dcf261112a1604bfa4823d276829c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_072.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_073.json",
+      "relative_path": "snapshot/train/dialogues_073.json",
+      "size": 6231204,
+      "git_blob_sha": "429094068985fa3894e497a19e2f105d3b91117e",
+      "sha256": "e2b9aa0843a8cdfabaf24fecae2bf4b280ea8aed75670d6e955d25df58dc8494",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_073.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_074.json",
+      "relative_path": "snapshot/train/dialogues_074.json",
+      "size": 5806688,
+      "git_blob_sha": "95f24df1bf353deb1dae6cc11e07bfd3baa3549a",
+      "sha256": "0c4fd25b8d66f46ee5a8332410a093473dc57655e1edc2e59ec1d53e2e1a7756",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_074.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_075.json",
+      "relative_path": "snapshot/train/dialogues_075.json",
+      "size": 4914317,
+      "git_blob_sha": "f8181d91132ed55ddc75a4fe770fc038b878ae43",
+      "sha256": "4e1ce624c664a402ee31f69083fc263346aef3ed70d866dc940f4565c1c3e9b8",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_075.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_076.json",
+      "relative_path": "snapshot/train/dialogues_076.json",
+      "size": 4520378,
+      "git_blob_sha": "9d635571068d02364a4b08e0b8a244832ab9d730",
+      "sha256": "72567237e51a2282a34d66acbc6beeb23b400f29da404d98de6f796686c720ec",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_076.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_077.json",
+      "relative_path": "snapshot/train/dialogues_077.json",
+      "size": 4380935,
+      "git_blob_sha": "24ec8539d16586238d2b1a33960189896e096ee6",
+      "sha256": "2ec1a3ed1a85498992f4fcfecbd8e9a6b4a72968b8da4cd3502d170edffd9437",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_077.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_078.json",
+      "relative_path": "snapshot/train/dialogues_078.json",
+      "size": 5051676,
+      "git_blob_sha": "31476dd62553ead5b97623a74606c2527d30250e",
+      "sha256": "288a96936c4426a40e50eb6e220a93cce32177827b416f656c4c78e43aebad16",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_078.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_079.json",
+      "relative_path": "snapshot/train/dialogues_079.json",
+      "size": 5157890,
+      "git_blob_sha": "104764fd5d3a009b310ed833b2a092a39e3a7b7a",
+      "sha256": "a2817b6b744c4a03fb4f5cf36100a233ea0af7d96b784b237ea9ab1dd3dd4aad",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_079.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_080.json",
+      "relative_path": "snapshot/train/dialogues_080.json",
+      "size": 5429441,
+      "git_blob_sha": "7eb1b298a91696d669a7533779ea854a0b7eb323",
+      "sha256": "4b166ba32851d5164271d83ed671135682c344aca1ffa4095c1b38cd63a89600",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_080.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_081.json",
+      "relative_path": "snapshot/train/dialogues_081.json",
+      "size": 6213747,
+      "git_blob_sha": "f8e09e9ecad81c2489282bca2293dfbe2781ea79",
+      "sha256": "b34c8b63682242361d30ca5ced6d1a55719f4ed8f151f2a52854b61831e5a45c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_081.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_082.json",
+      "relative_path": "snapshot/train/dialogues_082.json",
+      "size": 5830819,
+      "git_blob_sha": "f4a6e40904b1baab48c7e42bd8cb999b986ec76d",
+      "sha256": "11751fd14c9580880d1b3157e10103477cd9a7333a689eda89c6f00a21660da6",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_082.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_083.json",
+      "relative_path": "snapshot/train/dialogues_083.json",
+      "size": 5865254,
+      "git_blob_sha": "c94eb6a1d1ac4cdb87d493bccb3452613bf115ba",
+      "sha256": "c4b2d5f1bbdbe6b53fd96d3fde936c66ecfe35674cae3c79e207c0b1c397616e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_083.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_084.json",
+      "relative_path": "snapshot/train/dialogues_084.json",
+      "size": 5636581,
+      "git_blob_sha": "ce5aed9350dacdeac284647b800948607655ce53",
+      "sha256": "f728459cbdbb4f69f87dfbc00af0584b9a44b841a568717e7dab7c3146f492cb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_084.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_085.json",
+      "relative_path": "snapshot/train/dialogues_085.json",
+      "size": 4471455,
+      "git_blob_sha": "c0624559ccf62f0a98d40fed322fc8c4790867e1",
+      "sha256": "f22be96c2ff0a95c4c883a64f9677e0a0106fac25ea42a523df91700ead7bfa3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_085.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_086.json",
+      "relative_path": "snapshot/train/dialogues_086.json",
+      "size": 3159341,
+      "git_blob_sha": "08ef16e409d50006ec8cb4ccca50ee46f95d0cc9",
+      "sha256": "c1ebb9b572cd00cc4ec09e7ad775aadec6310e2fe1cc064e0ed18480992a04a4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_086.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_087.json",
+      "relative_path": "snapshot/train/dialogues_087.json",
+      "size": 3701611,
+      "git_blob_sha": "284e583d437ee5bd3af1fa9c1ebe3a98bb603aa9",
+      "sha256": "1b95dda470d3f0809bbbeb86cb99a9a322a81fd1a96e96735d953d5409331810",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_087.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_088.json",
+      "relative_path": "snapshot/train/dialogues_088.json",
+      "size": 4065936,
+      "git_blob_sha": "f9014e9f52fbea6e262ee690830e74fdddffa5de",
+      "sha256": "cbb055520fdd1d7cfffe7b911829a00774cc8190c2d07cb29787cca7f5d51fbf",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_088.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_089.json",
+      "relative_path": "snapshot/train/dialogues_089.json",
+      "size": 3993512,
+      "git_blob_sha": "08bf75289a2657cc249576284662cf8db9b5ebbb",
+      "sha256": "357d12d7b5fcc9a2414cafc3a9bf6b31449b1f11474d16be5b7747e1999423b4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_089.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_090.json",
+      "relative_path": "snapshot/train/dialogues_090.json",
+      "size": 3272770,
+      "git_blob_sha": "adab26c14bfc8dc7b1f92f9fade54f71dce73cff",
+      "sha256": "78310f5e8e4c5a48cb600d36ba762448d13ab15e820aa5f56cc6f25994b6902a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_090.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_091.json",
+      "relative_path": "snapshot/train/dialogues_091.json",
+      "size": 2935497,
+      "git_blob_sha": "b6ec3bf5806887d86f08e8706f4da16a2e199ca3",
+      "sha256": "c80f229312047567f61db69223c79e1921662f88f63f9718a1ec51b5204612b0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_091.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_092.json",
+      "relative_path": "snapshot/train/dialogues_092.json",
+      "size": 3236069,
+      "git_blob_sha": "4f6e93b3a8a2f5e2a8afccb77088c34b9d4ccec6",
+      "sha256": "b9656f9135cefd1fe1bd175f4b45d74c2c2a558137a1f2d509771ccf7e8aff4b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_092.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_093.json",
+      "relative_path": "snapshot/train/dialogues_093.json",
+      "size": 4260445,
+      "git_blob_sha": "068b7684e6cfe6a563f1dd23a10dd6a7fb90fd5c",
+      "sha256": "fb6ec8f4c975d7bf7e5a18645ef16614a393dab96e623074410ff5bd9a60d8ca",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_093.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_094.json",
+      "relative_path": "snapshot/train/dialogues_094.json",
+      "size": 4422048,
+      "git_blob_sha": "cc7851fd36cc266d2eb58d50a5ed8b463eecf2f3",
+      "sha256": "309f412040022ca48c75c7b980fd65ff3f93e9c486305e2cd29a2bafbb57d7b0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_094.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_095.json",
+      "relative_path": "snapshot/train/dialogues_095.json",
+      "size": 3956055,
+      "git_blob_sha": "9144cc56ad6770ff36bf6f2a49c1952e1d1dc92d",
+      "sha256": "0411f940d9e3f659c6ab1037e14094612d088b9ee98a62043658fe1b76fa700f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_095.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_096.json",
+      "relative_path": "snapshot/train/dialogues_096.json",
+      "size": 3550934,
+      "git_blob_sha": "e51ab40cc264b9bc978b10c1b7830344a31e7519",
+      "sha256": "8d004b5c6a865428bf25093356f46a0a84b4bd3b749f4172f9d0e606a6d70217",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_096.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_097.json",
+      "relative_path": "snapshot/train/dialogues_097.json",
+      "size": 2587709,
+      "git_blob_sha": "27a6f0f1c1b6fd159b8d08b7050859ef5e9926a4",
+      "sha256": "ac32e0ccd38e439655ef8a6fc5436e5d14c5dbcf44faeb1fac48b17e3a7bad34",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_097.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_098.json",
+      "relative_path": "snapshot/train/dialogues_098.json",
+      "size": 4138095,
+      "git_blob_sha": "aafdb270186c5798bd9b19781efdee5329451a00",
+      "sha256": "b08094174ff819f259ea64c199e8d3c5141006b11e00b428be21d5b7e452bc0b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_098.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_099.json",
+      "relative_path": "snapshot/train/dialogues_099.json",
+      "size": 3326260,
+      "git_blob_sha": "d6013cc0ddd8860a4b429883de22b62e90c22dc1",
+      "sha256": "fb7110d90b179fe43eaee15393422ae7fb0d522190a69495023f0cf9cadebcbb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_099.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_100.json",
+      "relative_path": "snapshot/train/dialogues_100.json",
+      "size": 3680526,
+      "git_blob_sha": "5018919a4aa925a63edb3790b152c148c1effadc",
+      "sha256": "4cdafb648909b34c0f609e61f5c4db5511a880e3d4ba7c726bf4e78e3fe09590",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_100.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_101.json",
+      "relative_path": "snapshot/train/dialogues_101.json",
+      "size": 3666647,
+      "git_blob_sha": "42e98db029bc6ba5bb7b717fdefb971a76ffee59",
+      "sha256": "142dc7b5452d6aaafb25fa9637b3f5126ac83194b907016af5e85659220d9cba",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_101.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_102.json",
+      "relative_path": "snapshot/train/dialogues_102.json",
+      "size": 2915285,
+      "git_blob_sha": "ab7d7732898a665f3783c738cc92237a2606a720",
+      "sha256": "15da667bc211a0abb82203184c09e19756cff59feecf1e8578632854254af05e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_102.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_103.json",
+      "relative_path": "snapshot/train/dialogues_103.json",
+      "size": 3411929,
+      "git_blob_sha": "1b3559f96448df903cafcd784aabd5e257d6294e",
+      "sha256": "8c5b4c3df6b7fb43e74b745bca2cfff0b2555be20d13859e6c6c502bb1f27326",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_103.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_104.json",
+      "relative_path": "snapshot/train/dialogues_104.json",
+      "size": 4507712,
+      "git_blob_sha": "1604baee84be9f15dc4ed68c659b88a1bc20f1c1",
+      "sha256": "4e02e3fc67c89d50365feaa2a1424bf5a8de5edaef02f3191cc35cf46918f8b2",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_104.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_105.json",
+      "relative_path": "snapshot/train/dialogues_105.json",
+      "size": 3973765,
+      "git_blob_sha": "fb0d763723c9fbbc22f910e26b8452d63037db66",
+      "sha256": "fdf5795a36fe9b59721df5a3d35fe37efdc5d555573ee4f9a939409d737c7376",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_105.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_106.json",
+      "relative_path": "snapshot/train/dialogues_106.json",
+      "size": 3193259,
+      "git_blob_sha": "74310ef0192ed916c5e042dde0ba983ae467346a",
+      "sha256": "98b72cb9cea0b320fbc58e80977d48879005159156d4e7c19b7905a6723f3d5f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_106.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_107.json",
+      "relative_path": "snapshot/train/dialogues_107.json",
+      "size": 2846725,
+      "git_blob_sha": "1669f28ffb59792575806d37e55051d281fd4601",
+      "sha256": "ae315294f293e65edbdd58f0476c8693605a791872db840788e334f637df9b4c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_107.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_108.json",
+      "relative_path": "snapshot/train/dialogues_108.json",
+      "size": 3266423,
+      "git_blob_sha": "9e36f8783f0a7857e3b34f9998a1ffb5c384a13b",
+      "sha256": "584a1c096b49fac0b66d8ba08f39ca2cef41d93c98851f1b10e86cf995170b1e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_108.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_109.json",
+      "relative_path": "snapshot/train/dialogues_109.json",
+      "size": 3748197,
+      "git_blob_sha": "02ba6f6422e3f2f5265e64b48e34ecbb60a7e8a2",
+      "sha256": "ec28252137a7ceae1a3843bf39d3c9a78a4bd139b13c70165982b0c05c391502",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_109.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_110.json",
+      "relative_path": "snapshot/train/dialogues_110.json",
+      "size": 3584141,
+      "git_blob_sha": "ac4ef7eccaae9069aa1022e9545d960d3a0c63b4",
+      "sha256": "48f2d6256d96385350e1b58e7cc3b499f1be78584790250e89d9d0d11cc03dd0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_110.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_111.json",
+      "relative_path": "snapshot/train/dialogues_111.json",
+      "size": 3628127,
+      "git_blob_sha": "660e8a0d350fcc123c4e020d7a8da5bb91d1048e",
+      "sha256": "740087b7e2a5305c4ef16a7227dcc61f9af3cf054690ee682a823070a9e2b2c1",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_111.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_112.json",
+      "relative_path": "snapshot/train/dialogues_112.json",
+      "size": 3276752,
+      "git_blob_sha": "a9af6d19ad635974783e1e7af149e2048e13d574",
+      "sha256": "0120d9160a30b1b15c21613122250d2a036609b0ba1e3ed33b5b396c4161e10d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_112.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_113.json",
+      "relative_path": "snapshot/train/dialogues_113.json",
+      "size": 2381966,
+      "git_blob_sha": "6a76eed18d9a356254b2a334dd1e867226377127",
+      "sha256": "895cbdca09acff80c6a194dc44a293fd6875390ad5899720bc98f004eca7d99b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_113.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_114.json",
+      "relative_path": "snapshot/train/dialogues_114.json",
+      "size": 3487920,
+      "git_blob_sha": "7eb682ed0a5eb1c0965e89eb3d74e3f6c8c13e09",
+      "sha256": "619616f5a4d46200105dc2ea3ce1b1c131051edf57ca64b495f693cd8eafb4f4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_114.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_115.json",
+      "relative_path": "snapshot/train/dialogues_115.json",
+      "size": 3765731,
+      "git_blob_sha": "ee602a04a6c882d0a9d0881c744c7a1e15a49477",
+      "sha256": "3bb6c375846127053c01d51a0e6509eddfaad47f6d2a2bb3a7cfee65120bec32",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_115.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_116.json",
+      "relative_path": "snapshot/train/dialogues_116.json",
+      "size": 3949443,
+      "git_blob_sha": "5413ad2c0b1bf727d403ede3ac79ced69152e621",
+      "sha256": "c0c409d8a0cf74e37a59d1843680501c245f91f9b28fea79c15a1e66195906ef",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_116.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_117.json",
+      "relative_path": "snapshot/train/dialogues_117.json",
+      "size": 5004609,
+      "git_blob_sha": "86f033334cedb1374eb4644180c9f3b767e450f2",
+      "sha256": "b84563e3e581a1da03e48b780de326ad68f3004d225509d6ae89ea84b271a4c4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_117.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_118.json",
+      "relative_path": "snapshot/train/dialogues_118.json",
+      "size": 4705123,
+      "git_blob_sha": "53c006926dec9bab8614dc49ac7c2db42cc8a8f3",
+      "sha256": "f8116cfa196a5e43b94c6c3657d8cf4e62c112a2f683d179ade4f13baac588fc",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_118.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_119.json",
+      "relative_path": "snapshot/train/dialogues_119.json",
+      "size": 4003507,
+      "git_blob_sha": "6c2b8324f9a752567efec0a5b3e7fc65cdfd351d",
+      "sha256": "b374904ff28881f08e7212296848c0bf9cc18a45195f4d982123f27aa3bd3a23",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_119.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_120.json",
+      "relative_path": "snapshot/train/dialogues_120.json",
+      "size": 3805349,
+      "git_blob_sha": "59de3b52972eda88bd9370219e7d7f0350b2a1ae",
+      "sha256": "d4565f5378c2205129b0c0a1feada548a62220c0a8e2b1caf6d234ffe463eab3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_120.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_121.json",
+      "relative_path": "snapshot/train/dialogues_121.json",
+      "size": 4020882,
+      "git_blob_sha": "2cac05ff122f469b7cf31bb9a947d3e560b04bde",
+      "sha256": "952e6284dbacb2bebca8ba36ac3c942edb50d248b2395706facf6c95f3b84d1c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_121.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_122.json",
+      "relative_path": "snapshot/train/dialogues_122.json",
+      "size": 3855293,
+      "git_blob_sha": "09cd4fa400f05b5f062890f7d1e4e868a8558a59",
+      "sha256": "d4d3b718ac0527099412df7774c873939060d65e82b09ba6a1bec593f5559349",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_122.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_123.json",
+      "relative_path": "snapshot/train/dialogues_123.json",
+      "size": 3773446,
+      "git_blob_sha": "662a3c05b50284c68947cb6823b152f41fe4d634",
+      "sha256": "469b268f44aad6fb2bba4d271163d6c774234a80123e66204357b37d0619e2c2",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_123.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_124.json",
+      "relative_path": "snapshot/train/dialogues_124.json",
+      "size": 3596271,
+      "git_blob_sha": "d13146f3cb35fe68cfe373576076cc41bc294ba5",
+      "sha256": "8dd0418beb880f5f021c8466fc92233ef5992e8adcc6380a180f4107dfccf7f1",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_124.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_125.json",
+      "relative_path": "snapshot/train/dialogues_125.json",
+      "size": 1906912,
+      "git_blob_sha": "4a9e198fd55b68040c2c02e08dcb4d8a934c8b5a",
+      "sha256": "45d59601652c9b648175125718b55e5d65b3567c09518c9d054f67bdc8b2eaba",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_125.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_126.json",
+      "relative_path": "snapshot/train/dialogues_126.json",
+      "size": 2810251,
+      "git_blob_sha": "48da17ca540421f0301cc2632430dd421e39c3b1",
+      "sha256": "ae4c17bab75be5eb1ec8738dedd72bd5d33657243068e657642259c8091269ac",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_126.json"
+    },
+    {
+      "split": "train",
+      "name": "dialogues_127.json",
+      "relative_path": "snapshot/train/dialogues_127.json",
+      "size": 2332220,
+      "git_blob_sha": "78931874f0e52360b460d2f4540b9e77deeb5552",
+      "sha256": "ba42de75a55e27a239b238d94ece3c98e5b64a755e155a027d8a31e5fbf791dc",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/dialogues_127.json"
+    },
+    {
+      "split": "train",
+      "name": "schema.json",
+      "relative_path": "snapshot/train/schema.json",
+      "size": 75764,
+      "git_blob_sha": "4d5f81f28d15fbbd3d792dd14afc8e46cefb6e4b",
+      "sha256": "97b6c21673aa7e5c2d1ceef52aa35170c565223cdcbf33bb24c69739bda04a82",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/train/schema.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_001.json",
+      "relative_path": "snapshot/dev/dialogues_001.json",
+      "size": 2225937,
+      "git_blob_sha": "d9c9d93494f7a74ae22692c6819e80f8a5244763",
+      "sha256": "fe3a8ed9e160c15e20e7cfd16d03734b4473df0d3864f2ad687ea9eeee5eea52",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_001.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_002.json",
+      "relative_path": "snapshot/dev/dialogues_002.json",
+      "size": 2507250,
+      "git_blob_sha": "fc199abe65125e63864173ef5b89533b048427bb",
+      "sha256": "fcbc8ba411ed8b3e0b06dff31819dc366f6bc6d228e021053920365e11004b03",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_002.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_003.json",
+      "relative_path": "snapshot/dev/dialogues_003.json",
+      "size": 1965028,
+      "git_blob_sha": "6abbd79ddd2c58c386ca9cfb748bb55a4efd7be5",
+      "sha256": "5915cea36b77de920fbd66569333db2395626ec465ba23e2f0caa77fba2e5dae",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_003.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_004.json",
+      "relative_path": "snapshot/dev/dialogues_004.json",
+      "size": 2794855,
+      "git_blob_sha": "81329efc5ef7169f455cd5f1a3a47d1de6fc419b",
+      "sha256": "d379a5149a86304a22162531e122ff9a7b8e9e46178789a5170e0a7091dd2bbf",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_004.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_005.json",
+      "relative_path": "snapshot/dev/dialogues_005.json",
+      "size": 1512309,
+      "git_blob_sha": "80ddca2c6ed633e49e2f827c05615e514b62ca17",
+      "sha256": "107d8bc1ce21b06453f33cc8dfc19172e0956646b47d9c1db7bdcd978a323d73",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_005.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_006.json",
+      "relative_path": "snapshot/dev/dialogues_006.json",
+      "size": 2680136,
+      "git_blob_sha": "b81539d0ca41f68b076261df0dc5a5ed68961ee3",
+      "sha256": "20140828f25496461003140b67a5987d954109d9e14e12e472ed565ed2843bc3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_006.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_007.json",
+      "relative_path": "snapshot/dev/dialogues_007.json",
+      "size": 1381473,
+      "git_blob_sha": "5e6e1bb204621cf530228c8a7bd1537b12fc35b2",
+      "sha256": "d9af6ffcb69257ab3ce10e4637fc4d45d268094e55693b170a9b5b9d914dc611",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_007.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_008.json",
+      "relative_path": "snapshot/dev/dialogues_008.json",
+      "size": 4040385,
+      "git_blob_sha": "c80db910d22e1f7db9d576652e9f1e5537a01c58",
+      "sha256": "986264c54cfabb8c70ace72e209ff0cd000523daecde226b19b3dbd6f44ea09b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_008.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_009.json",
+      "relative_path": "snapshot/dev/dialogues_009.json",
+      "size": 3323617,
+      "git_blob_sha": "816fd56b102b2e6f0d9c677a3d84fe74e44ec394",
+      "sha256": "92479f0285dcb5db0d50f51b27a86aa0368a62214c575ad5cdd74299372fa71f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_009.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_010.json",
+      "relative_path": "snapshot/dev/dialogues_010.json",
+      "size": 2485450,
+      "git_blob_sha": "319387f58d2c4438a5af1dfc6265352b02051357",
+      "sha256": "76d9ff1656e8cad2287cd5cd44bb8e18df0bd8cc7d3340543e1980b61241d3f8",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_010.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_011.json",
+      "relative_path": "snapshot/dev/dialogues_011.json",
+      "size": 3171402,
+      "git_blob_sha": "6ed93205c5f9d3f60683db1f3ddeb6dc518b45df",
+      "sha256": "7f034dd1bc18e75fc21077dd6270f8e1f51d97fad80b4e6069dbbe28c3ebdd41",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_011.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_012.json",
+      "relative_path": "snapshot/dev/dialogues_012.json",
+      "size": 4080667,
+      "git_blob_sha": "9325f175c88070b1f6018326e97df26b9c9f832a",
+      "sha256": "9228d58681e3b98db2e7c6a9bef86994718455e3a7d4c7584b6ac53bc35969d3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_012.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_013.json",
+      "relative_path": "snapshot/dev/dialogues_013.json",
+      "size": 3550658,
+      "git_blob_sha": "0773ab4253c9e131bd5947b61c4cf6fb9a745ecb",
+      "sha256": "a62cf6bddd52beae0980ecdedf312373976425a9302fb0da79af1270b28b16e1",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_013.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_014.json",
+      "relative_path": "snapshot/dev/dialogues_014.json",
+      "size": 3960820,
+      "git_blob_sha": "d284292a55c9c4804906de26716edd08584e4223",
+      "sha256": "aca7316a63a215bcdeb95189c2e3259f50cd29da9a77deaa264b92ba737b8e95",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_014.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_015.json",
+      "relative_path": "snapshot/dev/dialogues_015.json",
+      "size": 4295570,
+      "git_blob_sha": "2c7a76d2f4cc9de4210589fc7cb69590e6062ca4",
+      "sha256": "8d8d7b25c21e4a24ed5b3adf0310a66124496f6d3d9a962ca2e77a29eac0f51a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_015.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_016.json",
+      "relative_path": "snapshot/dev/dialogues_016.json",
+      "size": 3972559,
+      "git_blob_sha": "db10171c57e6607c4af9aa9a38288aa76292d01c",
+      "sha256": "36ed533dd0e0b8f178a0aa9ea70a12d7fa3ab042ec4959061aa70b391b92785c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_016.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_017.json",
+      "relative_path": "snapshot/dev/dialogues_017.json",
+      "size": 5023594,
+      "git_blob_sha": "a311b3b3277f7fd93ac342aa6982892731fdf13f",
+      "sha256": "50da6ef54acf2cdf630ec99f75fa7fca33bc41683c10d2a4540b4c94a081c11a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_017.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_018.json",
+      "relative_path": "snapshot/dev/dialogues_018.json",
+      "size": 4315111,
+      "git_blob_sha": "7ec3c54d23b08bd51b91a0dbd83008406f35efa2",
+      "sha256": "debc2d37540a4cebb1ff0e1a0b14eb55accd55071c21dbb2c2624bf978d82d3a",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_018.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_019.json",
+      "relative_path": "snapshot/dev/dialogues_019.json",
+      "size": 4183695,
+      "git_blob_sha": "025f06c4cc014a60387ab7e6d8e2fdbf8d457253",
+      "sha256": "2e3934d15b5e0b8d47b0018845fb6fb6b1f5d8f480e1788ea67d934aaa2179eb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_019.json"
+    },
+    {
+      "split": "dev",
+      "name": "dialogues_020.json",
+      "relative_path": "snapshot/dev/dialogues_020.json",
+      "size": 3404013,
+      "git_blob_sha": "14a37211eb58685343960e2252a6cea1002d77e4",
+      "sha256": "7e022ed5e4c972d607e71e46baeb0b79f57967d5e6de4a4fb28a99a1ed30d9c3",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/dialogues_020.json"
+    },
+    {
+      "split": "dev",
+      "name": "schema.json",
+      "relative_path": "snapshot/dev/schema.json",
+      "size": 45576,
+      "git_blob_sha": "17c2be3f31433521f2c3d14ac0db7f0608a79b28",
+      "sha256": "8fee8b1211500a4a1fb071765150e3267d20148bcad72a22c04bb1fdcd649366",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/dev/schema.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_001.json",
+      "relative_path": "snapshot/test/dialogues_001.json",
+      "size": 2039827,
+      "git_blob_sha": "c5dd2b6494e9a1399e73103b8ebb232aec831d07",
+      "sha256": "1fa13b0fe607100bc66ed15e0490df9c52a2cec087ca9733e0f506755eef0ada",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_001.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_002.json",
+      "relative_path": "snapshot/test/dialogues_002.json",
+      "size": 1954151,
+      "git_blob_sha": "5b1701632cbd64a991d933488a2284d2290858b3",
+      "sha256": "b3b2a2596fad9146e96e4e1aa288f975332e2c7a3153bb2379d75e8d71c35a20",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_002.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_003.json",
+      "relative_path": "snapshot/test/dialogues_003.json",
+      "size": 1817838,
+      "git_blob_sha": "4642cea9712f9834c5e1375f791baa16a00aa484",
+      "sha256": "b595a04f7848aed76d11e82250089023e42a6e5ce047c78b8ddd0f4856dcbecb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_003.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_004.json",
+      "relative_path": "snapshot/test/dialogues_004.json",
+      "size": 2554643,
+      "git_blob_sha": "bc085333f1e21372e30d98e271bc26711fcb28bf",
+      "sha256": "5468f85dd867c7cc825aa6918980dd3142c95c926d685a56803b91cd2d3eb379",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_004.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_005.json",
+      "relative_path": "snapshot/test/dialogues_005.json",
+      "size": 1908492,
+      "git_blob_sha": "aea90ae354f0e8e5c76a110111ee5e42fcd16676",
+      "sha256": "9f344d5660b5d8bf6935f72cf4dc11149caaf9febf688fd748eacbe262c67c2b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_005.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_006.json",
+      "relative_path": "snapshot/test/dialogues_006.json",
+      "size": 1932663,
+      "git_blob_sha": "c5e40202634b8fd354db4546363cf9e139396ea0",
+      "sha256": "249d591df0c32b5518560c37a02cdc09b147ea4f95d1373ac22d42c656788ab7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_006.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_007.json",
+      "relative_path": "snapshot/test/dialogues_007.json",
+      "size": 2120186,
+      "git_blob_sha": "f6373b173e5b3cac6bc065caabed8cfabe7036bb",
+      "sha256": "24c5c86501aa50d045f4ba8822bf06606967261365fc5ca6ffa8f7375bd54935",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_007.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_008.json",
+      "relative_path": "snapshot/test/dialogues_008.json",
+      "size": 2119144,
+      "git_blob_sha": "77ab6ca2b3ae1ef1b1bab627327cb48380d1ff0e",
+      "sha256": "e4ecce8acdd5b3657de7a7660b9bcd339d88a629147711ad2545b695666279c5",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_008.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_009.json",
+      "relative_path": "snapshot/test/dialogues_009.json",
+      "size": 1945100,
+      "git_blob_sha": "38ae6b31ef511cd176de68fb0e0e6e25eadae822",
+      "sha256": "5d30edca006e4b4159a8027d68c3bcd241447d2257deb51b467b9aeefa7b1158",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_009.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_010.json",
+      "relative_path": "snapshot/test/dialogues_010.json",
+      "size": 1376297,
+      "git_blob_sha": "708b790c91794943848be76b371f81610411078f",
+      "sha256": "b4fc2c16d0cb46e14d0def357f4a941ee61fad3c6c8dd430ac8bae6145f1e4d0",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_010.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_011.json",
+      "relative_path": "snapshot/test/dialogues_011.json",
+      "size": 1017746,
+      "git_blob_sha": "fe1ccf379c6a63b86038dc786ca0732b6f7a797e",
+      "sha256": "1c2e312ce653bdd4ba1fe74b44ef20b36bab74b8ccf7bc2e591c632d5492a21b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_011.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_012.json",
+      "relative_path": "snapshot/test/dialogues_012.json",
+      "size": 4287498,
+      "git_blob_sha": "0edb817c174fb7f704ac5163c91d2134574c8549",
+      "sha256": "30ccd033dfeb5032cb74ca237ee4679fb00abf9b2e21b0c686da543ec3ac8ca6",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_012.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_013.json",
+      "relative_path": "snapshot/test/dialogues_013.json",
+      "size": 2992048,
+      "git_blob_sha": "852e4d04e845f87c3526dad99e41b3251960d6ea",
+      "sha256": "b31c288da94b084e4963e7eda27e11922c7c230e9de0bb159856facb442684bc",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_013.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_014.json",
+      "relative_path": "snapshot/test/dialogues_014.json",
+      "size": 2299187,
+      "git_blob_sha": "3150287734be234c235bb865af2fa0765aeb85ba",
+      "sha256": "52c79021d28c2bb2bb69210f360c61c49250696eaf1b04fdfa89e1fd9a7be2c7",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_014.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_015.json",
+      "relative_path": "snapshot/test/dialogues_015.json",
+      "size": 3384304,
+      "git_blob_sha": "ea823a8650eda3ce1566704ef2c363d6db36e230",
+      "sha256": "4e14295fac05ce179d72ec30b67f6b01e24e2d4c4836b95cc842d8ae4a93131f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_015.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_016.json",
+      "relative_path": "snapshot/test/dialogues_016.json",
+      "size": 4691169,
+      "git_blob_sha": "7a899b135ef4ebefbb4915b3c9942b91286cd49e",
+      "sha256": "b0515e87357d8537df046a38d2418257b38e16e9df1a960c9de2bd3d21e19c8b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_016.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_017.json",
+      "relative_path": "snapshot/test/dialogues_017.json",
+      "size": 3155647,
+      "git_blob_sha": "1d3d2384efef1f7b41bef596af8db28740b98235",
+      "sha256": "ec669b6b24667e01033069827200312b9af4a182789a15784c43b4be5cf0668e",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_017.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_018.json",
+      "relative_path": "snapshot/test/dialogues_018.json",
+      "size": 3685297,
+      "git_blob_sha": "df71c71e08ee465bf61af8ca408d2bef0c03f5cc",
+      "sha256": "51e761019af71be0558667b69d917b120def65b6434f019e7e0c95584ad7fdbc",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_018.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_019.json",
+      "relative_path": "snapshot/test/dialogues_019.json",
+      "size": 4519326,
+      "git_blob_sha": "07f15da7b77b1eb8b43978f91e5d08769e528b82",
+      "sha256": "2bf4a842c133c427beb7162408488f39ab04cc8e7178ff51c489b41678652834",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_019.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_020.json",
+      "relative_path": "snapshot/test/dialogues_020.json",
+      "size": 4131834,
+      "git_blob_sha": "32a7991190aabdcc6732df269f6dc7473aed4fa2",
+      "sha256": "9619574d5043827ea2e397702b88033dc013e4ac870f410a8016c8b223f55ec4",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_020.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_021.json",
+      "relative_path": "snapshot/test/dialogues_021.json",
+      "size": 3637097,
+      "git_blob_sha": "974bcfbc19118a31a77f8e7639476f64ea0a1967",
+      "sha256": "7259172a6ba19f5d065fe95b4ae41755c6ac32cf2fec80fae6d52d94b8a10a1d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_021.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_022.json",
+      "relative_path": "snapshot/test/dialogues_022.json",
+      "size": 6287583,
+      "git_blob_sha": "575c4cc64eec0541b933cff706fb033512d12955",
+      "sha256": "ffed1c89eb5c589c159b70062433e0655c5955ef9f1dd0b3c0e4ddb1db9ac74b",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_022.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_023.json",
+      "relative_path": "snapshot/test/dialogues_023.json",
+      "size": 4858015,
+      "git_blob_sha": "1b78cf7a5daccba1da5469fdc4cb4ca534682bce",
+      "sha256": "c3466bc38d356b2abb6a71e61f502e0b5c82cf35584b3c655d01a89165e8fe80",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_023.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_024.json",
+      "relative_path": "snapshot/test/dialogues_024.json",
+      "size": 3814170,
+      "git_blob_sha": "141ff031410ffb7f5175920272b6aaa1886ae365",
+      "sha256": "728b605675f7d4da54dfe8c3746eabfdec884f75c9306f5cdb3d8eb3ab315e5c",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_024.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_025.json",
+      "relative_path": "snapshot/test/dialogues_025.json",
+      "size": 3909834,
+      "git_blob_sha": "f6bf4f1d8b16756baa49f6d04985fdc7641a4562",
+      "sha256": "50e8aa3052aa720279068de31d7c7225d08b035ac62e488aadca0e1edd39145d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_025.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_026.json",
+      "relative_path": "snapshot/test/dialogues_026.json",
+      "size": 5427415,
+      "git_blob_sha": "c255ca7e38f3ddd5d02ff1f793c425612cbabe48",
+      "sha256": "981946b39930b73c78b63af1ec220c71b15e24529f24b48d435f917a1375ff7d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_026.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_027.json",
+      "relative_path": "snapshot/test/dialogues_027.json",
+      "size": 4349741,
+      "git_blob_sha": "e61da4ea4008be536515ebd254baab1c7ed27bd9",
+      "sha256": "d05108c80386d35891f511a425e4a194a22a74c22a14d3f12e3b7a54252c4f96",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_027.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_028.json",
+      "relative_path": "snapshot/test/dialogues_028.json",
+      "size": 4395570,
+      "git_blob_sha": "c05fe550fad5d97f5c14b2886529a421a7304553",
+      "sha256": "8548c8881eb5445ec8f9d8877ada1371c4698890ec76c96408929957d36b4d79",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_028.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_029.json",
+      "relative_path": "snapshot/test/dialogues_029.json",
+      "size": 5439064,
+      "git_blob_sha": "414dda2b52cd27e9b15ba18d8e7ad8e6c24c1be5",
+      "sha256": "97fd99e95c0d5169f57e85a7799214de7bf7495d3613652a6ac8a494f10021fb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_029.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_030.json",
+      "relative_path": "snapshot/test/dialogues_030.json",
+      "size": 4107674,
+      "git_blob_sha": "3a0805961373dbbb9eae92fd4a7dd8ac8e2af4f4",
+      "sha256": "dabf6b8051f03ad1049a4c6b89f48986a5d597d0e637ccf555faa0241ecdbe87",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_030.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_031.json",
+      "relative_path": "snapshot/test/dialogues_031.json",
+      "size": 4640417,
+      "git_blob_sha": "3c954fcc3b5e5e4a68705cf2d6a64c7e72f34587",
+      "sha256": "c78c04a16cde6eccbd4092d70d7e6053651e4bdab89a993a4dafa78eedf47c0f",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_031.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_032.json",
+      "relative_path": "snapshot/test/dialogues_032.json",
+      "size": 3672080,
+      "git_blob_sha": "3c3a81e73ab319d893a31a663ae44149980224ba",
+      "sha256": "b7b739ccdd51ce4cd60d0b4d4ccaa751831bf448965e9bacfe5b7a123bc0f806",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_032.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_033.json",
+      "relative_path": "snapshot/test/dialogues_033.json",
+      "size": 3386860,
+      "git_blob_sha": "ef9ca9fb1922506dba53a7253da7d89c21fcb142",
+      "sha256": "a9f5b0c275a55ba40374ea10c723e88c37b8f0dabd55c2a9d3679de2495e224d",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_033.json"
+    },
+    {
+      "split": "test",
+      "name": "dialogues_034.json",
+      "relative_path": "snapshot/test/dialogues_034.json",
+      "size": 1605989,
+      "git_blob_sha": "5d73c7f6c43a05e3f7d64f8294f47b62ed080ed5",
+      "sha256": "d412ac423182dfe367d1549be9580bd7a964b695f5fd1a4d9d77c849763294a9",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/dialogues_034.json"
+    },
+    {
+      "split": "test",
+      "name": "schema.json",
+      "relative_path": "snapshot/test/schema.json",
+      "size": 54864,
+      "git_blob_sha": "6cb0fc131da22b43bb4672ec89755f19e7d278ff",
+      "sha256": "0b4af32e01695aec4788681fe6b22fb7ee908907269f5ac7167d01f4c4132bcb",
+      "source_url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/master/test/schema.json"
+    }
+  ],
+  "file_count": 184,
+  "byte_count": 617805368
+}

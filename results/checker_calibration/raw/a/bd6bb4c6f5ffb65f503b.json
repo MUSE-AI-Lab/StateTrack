@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not address the probe.",
+    "constraint_rationale": "The behavior response is empty and fails to follow the required prefix and suffix constraints.",
+    "recall_rationale": "The recall response is empty and fails to state the active persistent constraint."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"fail\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response is empty and does not address the probe.\",\n  \"constraint_rationale\": \"The behavior response is empty and fails to follow the required prefix and suffix constraints.\",\n  \"recall_rationale\": \"The recall response is empty and fails to state the active persistent constraint.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 423,
+    "total_tokens": 601,
+    "completion_tokens_details": {
+      "reasoning_tokens": 322
+    }
+  },
+  "duration_s": 2.0627183001488447,
+  "request_id": "chatcmpl-86b6aa5c9b10bd9dd3464526c6162f1f"
+}

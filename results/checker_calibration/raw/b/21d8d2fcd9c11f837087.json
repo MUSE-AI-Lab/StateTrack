@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The model successfully told a joke in response to the probe.",
+    "constraint_rationale": "The response was not written in ALL CAPS.",
+    "recall_rationale": "The model failed to state the active persistent rule, responding with a refusal instead."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The model successfully told a joke in response to the probe.\",\"constraint_rationale\":\"The response was not written in ALL CAPS.\",\"recall_rationale\":\"The model failed to state the active persistent rule, responding with a refusal instead.\"}",
+  "usage": {
+    "prompt_tokens": 179,
+    "completion_tokens": 397,
+    "total_tokens": 576,
+    "completion_tokens_details": {
+      "reasoning_tokens": 329
+    }
+  },
+  "duration_s": 2.9915423998609185,
+  "request_id": "chatcmpl-94743c87b3166619570139d901841c49"
+}

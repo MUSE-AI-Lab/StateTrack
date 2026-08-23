@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response provides a clear summary of the project details as requested.",
+    "constraint_rationale": "The response accurately includes all facts from the persistent setup (client, deadline, budget, team size) without introducing any contradictions.",
+    "recall_rationale": "The recall response accurately states the exact persistent setup instruction."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response provides a clear summary of the project details as requested.\",\"constraint_rationale\":\"The response accurately includes all facts from the persistent setup (client, deadline, budget, team size) without introducing any contradictions.\",\"recall_rationale\":\"The recall response accurately states the exact persistent setup instruction.\"}",
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 416,
+    "total_tokens": 729,
+    "completion_tokens_details": {
+      "reasoning_tokens": 335
+    }
+  },
+  "duration_s": 2.53226579958573,
+  "request_id": "chatcmpl-eb7ae63cf4478f264cc46cad36d0218c"
+}

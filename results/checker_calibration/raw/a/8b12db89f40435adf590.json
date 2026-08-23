@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response directly addresses the probe about having 6 apples.",
+    "constraint_rationale": "The response correctly identified the number 6, multiplied it by 7 to get 42, and included the result.",
+    "recall_rationale": "The recall response accurately states the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The response directly addresses the probe about having 6 apples.\",\"constraint_rationale\":\"The response correctly identified the number 6, multiplied it by 7 to get 42, and included the result.\",\"recall_rationale\":\"The recall response accurately states the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 241,
+    "completion_tokens": 421,
+    "total_tokens": 662,
+    "completion_tokens_details": {
+      "reasoning_tokens": 343
+    }
+  },
+  "duration_s": 3.0940760001540184,
+  "request_id": "chatcmpl-03fa74dc0b86f60539450fde4a7a767f"
+}

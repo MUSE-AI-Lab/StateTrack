@@ -1,0 +1,5 @@
+StateTrack-Bench authored scenario content and derived benchmark metadata are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+The experiment and evaluation code is released under the MIT License; see `LICENSE`.
+
+Cached model outputs remain subject to the applicable model-provider terms. The Schema-Guided Dialogue source data is not redistributed here; see `results/ecological_pilot/sgd_manifest.json` for the source snapshot and attribution information.

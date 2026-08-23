@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response successfully tells a joke.",
+    "constraint_rationale": "The behavior response is written entirely in ALL CAPS.",
+    "recall_rationale": "The recall response accurately identifies the active persistent constraint."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response successfully tells a joke.\",\"constraint_rationale\":\"The behavior response is written entirely in ALL CAPS.\",\"recall_rationale\":\"The recall response accurately identifies the active persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 364,
+    "total_tokens": 578,
+    "completion_tokens_details": {
+      "reasoning_tokens": 305
+    }
+  },
+  "duration_s": 6.302008199971169,
+  "request_id": "chatcmpl-e719675a6ee963e9f70e8aa19f39d2ac"
+}

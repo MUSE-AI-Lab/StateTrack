@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response directly and accurately reminds the user about the project details requested in the probe.",
+    "constraint_rationale": "The behavior response adheres to the provided project details without violating any setup parameters.",
+    "recall_rationale": " The recall response refuses to answer ('I can't discuss that') instead of accurately stating the persistent project setup details."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response directly and accurately reminds the user about the project details requested in the probe.\",\"constraint_rationale\":\"The behavior response adheres to the provided project details without violating any setup parameters.\",\"recall_rationale\":\" The recall response refuses to answer ('I can't discuss that') instead of accurately stating the persistent project setup details.\"}",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 500,
+    "total_tokens": 742,
+    "completion_tokens_details": {
+      "reasoning_tokens": 412
+    }
+  },
+  "duration_s": 11.092498799785972,
+  "request_id": "chatcmpl-cd871d34d60e3781d920c228e640b2fe"
+}

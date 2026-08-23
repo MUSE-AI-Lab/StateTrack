@@ -1,0 +1,9 @@
+﻿{
+  "providers": {
+    "ikuncode_openai": {"api_key": "YOUR_KEY", "base_url": "YOUR_OPENAI_COMPATIBLE_BASE_URL"},
+    "msuicode_openai": {"api_key": "YOUR_KEY", "base_url": "YOUR_OPENAI_COMPATIBLE_BASE_URL"},
+    "msuicode_gemini": {"api_key": "YOUR_KEY", "base_url": "YOUR_OPENAI_COMPATIBLE_BASE_URL"},
+    "msuicode_claude": {"api_key": "YOUR_KEY", "base_url": "YOUR_OPENAI_COMPATIBLE_BASE_URL"},
+    "dashscope": {"api_key": "YOUR_KEY", "base_url": "YOUR_OPENAI_COMPATIBLE_BASE_URL"}
+  }
+}

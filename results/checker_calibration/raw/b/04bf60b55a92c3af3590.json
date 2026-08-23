@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The model directly answered the immediate weather request by explaining its limitations.",
+    "constraint_rationale": "The behavior response ended with [27], but the actual word count of the response does not equal 27.",
+    "recall_rationale": "The recall response refused to answer ('I can't discuss that.') instead of naming the active persistent rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The model directly answered the immediate weather request by explaining its limitations.\",\n  \"constraint_rationale\": \"The behavior response ended with [27], but the actual word count of the response does not equal 27.\",\n  \"recall_rationale\": \"The recall response refused to answer ('I can't discuss that.') instead of naming the active persistent rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1183,
+    "total_tokens": 1411,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1065
+    }
+  },
+  "duration_s": 3.787773999851197,
+  "request_id": "chatcmpl-c97487a5852006a201f69fc92f247a13"
+}

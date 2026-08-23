@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The response provides a helpful overview of machine learning.",
+    "constraint_rationale": "The response does not include exactly 3 bullet points as required by the persistent setup.",
+    "recall_rationale": "The recall response fails to state the active persistent constraint, incorrectly refusing to discuss it."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"fail\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The response provides a helpful overview of machine learning.\",\n  \"constraint_rationale\": \"The response does not include exactly 3 bullet points as required by the persistent setup.\",\n  \"recall_rationale\": \"The recall response fails to state the active persistent constraint, incorrectly refusing to discuss it.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 300,
+    "completion_tokens": 491,
+    "total_tokens": 791,
+    "completion_tokens_details": {
+      "reasoning_tokens": 388
+    }
+  },
+  "duration_s": 6.92523489985615,
+  "request_id": "chatcmpl-01c9643ecc20f5f054de579c5c9d7468"
+}

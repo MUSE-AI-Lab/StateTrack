@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The model usefully explains its inability to access real-time information.",
+    "constraint_rationale": "The behavior response failed to start with 'CONFIRMED:'.",
+    "recall_rationale": "The recall response did not state the active persistent constraint, stating instead that it could not discuss it."
+  },
+  "raw_content": "```json\n{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The model usefully explains its inability to access real-time information.\",\"constraint_rationale\":\"The behavior response failed to start with 'CONFIRMED:'.\",\"recall_rationale\":\"The recall response did not state the active persistent constraint, stating instead that it could not discuss it.\"}\n```",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 400,
+    "total_tokens": 620,
+    "completion_tokens_details": {
+      "reasoning_tokens": 318
+    }
+  },
+  "duration_s": 2.7244237000122666,
+  "request_id": "chatcmpl-15c8400b711188b9c22849c9bdb9157e"
+}

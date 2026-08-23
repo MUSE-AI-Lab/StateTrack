@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not address the weather question.",
+    "constraint_rationale": "The behavior response is empty and does not include the required word count in brackets at the end.",
+    "recall_rationale": "The recall response is empty and fails to state the active persistent constraint."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is empty and does not address the weather question.\",\"constraint_rationale\":\"The behavior response is empty and does not include the required word count in brackets at the end.\",\"recall_rationale\":\"The recall response is empty and fails to state the active persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 285,
+    "total_tokens": 467,
+    "completion_tokens_details": {
+      "reasoning_tokens": 208
+    }
+  },
+  "duration_s": 10.857940299902111,
+  "request_id": "chatcmpl-119b5efe791a9d2133547ee0b5d5084d"
+}

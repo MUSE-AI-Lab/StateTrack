@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response accurately answers the query by listing all the provided details about the user.",
+    "constraint_rationale": "The model successfully followed the persistent instruction to remember the user's name, location, and pets.",
+    "recall_rationale": "The separate recall response correctly and explicitly states the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response accurately answers the query by listing all the provided details about the user.\",\"constraint_rationale\":\"The model successfully followed the persistent instruction to remember the user's name, location, and pets.\",\"recall_rationale\":\"The separate recall response correctly and explicitly states the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 258,
+    "completion_tokens": 585,
+    "total_tokens": 843,
+    "completion_tokens_details": {
+      "reasoning_tokens": 504
+    }
+  },
+  "duration_s": 2.7930586002767086,
+  "request_id": "chatcmpl-1d97c7d2c1e0c44b2577f5c4a0de3d50"
+}

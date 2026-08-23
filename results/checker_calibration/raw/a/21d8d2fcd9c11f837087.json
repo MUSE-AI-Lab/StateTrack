@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The response successfully tells a joke in response to the prompt.",
+    "constraint_rationale": "The response is not in ALL CAPS as required by the persistent setup.",
+    "recall_rationale": "The recall response fails to state the active constraint, instead giving a generic refusal."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The response successfully tells a joke in response to the prompt.\",\"constraint_rationale\":\"The response is not in ALL CAPS as required by the persistent setup.\",\"recall_rationale\":\"The recall response fails to state the active constraint, instead giving a generic refusal.\"}",
+  "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 340,
+    "total_tokens": 532,
+    "completion_tokens_details": {
+      "reasoning_tokens": 267
+    }
+  },
+  "duration_s": 2.068350499961525,
+  "request_id": "chatcmpl-c2838bc3b9d5ddfb710f4be45587281d"
+}

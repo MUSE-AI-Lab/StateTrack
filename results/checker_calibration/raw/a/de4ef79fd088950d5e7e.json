@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response correctly provided the color complement for red.",
+    "constraint_rationale": "The behavior response adhered to the active rule by mapping red to green.",
+    "recall_rationale": "The recall response accurately summarized the persistent constraint to provide color complements."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response correctly provided the color complement for red.\",\"constraint_rationale\":\"The behavior response adhered to the active rule by mapping red to green.\",\"recall_rationale\":\"The recall response accurately summarized the persistent constraint to provide color complements.\"}",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 371,
+    "total_tokens": 568,
+    "completion_tokens_details": {
+      "reasoning_tokens": 302
+    }
+  },
+  "duration_s": 2.9707566001452506,
+  "request_id": "chatcmpl-fc3a02f48f84954ed0d5e4b667429cc0"
+}

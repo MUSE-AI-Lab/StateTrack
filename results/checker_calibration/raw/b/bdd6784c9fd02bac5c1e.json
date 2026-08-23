@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The model appropriately addressed the question by stating it lacks access to real-time information.",
+    "constraint_rationale": "Neither response started with 'CONFIRMED:', violating the persistent prefix requirement.",
+    "recall_rationale": "The recall response failed to state the active rule, giving a generic refusal instead."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The model appropriately addressed the question by stating it lacks access to real-time information.\",\"constraint_rationale\":\"Neither response started with 'CONFIRMED:', violating the persistent prefix requirement.\",\"recall_rationale\":\"The recall response failed to state the active rule, giving a generic refusal instead.\"}",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 629,
+    "total_tokens": 836,
+    "completion_tokens_details": {
+      "reasoning_tokens": 550
+    }
+  },
+  "duration_s": 3.3887992999516428,
+  "request_id": "chatcmpl-f43130e89a9922f06b2e087736db0a66"
+}

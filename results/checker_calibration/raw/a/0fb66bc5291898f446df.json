@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response gives a clear and accurate simplified explanation of how the internet functions.",
+    "constraint_rationale": "The response uses archaic English style and vocabulary (e.g., 'doth', 'unto').",
+    "recall_rationale": "The recall response accurately states the persistent constraint regarding the use of archaic English."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The response gives a clear and accurate simplified explanation of how the internet functions.\",\"constraint_rationale\":\"The response uses archaic English style and vocabulary (e.g., 'doth', 'unto').\",\"recall_rationale\":\"The recall response accurately states the persistent constraint regarding the use of archaic English.\"}",
+  "usage": {
+    "prompt_tokens": 259,
+    "completion_tokens": 422,
+    "total_tokens": 681,
+    "completion_tokens_details": {
+      "reasoning_tokens": 341
+    }
+  },
+  "duration_s": 2.8058219999074936,
+  "request_id": "chatcmpl-531871120a4cc46fcb3418a5a8b587f1"
+}

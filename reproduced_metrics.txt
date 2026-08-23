@@ -1,0 +1,31 @@
+# StateTrack-Bench cached metric reproduction
+
+## Primary strict-joint retention
+gpt-5.4 | 94.4%
+claude-sonnet-4-6 | 90.4%
+gemini-3.1-pro-preview | 62.4%
+deepseek-v4-pro | 96.0%
+qwen3.6-plus | 95.2%
+gpt-5.4-mini | 98.4%
+deepseek-v4-flash | 100.0%
+
+## Dynamic update/revocation
+Base dialogue | 2.9%
+Stale-ledger SSA | 74.3%
+Updated-ledger SSA | 0.0%
+
+## Symbolic depth-50 audit
+Valid paired probes | 72
+Depth-50 compliance | 90.3%
+Depth-50 recall | 97.2%
+Depth-50 SIC+ | 9.7%
+Numerical depth-50 recall | 100.0%
+Numerical depth-50 compliance | 79.2%
+Numerical depth-50 SIC+ | 20.8%
+Non-Gemini models with at least one SIC+ | 5/6
+
+## Two-constraint audit
+Valid outputs | 34
+Two-constraint joint success | 76.5%
+Forked recall | 73.5%
+SIC+ | 5.9%

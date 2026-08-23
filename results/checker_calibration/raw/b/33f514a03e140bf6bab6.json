@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is incomplete and cuts off mid-sentence.",
+    "constraint_rationale": "The prompt contained the number 6, but the response failed to include the calculated result (42).",
+    "recall_rationale": "The recall response cuts off before stating the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is incomplete and cuts off mid-sentence.\",\"constraint_rationale\":\"The prompt contained the number 6, but the response failed to include the calculated result (42).\",\"recall_rationale\":\"The recall response cuts off before stating the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 191,
+    "completion_tokens": 705,
+    "total_tokens": 896,
+    "completion_tokens_details": {
+      "reasoning_tokens": 629
+    }
+  },
+  "duration_s": 3.6027927002869546,
+  "request_id": "chatcmpl-78b475fe046f8aa66cca9b4c22007005"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "pass",
+    "task_rationale": "The model appropriately addressed the immediate request by explaining that it lacks real-time weather data.",
+    "constraint_rationale": "The bracketed word count [13] does not match the actual word count of the response, which contains 17 words.",
+    "recall_rationale": "The recall response explicitly and accurately stated the persistent rule."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"fail\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The model appropriately addressed the immediate request by explaining that it lacks real-time weather data.\",\n  \"constraint_rationale\": \"The bracketed word count [13] does not match the actual word count of the response, which contains 17 words.\",\n  \"recall_rationale\": \"The recall response explicitly and accurately stated the persistent rule.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1348,
+    "total_tokens": 1577,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1234
+    }
+  },
+  "duration_s": 4.742413199972361,
+  "request_id": "chatcmpl-89aed235dff895c81dd0776545443877"
+}

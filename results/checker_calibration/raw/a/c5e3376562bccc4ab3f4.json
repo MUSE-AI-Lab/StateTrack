@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The response accurately explains how the internet works using clear technical concepts like network cables, routers, and packets.",
+    "constraint_rationale": "The response adopts a medieval tone and correctly uses archaic English words such as 'doth', 'thee', and 'thou'.",
+    "recall_rationale": "The recall response refuses to answer instead of stating the active persistent constraint regarding persona and archaic English."
+  },
+  "raw_content": "```json\n{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The response accurately explains how the internet works using clear technical concepts like network cables, routers, and packets.\",\"constraint_rationale\":\"The response adopts a medieval tone and correctly uses archaic English words such as 'doth', 'thee', and 'thou'.\",\"recall_rationale\":\"The recall response refuses to answer instead of stating the active persistent constraint regarding persona and archaic English.\"}\n```",
+  "usage": {
+    "prompt_tokens": 251,
+    "completion_tokens": 593,
+    "total_tokens": 844,
+    "completion_tokens_details": {
+      "reasoning_tokens": 490
+    }
+  },
+  "duration_s": 2.651647800114006,
+  "request_id": "chatcmpl-a88c13fc0326ccd5af2236e60ccb53a5"
+}

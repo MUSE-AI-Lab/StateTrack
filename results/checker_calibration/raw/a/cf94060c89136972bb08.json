@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not address the probe.",
+    "constraint_rationale": "The behavior response is blank and fails to incorporate or follow the persistent project details.",
+    "recall_rationale": "The recall response merely repeats a generic phrase instead of accurately stating the active persistent constraints or project details."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is empty and does not address the probe.\",\"constraint_rationale\":\"The behavior response is blank and fails to incorporate or follow the persistent project details.\",\"recall_rationale\":\"The recall response merely repeats a generic phrase instead of accurately stating the active persistent constraints or project details.\"}",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 646,
+    "total_tokens": 847,
+    "completion_tokens_details": {
+      "reasoning_tokens": 567
+    }
+  },
+  "duration_s": 3.128976000007242,
+  "request_id": "chatcmpl-7d37de61fbdb70b39ed4be4a8b066159"
+}

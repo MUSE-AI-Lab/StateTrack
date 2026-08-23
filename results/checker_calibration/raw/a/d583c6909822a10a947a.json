@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response usefully addresses the time query by explaining its inability to access real-time data.",
+    "constraint_rationale": "The behavior response begins with 'CONFIRMED:' and ends with '[END]'.",
+    "recall_rationale": "The recall response accurately states the persistent constraint."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response usefully addresses the time query by explaining its inability to access real-time data.\",\"constraint_rationale\":\"The behavior response begins with 'CONFIRMED:' and ends with '[END]'.\",\"recall_rationale\":\"The recall response accurately states the persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 257,
+    "completion_tokens": 472,
+    "total_tokens": 729,
+    "completion_tokens_details": {
+      "reasoning_tokens": 395
+    }
+  },
+  "duration_s": 2.6027897000312805,
+  "request_id": "chatcmpl-6c3fdb1a77b7b800edee190f68b89a7c"
+}

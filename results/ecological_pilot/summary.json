@@ -1,0 +1,577 @@
+{
+  "n_records": 210,
+  "metrics": [
+    "task_success",
+    "constraint_compliance",
+    "strict_joint",
+    "recall",
+    "sic_plus",
+    "sic_minus",
+    "old_rule_enforcement"
+  ],
+  "overall": {
+    "n": 210,
+    "counts": {
+      "task_success": 153,
+      "constraint_compliance": 187,
+      "strict_joint": 140,
+      "recall": 78,
+      "sic_plus": 9,
+      "sic_minus": 118,
+      "old_rule_enforcement": 1
+    },
+    "rates": {
+      "task_success": 0.7285714285714285,
+      "constraint_compliance": 0.8904761904761904,
+      "strict_joint": 0.6666666666666666,
+      "recall": 0.37142857142857144,
+      "sic_plus": 0.04285714285714286,
+      "sic_minus": 0.5619047619047619,
+      "old_rule_enforcement": 0.004761904761904762
+    },
+    "wilson_95": {
+      "task_success": [
+        0.6647201539124723,
+        0.7842102693540951
+      ],
+      "constraint_compliance": [
+        0.841019977611096,
+        0.9259028288026232
+      ],
+      "strict_joint": [
+        0.600418142474788,
+        0.7269269578237506
+      ],
+      "recall": [
+        0.30893444332186093,
+        0.438542193590695
+      ],
+      "sic_plus": [
+        0.02270827634074077,
+        0.07943087712612443
+      ],
+      "sic_minus": [
+        0.4942827582238139,
+        0.6273025647442146
+      ],
+      "old_rule_enforcement": [
+        0.0008410666306054131,
+        0.026476349625165214
+      ]
+    }
+  },
+  "by_case_type": {
+    "carryover": {
+      "n": 105,
+      "counts": {
+        "task_success": 83,
+        "constraint_compliance": 88,
+        "strict_joint": 74,
+        "recall": 24,
+        "sic_plus": 5,
+        "sic_minus": 69,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.7904761904761904,
+        "constraint_compliance": 0.8380952380952381,
+        "strict_joint": 0.7047619047619048,
+        "recall": 0.22857142857142856,
+        "sic_plus": 0.047619047619047616,
+        "sic_minus": 0.6571428571428571,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.7030819756034554,
+          0.8573655003616167
+        ],
+        "constraint_compliance": [
+          0.7559361291453497,
+          0.8963879822238328
+        ],
+        "strict_joint": [
+          0.6115334816944522,
+          0.7835360505432216
+        ],
+        "recall": [
+          0.1586828389252159,
+          0.3176203392713559
+        ],
+        "sic_plus": [
+          0.020508863227294692,
+          0.10666310043365843
+        ],
+        "sic_minus": [
+          0.5622487220894159,
+          0.7409441747441476
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.035295328256842964
+        ]
+      }
+    },
+    "overwrite": {
+      "n": 70,
+      "counts": {
+        "task_success": 43,
+        "constraint_compliance": 65,
+        "strict_joint": 40,
+        "recall": 20,
+        "sic_plus": 3,
+        "sic_minus": 48,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.6142857142857143,
+        "constraint_compliance": 0.9285714285714286,
+        "strict_joint": 0.5714285714285714,
+        "recall": 0.2857142857142857,
+        "sic_plus": 0.04285714285714286,
+        "sic_minus": 0.6857142857142857,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.4971552064563055,
+          0.7195248221454583
+        ],
+        "constraint_compliance": [
+          0.8434438687669077,
+          0.9691062384897065
+        ],
+        "strict_joint": [
+          0.4547762667382278,
+          0.6806487511378745
+        ],
+        "recall": [
+          0.1932207659180313,
+          0.40050418045366165
+        ],
+        "sic_plus": [
+          0.014681274851143573,
+          0.11859861074180134
+        ],
+        "sic_minus": [
+          0.5697264161245474,
+          0.7823786303533187
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.05202487486728348
+        ]
+      }
+    },
+    "revocation": {
+      "n": 35,
+      "counts": {
+        "task_success": 27,
+        "constraint_compliance": 34,
+        "strict_joint": 26,
+        "recall": 34,
+        "sic_plus": 1,
+        "sic_minus": 1,
+        "old_rule_enforcement": 1
+      },
+      "rates": {
+        "task_success": 0.7714285714285715,
+        "constraint_compliance": 0.9714285714285714,
+        "strict_joint": 0.7428571428571429,
+        "recall": 0.9714285714285714,
+        "sic_plus": 0.02857142857142857,
+        "sic_minus": 0.02857142857142857,
+        "old_rule_enforcement": 0.02857142857142857
+      },
+      "wilson_95": {
+        "task_success": [
+          0.6098236221989801,
+          0.879342632538209
+        ],
+        "constraint_compliance": [
+          0.8546659090672868,
+          0.9949386386341466
+        ],
+        "strict_joint": [
+          0.5793037572935127,
+          0.8583713127344985
+        ],
+        "recall": [
+          0.8546659090672868,
+          0.9949386386341466
+        ],
+        "sic_plus": [
+          0.005061361365853362,
+          0.1453340909327131
+        ],
+        "sic_minus": [
+          0.005061361365853362,
+          0.1453340909327131
+        ],
+        "old_rule_enforcement": [
+          0.005061361365853362,
+          0.1453340909327131
+        ]
+      }
+    }
+  },
+  "by_model": {
+    "claude-sonnet-4-6": {
+      "n": 30,
+      "counts": {
+        "task_success": 19,
+        "constraint_compliance": 27,
+        "strict_joint": 17,
+        "recall": 19,
+        "sic_plus": 3,
+        "sic_minus": 11,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.6333333333333333,
+        "constraint_compliance": 0.9,
+        "strict_joint": 0.5666666666666667,
+        "recall": 0.6333333333333333,
+        "sic_plus": 0.1,
+        "sic_minus": 0.36666666666666664,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.45513246433604937,
+          0.7812629779598231
+        ],
+        "constraint_compliance": [
+          0.7437855868473339,
+          0.9654007400402839
+        ],
+        "strict_joint": [
+          0.3919700954540873,
+          0.7262276256938489
+        ],
+        "recall": [
+          0.45513246433604937,
+          0.7812629779598231
+        ],
+        "sic_plus": [
+          0.03459925995971615,
+          0.25621441315266624
+        ],
+        "sic_minus": [
+          0.21873702204017678,
+          0.5448675356639506
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    },
+    "deepseek-v4-flash": {
+      "n": 30,
+      "counts": {
+        "task_success": 20,
+        "constraint_compliance": 27,
+        "strict_joint": 19,
+        "recall": 6,
+        "sic_plus": 1,
+        "sic_minus": 22,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.6666666666666666,
+        "constraint_compliance": 0.9,
+        "strict_joint": 0.6333333333333333,
+        "recall": 0.2,
+        "sic_plus": 0.03333333333333333,
+        "sic_minus": 0.7333333333333333,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.48779725813830266,
+          0.807697044731538
+        ],
+        "constraint_compliance": [
+          0.7437855868473339,
+          0.9654007400402839
+        ],
+        "strict_joint": [
+          0.45513246433604937,
+          0.7812629779598231
+        ],
+        "recall": [
+          0.09504978102401235,
+          0.37306047381027446
+        ],
+        "sic_plus": [
+          0.0059084379948573795,
+          0.16670751396958874
+        ],
+        "sic_minus": [
+          0.5555169795568831,
+          0.8581750444608938
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    },
+    "deepseek-v4-pro": {
+      "n": 30,
+      "counts": {
+        "task_success": 18,
+        "constraint_compliance": 25,
+        "strict_joint": 16,
+        "recall": 5,
+        "sic_plus": 0,
+        "sic_minus": 20,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.6,
+        "constraint_compliance": 0.8333333333333334,
+        "strict_joint": 0.5333333333333333,
+        "recall": 0.16666666666666666,
+        "sic_plus": 0.0,
+        "sic_minus": 0.6666666666666666,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.42320052498273836,
+          0.7540960567391659
+        ],
+        "constraint_compliance": [
+          0.6643529481431982,
+          0.9266356575964831
+        ],
+        "strict_joint": [
+          0.3614201328152505,
+          0.6976787277587178
+        ],
+        "recall": [
+          0.07336434240351683,
+          0.33564705185680177
+        ],
+        "sic_plus": [
+          0.0,
+          0.113517091390478
+        ],
+        "sic_minus": [
+          0.48779725813830266,
+          0.807697044731538
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    },
+    "gemini-3.1-pro-preview": {
+      "n": 30,
+      "counts": {
+        "task_success": 21,
+        "constraint_compliance": 27,
+        "strict_joint": 20,
+        "recall": 5,
+        "sic_plus": 0,
+        "sic_minus": 22,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.7,
+        "constraint_compliance": 0.9,
+        "strict_joint": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "sic_plus": 0.0,
+        "sic_minus": 0.7333333333333333,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.5212387898833981,
+          0.8333543735604105
+        ],
+        "constraint_compliance": [
+          0.7437855868473339,
+          0.9654007400402839
+        ],
+        "strict_joint": [
+          0.48779725813830266,
+          0.807697044731538
+        ],
+        "recall": [
+          0.07336434240351683,
+          0.33564705185680177
+        ],
+        "sic_plus": [
+          0.0,
+          0.113517091390478
+        ],
+        "sic_minus": [
+          0.5555169795568831,
+          0.8581750444608938
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    },
+    "gpt-5.4": {
+      "n": 30,
+      "counts": {
+        "task_success": 24,
+        "constraint_compliance": 28,
+        "strict_joint": 22,
+        "recall": 15,
+        "sic_plus": 1,
+        "sic_minus": 14,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.8,
+        "constraint_compliance": 0.9333333333333333,
+        "strict_joint": 0.7333333333333333,
+        "recall": 0.5,
+        "sic_plus": 0.03333333333333333,
+        "sic_minus": 0.4666666666666667,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.6269395261897256,
+          0.9049502189759876
+        ],
+        "constraint_compliance": [
+          0.7867618227892791,
+          0.9815233646723066
+        ],
+        "strict_joint": [
+          0.5555169795568831,
+          0.8581750444608938
+        ],
+        "recall": [
+          0.33153851227173764,
+          0.6684614877282624
+        ],
+        "sic_plus": [
+          0.0059084379948573795,
+          0.16670751396958874
+        ],
+        "sic_minus": [
+          0.30232127224128236,
+          0.6385798671847496
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    },
+    "gpt-5.4-mini": {
+      "n": 30,
+      "counts": {
+        "task_success": 24,
+        "constraint_compliance": 25,
+        "strict_joint": 20,
+        "recall": 13,
+        "sic_plus": 3,
+        "sic_minus": 15,
+        "old_rule_enforcement": 1
+      },
+      "rates": {
+        "task_success": 0.8,
+        "constraint_compliance": 0.8333333333333334,
+        "strict_joint": 0.6666666666666666,
+        "recall": 0.43333333333333335,
+        "sic_plus": 0.1,
+        "sic_minus": 0.5,
+        "old_rule_enforcement": 0.03333333333333333
+      },
+      "wilson_95": {
+        "task_success": [
+          0.6269395261897256,
+          0.9049502189759876
+        ],
+        "constraint_compliance": [
+          0.6643529481431982,
+          0.9266356575964831
+        ],
+        "strict_joint": [
+          0.48779725813830266,
+          0.807697044731538
+        ],
+        "recall": [
+          0.2737723743061511,
+          0.6080299045459127
+        ],
+        "sic_plus": [
+          0.03459925995971615,
+          0.25621441315266624
+        ],
+        "sic_minus": [
+          0.33153851227173764,
+          0.6684614877282624
+        ],
+        "old_rule_enforcement": [
+          0.0059084379948573795,
+          0.16670751396958874
+        ]
+      }
+    },
+    "qwen3.6-plus": {
+      "n": 30,
+      "counts": {
+        "task_success": 27,
+        "constraint_compliance": 28,
+        "strict_joint": 26,
+        "recall": 15,
+        "sic_plus": 1,
+        "sic_minus": 14,
+        "old_rule_enforcement": 0
+      },
+      "rates": {
+        "task_success": 0.9,
+        "constraint_compliance": 0.9333333333333333,
+        "strict_joint": 0.8666666666666667,
+        "recall": 0.5,
+        "sic_plus": 0.03333333333333333,
+        "sic_minus": 0.4666666666666667,
+        "old_rule_enforcement": 0.0
+      },
+      "wilson_95": {
+        "task_success": [
+          0.7437855868473339,
+          0.9654007400402839
+        ],
+        "constraint_compliance": [
+          0.7867618227892791,
+          0.9815233646723066
+        ],
+        "strict_joint": [
+          0.7031831605558306,
+          0.9469043057578189
+        ],
+        "recall": [
+          0.33153851227173764,
+          0.6684614877282624
+        ],
+        "sic_plus": [
+          0.0059084379948573795,
+          0.16670751396958874
+        ],
+        "sic_minus": [
+          0.30232127224128236,
+          0.6385798671847496
+        ],
+        "old_rule_enforcement": [
+          0.0,
+          0.113517091390478
+        ]
+      }
+    }
+  }
+}

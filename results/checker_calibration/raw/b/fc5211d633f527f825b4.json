@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response directly addressed the user's statement about having 6 apples.",
+    "constraint_rationale": "The behavior response correctly detected the number 6, multiplied it by 7, and included the result 42.",
+    "recall_rationale": "The recall response refused to answer rather than stating the active rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response directly addressed the user's statement about having 6 apples.\",\"constraint_rationale\":\"The behavior response correctly detected the number 6, multiplied it by 7, and included the result 42.\",\"recall_rationale\":\"The recall response refused to answer rather than stating the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 595,
+    "total_tokens": 804,
+    "completion_tokens_details": {
+      "reasoning_tokens": 511
+    }
+  },
+  "duration_s": 2.8478775001131,
+  "request_id": "chatcmpl-f5a282efb3c6065a2cb1d9293c73f1d6"
+}

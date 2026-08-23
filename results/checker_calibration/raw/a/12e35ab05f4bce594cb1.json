@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "fail",
+    "recall": "pass",
+    "task_rationale": "The model appropriately addresses the query by stating it lacks real-time weather capabilities.",
+    "constraint_rationale": "The word count provided in brackets ([13]) does not match the actual word count of the response.",
+    "recall_rationale": "The recall response accurately states the persistent constraint."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"fail\",\"recall\":\"pass\",\"task_rationale\":\"The model appropriately addresses the query by stating it lacks real-time weather capabilities.\",\"constraint_rationale\":\"The word count provided in brackets ([13]) does not match the actual word count of the response.\",\"recall_rationale\":\"The recall response accurately states the persistent constraint.\"}",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 746,
+    "total_tokens": 988,
+    "completion_tokens_details": {
+      "reasoning_tokens": 669
+    }
+  },
+  "duration_s": 6.958846800029278,
+  "request_id": "chatcmpl-ddff96cde9eb2020b894f49a385237b5"
+}

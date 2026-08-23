@@ -1,0 +1,5161 @@
+[
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "dev",
+      "dialogue_id": "17_00109",
+      "source_file": "dev/dialogues_017.json",
+      "source_index": 109,
+      "source_turn": 38,
+      "target_turn": 44
+    },
+    "service": "Restaurants_2",
+    "constraint_slot": "category",
+    "constraint_text": "I like Sichuan food.",
+    "constraint_value": "Sichuan",
+    "target_task": "Yes, please book me a table on that day.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "What time do you want the table?",
+    "old_state": {
+      "category": [
+        "Sichuan"
+      ]
+    },
+    "active_state": {
+      "category": [
+        "Sichuan"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to look for a therapist."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like a Family Counselor, Psychologist, or another type of therapist?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like a Psychologist located in Campbell."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 5 therapists there. How about Bacheler Janet, they're a Psychologist in Campbell."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What about a Family Counselor?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about Beth Kane, they're a Family Counselor in Campbell."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Where are the located exactly?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They are located at 621 E Campbell Ave # 17."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "And what's their telephone number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their number is 408-378-7868."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there anyone else?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about Flores Michelle M. They're a Family Counselor in Campbell."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'll try them."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want me to make an appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please make one."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time do you want the appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want it at the afternoon 3."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "And what date do you want the appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like it to be on Monday next week."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll make you an appointment with Flores Michelle M for March 4th at 3 pm, is that right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that's right. And can you tell me their address and phone number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry, but the appointment did not go through. Do you want me to do anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How about an appointment on the 3rd of March at quarter past 5 in the evening, let's try that."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll make an appointment with Flores Michelle M for March 3rd at 5:15 pm. Is that right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please try that."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry, but the appointment did not go through. Would you like an appointment with Flores Michelle M. on March 3rd at 5 pm instead?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please see if that works."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I've made the appointment. An email confirmation should arrive for you shortly."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Now I need to check my checking account balance."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your checking account balance is $9,809.25."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What about my savings account balance?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your savings account balance is $18,072.89."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to transfer money?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I don't need to transfer money."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there anything else I can do for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Help me look for restaurants there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there a cuisine you prefer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like Sichuan food."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 3 restaurants you might like. Best Taste Sushi & Chinese Restaurant in Campbell is nice."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Where are they located exactly, and is there outdoor seating there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They are located at 2360 South Bascom Avenue, and they don't do outdoor seating."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to book a table?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please book me a table on that day."
+      }
+    ],
+    "case_id": "sgd-carryover-01"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "83_00005",
+      "source_file": "train/dialogues_083.json",
+      "source_index": 5,
+      "source_turn": 34,
+      "target_turn": 40
+    },
+    "service": "RideSharing_2",
+    "constraint_slot": "destination",
+    "constraint_text": "I want to go to 350 Park Street.",
+    "constraint_value": "350 Park Street",
+    "target_task": "When will it get here?",
+    "target_intent": "GetRide",
+    "oracle_response": "It should be there in 9 minutes.",
+    "old_state": {
+      "destination": [
+        "350 Park Street"
+      ]
+    },
+    "active_state": {
+      "destination": [
+        "350 Park Street"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to see a movie. Can you tell me what the regular shows are at the Rheem Theatre in Moraga."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 1 movie: Hotel Mumbai."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, Hotel Mumbai sounds good. Is there anywhere to eat around there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What kind of food do you want?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Italian sounds good to me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 2 restaurants. La Finestra Ristorante in Moraga has good reviews."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, that sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to make a reservation?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I help you with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What are the show times for the movie?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to watch it on March 3rd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It's showing at 7:30 pm at the Rheem Theatre."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Cool."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Anything else I can help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, I'd like to make a reservation for dinner now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "For what time?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "For 4:30 pm."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, so you want a table for 2 people at La Finestra Ristorante in Moraga at 4:30 pm on March 3rd, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, that's right."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, there are no open tables for that time. Can I help with something else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "See if they have any openings for 16:45."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, so you want a table for 2 people at La Finestra Ristorante in Moraga for 4:45 pm on March 3rd, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes. Do they have live music?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "No, they don't have live music. Sorry, there's no table available for that time either. La Finestra Ristorante has a table for 2 available at 5 pm on March 3rd, would that be okay?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that will work."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your table has been reserved."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How expensive are they? What's the phone number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their menu prices are moderate. The phone number is 925-376-4444."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I help with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need a cab there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "To 1419 Moraga Way or 350 Park Street?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to go to 350 Park Street."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What kind of ride do you want? Regular, pool, or something else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like a pool ride."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "So you need a pool ride for 2 passengers to 350 Park Street, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that's right. How much will it cost?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your cab is on the way. The fare will be $13.05."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "When will it get here?"
+      }
+    ],
+    "case_id": "sgd-carryover-02"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "80_00124",
+      "source_file": "train/dialogues_080.json",
+      "source_index": 124,
+      "source_turn": 34,
+      "target_turn": 40
+    },
+    "service": "Media_1",
+    "constraint_slot": "title",
+    "constraint_text": "I prefer to go with Mary Magdalene which is a nice movie.",
+    "constraint_value": "Mary Magdalene",
+    "target_task": "May I know name of the director of this movie?",
+    "target_intent": "PlayMovie",
+    "oracle_response": "Yes, the director is Garth Davis. Is that enough.",
+    "old_state": {
+      "title": [
+        "Mary Magdalene"
+      ]
+    },
+    "active_state": {
+      "title": [
+        "Mary Magdalene"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to search for a bus from New York on the 4th. Can you search the suitable one for me to book 2 seats?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, to which place do you want to search for the bus?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am planning to go to Washington so please search for the bus to this place."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I got 8 results. What about a bus which leaves at 6 am with 0 transfers for the ticket cost $39."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "May I know the origin and destination station of that bus so that I can decide."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "This bus will leave from Port Authority Station and will reach its final destination at Union Station. Hope this information useful."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, thanks. But I want to search for some other buses from Philadelphia on the 11th. Hope you will have something in your list."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes I have 8 results and how about a bus for the time 7:30 am for the cost $28 with 0 transfers."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is the perfect one for me and thanks for the same"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I book the tickets to this bus now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, may be later I think."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want me to do anything else now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I want you to book a rental Car for the pickup at Washington. Do it for me now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, What bout the date, shall I book it from March 11th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, book it form 13th of this month as I am planning to leave on that date."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How many days you want to book the car."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Book it till the 14th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about your convenient time to book the car."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Book it for the pickup time at 12:30 in the afternoon."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about a Standard Accord car available for the pickup at Union Station on March 13th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, How about the rent for this car? How much does it cost?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It is $34 in total for that particular reservation."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is nice."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need the reservation now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I need to book in now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to book a Standard Car for pickup at Union Station from March 13th March 14th for the pickup time 12:30 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is correct. Please book it accordingly."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booked the car successfully and this is for your information."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What about an idea of watching movie online. Can you help me to find the best one for me to watch online."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, that is nice idea. What about your favorite category of movies to search for?."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I love to watch Drama movies always and I need the one now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How do you say about the movies like Dogman, Hackers or High Life? Which one is the best you think?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Need some more movies list to decide."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about the one among Little Woods, Mary Magdalene or Ramen Shop?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I prefer to go with Mary Magdalene which is a nice movie."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How can I proceed now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Now, I want to watch this movie online. Help me to do so."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to play the movie Mary Magdalene without subtitles."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, do it so."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Movie started playing now and enjoy the same."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "May I know name of the director of this movie?"
+      }
+    ],
+    "case_id": "sgd-carryover-03"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "22_00101",
+      "source_file": "test/dialogues_022.json",
+      "source_index": 101,
+      "source_turn": 32,
+      "target_turn": 38
+    },
+    "service": "Restaurants_2",
+    "constraint_slot": "category",
+    "constraint_text": "Look for restaurants serving Sichuan dishes.",
+    "constraint_value": "Sichuan",
+    "target_task": "Yes, please make table reservations.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "What would be a convenient reservation time?",
+    "old_state": {
+      "category": [
+        "Sichuan"
+      ]
+    },
+    "active_state": {
+      "category": [
+        "Sichuan"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Please help me find a therapist practicing in Campbell."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, I can help you with that. First tell me the kind of therapist you need. You can say Psychiatrist, Family Counselor, or something else."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like a Family Counselor."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay. Your search yielded 6 therapists that might interest you. Would you like to see Beth Kane, a Family Counselor practicing in Campbell?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, that's my neighbor! Tell you what? Find me a psychologist in San Jose instead."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "All right. Barskyex Bryna G. is a San Jose based Psychologist."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Goodness, I know that one too! What other therapists do you recommend?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about Burdge Sarah, a San Jose based Psychologist."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Do you have their location?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They're situated at 2880 Zanker Road # 203."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That works for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I schedule a visit with the therapist?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please schedule a visit."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is a convenient appointment date and time?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "11th of this month at one in the afternoon would be perfect."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "One moment. Let me see if I got everything correctly: You'd like to schedule a 1 pm visit with Burdge Sarah on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Unfortunately there was a glitch and I was unable to book an appointment. Will you be needing my help with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Please try scheduling the visit again. I would like to be seen at quarter to 5 in the evening."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure. Please confirm that you're booking a 4:45 pm appointment with Burdge Sarah on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, you got that right."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, due to an error, I was unable to book your appointment. Burdge Sarah has a 4:30 pm. opening on March 11th. Would you like an appointment for that time?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have successfully booked your appointment, and a confirmation email will be sent to you shortly."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you very much. I am very grateful. Oh, I almost forgot. Please make a payment request from Tom."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I can help you with that. Tell me the amount, please."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That will be a 150 bucks. Please make it a private transfer."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Let me see if I got everything correctly: You'd like to effect a private transaction of $150 with Tom."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have successfully made your payment request."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you very much. Now, please find me a restaurant around that area on that day."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of cuisine did you have in mind?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Look for restaurants serving Sichuan dishes."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Among the 10 suitable San Jose restaurants I found is the nice Chef Li restaurant."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is it an ultra high-end restaurant offering al fresco seating?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "No, they are a moderate restaurant without al fresco seating."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I reserve a table here?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please make table reservations."
+      }
+    ],
+    "case_id": "sgd-carryover-04"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "84_00058",
+      "source_file": "train/dialogues_084.json",
+      "source_index": 58,
+      "source_turn": 32,
+      "target_turn": 38
+    },
+    "service": "Restaurants_1",
+    "constraint_slot": "party_size",
+    "constraint_text": "Try that reservation again, but with 2 people.",
+    "constraint_value": "2",
+    "target_task": "Yes, please try that.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "The table is booked.",
+    "old_state": {
+      "party_size": [
+        "2"
+      ]
+    },
+    "active_state": {
+      "party_size": [
+        "2"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I'd like help searching for somewhere to eat."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there a kind of you prefer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I really want to go to a Sushi Bar."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What city would you like to search in?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to find a place in Santa Rosa."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Haku Sushi in Santa Rosa is nice?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Do they have liquor. And where are the specifically?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The address is 518 7th Street. The do not have liquor."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that's fine by me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to book a table?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Let's do that later."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What else can I help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'm also looking for a unisex salon in Santa Rosa, help me out?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Elle Lui Hair Salon in Santa Rosa is nice."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, I'll go there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want me to make an appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please do."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time would you like to the appointment for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to go at 2:45 in the afternoon."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "And for what date?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to go on the 7th of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll book an appointment for you at Elle Lui Hair Salon on March 7th at 2:45 pm, is that good?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, that's what I want."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry, but they booking did not go through. How about an appointment at Elle Lui Hair Salon for March 7th at 2:30 pm instead?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, let's go with that."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The appointment has been booked."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What's their phone number and their average rating?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can call them at 707-575-1474. And they have a 4.8 average rating."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks a lot. Back to that sushi restaurant. I want a table for four at 11:30 am."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll book a table for 4 at Haku Sushi in Santa Rosa on March 7th at 11:30 am, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That's correct, yeah."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry but the reservation did not go through. Do you need me for anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Try that reservation again, but with 2 people."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll book a table for 2 at Haku Sushi in Santa Rosa on March 7th at 11:30 am, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, try that. Do they have live music there? And how are the prices, not very costly I hope?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry, but the reservation didn't go through. Do you need me to do anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, let's try again. Book it for the evening 5."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'll book a table for 2 at Haku Sushi in Santa Rosa on March 7th at 5 pm, is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please try that."
+      }
+    ],
+    "case_id": "sgd-carryover-05"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "81_00091",
+      "source_file": "train/dialogues_081.json",
+      "source_index": 91,
+      "source_turn": 32,
+      "target_turn": 38
+    },
+    "service": "Music_1",
+    "constraint_slot": "album",
+    "constraint_text": "Okay! Please can you find me some good songs which came three years back, probably from the album Illuminate.",
+    "constraint_value": "Illuminate",
+    "target_task": "Nope, please can you play on my bedroom speaker?",
+    "target_intent": "PlaySong",
+    "oracle_response": "Sure, please can you confirm that you wish to play the song Bad Reputation on your Bedroom Speaker, right?",
+    "old_state": {
+      "album": [
+        "Illuminate"
+      ]
+    },
+    "active_state": {
+      "album": [
+        "Illuminate"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Hello, Please can you look for a room in a best hotel, for I've a plan of travel?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "sure, in which city?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Please can you look in New york City."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, there is a 4 star hotel named 1 Hotel Brooklyn Bridge, which is a nice one. Do you wish to book here?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Do you have their address and contact number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yup, I do have. Please note it down. They are located in 60 Furman Street, Brooklyn and they are reachable at +1 833-625-6111."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "thanks for the information. Please let me know if there are any other hotels of my taste?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yup, there is a 5 star hotel named 1 Hotel Central Park which has a good rating. Do you wish to book here?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, looks great."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "So, can I book a room for you at this hotel?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, but not right now, might be later on. Please can you help me to find some bus transportation to reach that place, for I'll be leaving from Philadelphia and am looking for two seats."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, I can do that for you. So, are you planning to leave on March 4th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, you're correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay! I've found 8 buses to your destination and the bus departs at 8:30 am has the lowest fare of $25 and it has 0 transfers."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Perfect! I like this one."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "So, can I book seats for you in this bus?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Nope, not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want me to assist you with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, Please can you go back and book two rooms on March 10th for 1 day."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, Please can you confirm me that you wish to book 2 rooms for 1 day at 1 Hotel Central Park on March 10th located in New York, right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Nope, right now am looking only for 1 room."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay! Please can you confirm me that you wish to book 1 room at 1 hotel Central Park, right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, you're right."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay! your reservation is made successful."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Please can I have their address?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, they are located at 1414 6th Avenue."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Do the hotel have wifi connection?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yup, they do have."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks much for the information. I wish to hear songs by Shawn Mendes, mostly of Pop songs. Please can you find me one?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure. Do you wish to play the song Aftertaste by Shawn Mendes from the album Handwritten?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "so, when was the release of the song?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The song was released in the year 2015."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay! Please can you find me some good songs which came three years back, probably from the album Illuminate."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure! Do you wish to listen the song Bad Reputation by Shawn Mendes from the album Illuminate?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yup, this is the song I wished to listen."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I help on anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Nope, but just I wish to listen the song right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please can you confirm me that you wish to hear the song Bad Reputation on your TV, right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Nope, please can you play on my bedroom speaker?"
+      }
+    ],
+    "case_id": "sgd-carryover-06"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "79_00017",
+      "source_file": "train/dialogues_079.json",
+      "source_index": 17,
+      "source_turn": 30,
+      "target_turn": 36
+    },
+    "service": "Services_2",
+    "constraint_slot": "city",
+    "constraint_text": "Yes, do it for me. I want to search for someone in Petaluma.",
+    "constraint_value": "Petaluma",
+    "target_task": "Check for the time one in the afternoon. I want to book the appointment at this time with that doctor.",
+    "target_intent": "BookAppointment",
+    "oracle_response": "Please confirm to make an appointment with Dr Oscar Ventanilla on March 3rd at 1 pm.",
+    "old_state": {
+      "city": [
+        "Petaluma"
+      ]
+    },
+    "active_state": {
+      "city": [
+        "Petaluma"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I am search for a Doctor. I want to check my health and I need to find a General Practitioner in Palo Alto. Can you help me find someone there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Found a General Practitioner at Bay Area House Call Physicians in Palo Alto. What about your opinion on this doctor?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Search for someone else in Cupertino."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay , what about John Chiu, M.D. in Cupertino who is also a General Practitioner. I think this doctor is the best on among the 4 doctors I found for you."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need their phone number for my reference."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please note down their phone number is 408-863-0709. You can contact them at any time."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I choose this doctor and thanks for that information."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want any more help now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please help me to fix an appointment to this doctor for me now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, Let me know your convenient time and date to fix that."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "15:15 is the convenient time to me and fix an appointment at this time on 14th of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Need your confirmation to book an appointment with John Chiu, M.D., on March 14th at 3:15 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Kindly change the time to afternoon 2."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Need your confirmation to book an appointment with John Chiu, M.D., on March 14th at 2 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is perfect. You can proceed further."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, Doctor John Chiu, M.D. is not available on that time and shall I fix the appointment on March 14th at 2:30 pm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is also okay to me. Proceed further."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have successfully confirmed your appointment to that doctor."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is nice and thanks. Please check my availability of free time on that day."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "In which date?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Check it on 3rd of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You have your available free time from 9 am to 9 pm on March 3rd."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Perfect. Thanks for your help."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want me to note an new event to your calendar on that day?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, leave it. Now I want to find another doctor who should be a dentist in the same area as said before."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It means you want to search it in Cupertino?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Got 4 dentists and what bout Cabanas Carol L who is the best one in Cupertino?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you check for the availability of Cosmetic services there and also let me know their address for my reference."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The address is 10101 North Wolfe Road and there is no Cosmetic services available there. Do you want me to search for something else to fulfill your requirements."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, do it for me. I want to search for someone in Petaluma."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about a doctor Dr Oscar Ventanilla in Petaluma? Do you need any more details about this doctor to decide?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Details are enough and I choose this doctor. Thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I fix an appointment with this doctor now."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please do it for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Let me know your convenient time to fix the appointment."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Check for the time one in the afternoon. I want to book the appointment at this time with that doctor."
+      }
+    ],
+    "case_id": "sgd-carryover-07"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "32_00118",
+      "source_file": "test/dialogues_032.json",
+      "source_index": 118,
+      "source_turn": 30,
+      "target_turn": 36
+    },
+    "service": "RideSharing_2",
+    "constraint_slot": "number_of_seats",
+    "constraint_text": "Make it for 1 person.",
+    "constraint_value": "1",
+    "target_task": "I want to know the time will be taken by the Cab to reach my place.",
+    "target_intent": "GetRide",
+    "oracle_response": "It will reach you in 6 minutes.",
+    "old_state": {
+      "number_of_seats": [
+        "1"
+      ]
+    },
+    "active_state": {
+      "number_of_seats": [
+        "1"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to book a house in nice place. Can you search and find a good house for me to live?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, Let me know the number of bedrooms required by you in that house. Also I want to know whether you need this house for rent or you want to buy this?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to buy this house and I need 2 bed rooms."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about the baths? How many baths you need?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need only 1 bath in that house."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there any particular area to search for the house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, search it in Santa Rosa. I want to buy a new property in that area."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I got 10 houses and do you want to buy the one named Behringer Harvard located at 4656 Quigg Drive and the cost for this house is $2,250,000."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Check for the availability of garage and laundry service there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They have both garage and in-unit laundry machines."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is nice to know. Thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I proceed with booking of visit schedule?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, make it now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "On which date you want to visit that house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need to book a schedule of visit on 7th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I need your confirmation to book a Schedule of visit to the house named Behringer Harvard for the date March 7th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is confirmed to proceed further."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have successfully scheduled the visit for that day."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks and I want to share the location now for which I need your help."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "To whom you want to share the location?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Share it with Christian."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to share the location 4656 Quigg Drive with Christian."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sorry, please share the location to Carol."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to share the location 4656 Quigg Drive with Carol."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have shared the location."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks and I want to get a cab to go there and I prefer Normal ride."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Let me know the number of seats required by you."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need three seats."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to book a cab with regular ride to 4656 Quigg Drive and it is for 3 persons."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Make it for 1 person."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to book a cab for regular ride for 1 person."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please continue."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your cab was booked and the same is on its way."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Let me know the cost for this ride."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It costs $12.43."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to know the time will be taken by the Cab to reach my place."
+      }
+    ],
+    "case_id": "sgd-carryover-08"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "22_00040",
+      "source_file": "test/dialogues_022.json",
+      "source_index": 40,
+      "source_turn": 30,
+      "target_turn": 36
+    },
+    "service": "Flights_4",
+    "constraint_slot": "return_date",
+    "constraint_text": "On March 9th.",
+    "constraint_value": "March 9th",
+    "target_task": "Is this ticket a premium economy ticket?",
+    "target_intent": "SearchRoundtripFlights",
+    "oracle_response": "It's an Economy class ticket and arrives at 2:11 pm.",
+    "old_state": {
+      "return_date": [
+        "March 9th"
+      ]
+    },
+    "active_state": {
+      "return_date": [
+        "March 9th"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I need something interesting to do."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "In which city should I look?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need something around NY."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of event do you like?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like Broadway very much."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Acting for Teens will be at 520 8th Ave. - Personal Valet Parking, on March 4th at 6 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How much are the tickets?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Tickets are $35 each."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Where is it located?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It is at 520 8th Ave. - Personal Valet."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else can you find? Maybe a concert on March 2nd."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Abbi Jacobson will be at Kaufmann Concert Hall on March 2nd at 6:30 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That sounds perfect."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to buy tickets now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not yet thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I do anything else for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need to find buses going there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where will you leave from?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am departing from Philly."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Will you leave on March 2nd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "YEs that is fine."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is one departing at 9 am that costs $22."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you find me anything else?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a 10:10 am bus that costs $25."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is perfect thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need tickets for this bus?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not at this time."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I do anything else for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need a round trip flight for 2 on American Airlines."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "When will you return?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "On March 9th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Will you depart on March 2nd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes that will work."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 1 flight on American Airlines which departs at 1:20 pm and returns at 11:20 am. It is $103."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "WHen will the returning flight arrive?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It will arrive at 12:11 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is this ticket a premium economy ticket?"
+      }
+    ],
+    "case_id": "sgd-carryover-09"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "75_00008",
+      "source_file": "train/dialogues_075.json",
+      "source_index": 8,
+      "source_turn": 28,
+      "target_turn": 34
+    },
+    "service": "RentalCars_1",
+    "constraint_slot": "pickup_time",
+    "constraint_text": "I would like to pick the car up around morning 11.",
+    "constraint_value": "morning 11",
+    "target_task": "Is there anything else that's available? I would like a compact car until the 9th of this month.",
+    "target_intent": "GetCarsAvailable",
+    "oracle_response": "I have 5 cars that you might like. One is a car that is available at Phoenix Union Station and you can pick it up on March 8th. the car is a compact car, it is a Bolt.",
+    "old_state": {
+      "pickup_time": [
+        "morning 11"
+      ]
+    },
+    "active_state": {
+      "pickup_time": [
+        "morning 11"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I need to find round trip flights, can you help me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where are you going to go? When are you planning to leave?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I plan to leave 2nd of this month. I am going to Phoenix and like to travel in economy."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "When do you plan to return?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to come back on the 13th of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is your point of departure?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to leave from ATL."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have found a Delta Airlines flight that leaves at 6:50 am and the return flight will depart at 11:55 am. This ticket costs $248."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is this a refundable ticket? Are there zero stops on this flight?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, but the ticket is not refundable. It has 1 stop."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That flight sounds fine with me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Should I buy you the tickets for it?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please book the ticket for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, confirm these details for me: the flight departs from Atlanta and goes to Phoenix on Delta Airlines. The flight leaves on March 2nd at 6:50 am and comes back on March 13th at 11:55 am with 1 passenger in economy."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I have three people in my group."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm these details for me: there are 3 passengers in economy seating class."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that sounds fine."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your ticket has been confirmed."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What airport is the flight leaving from?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The flight leaves from Hartsfield-Jackson International Airport."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What time does the onward flight arrive?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The onward flight will get there at 8:02 am."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks very much for your help. Can you also find a rental car for me there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to have the car starting on March 2nd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want the car beginning on 8th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you wish to use the car until March 13th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like it until 12th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time will you be needing it?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to pick the car up around morning 11."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a good car available that you can pickup on March 8th at Sky Harbor International Airport. The car is a standard, it is an Accord."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the cost in total?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your reservation will cost $136 total."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there anything that you find available?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a nice car that you can pickup on March 8th at Sky Harbor International Airport. This car is a standard car, it is a Camry."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there anything else that's available? I would like a compact car until the 9th of this month."
+      }
+    ],
+    "case_id": "sgd-carryover-10"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "94_00029",
+      "source_file": "train/dialogues_094.json",
+      "source_index": 29,
+      "source_turn": 28,
+      "target_turn": 34
+    },
+    "service": "Hotels_3",
+    "constraint_slot": "check_out_date",
+    "constraint_text": "yes and i want to check out on 6th of this month",
+    "constraint_value": "6th of this month",
+    "target_task": "what is the total cost",
+    "target_intent": "ReserveHotel",
+    "oracle_response": "it will be $450",
+    "old_state": {
+      "check_out_date": [
+        "6th of this month",
+        "march 6th"
+      ]
+    },
+    "active_state": {
+      "check_out_date": [
+        "6th of this month",
+        "march 6th"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I am looking for a bus ticket leaving on 6th of this month"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where are you going and what time are you leaving and for how many tickets do you need"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am going to SD for four people leaving at 11:30"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where are you traveling from"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am traveling from fresno"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm your booking for 4 economy tickets leaving from fresno to san diego on march 6th at 11:30 am"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes thats correct"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry i couldn't find you a ticket, is there anything else i can help you with"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "can you try book again for ticket leaving from sacramento depart at night 8:15"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "please confirm your booking for 4 economy tickets leaving from sacramento to san diego on march 6th at 8:15 pm"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "no i want to leave on later today to fresno"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "please confirm your traveling to fresno on march 1st"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes thats correct, what is the station i am leaving from"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "you will be leaving from sacramento valley station at 7:50 pm for $33"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes thats correct"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "your ticket is booked"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "what station does the bus arrive"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "you will be arriving at fresno station"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "thank you, i also need a hotel room"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about 4.3 rating hotel called doubletree by hilton hotel fresno convention center"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "what is their phone number and address"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "they are located in 2233 ventura street and phone number is +1 559-268-1000"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "do you have more hotels"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about 3.7 rating hotel called la quinta inn by wyndham fresno yosemite"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes thats fine"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "would you like to reserve a room"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes please"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "is your check in date on march 1st"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes and i want to check out on 6th of this month"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "please confirm your booking for 1 room with la quinta inn by wyndham fresno yosemite in fresno checking in on march 1st and check out on march 6th"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "yes thats correct"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "your room is booked"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "that is the hotel address"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "their address is 2926 tulare street"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "what is the total cost"
+      }
+    ],
+    "case_id": "sgd-carryover-11"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "23_00078",
+      "source_file": "test/dialogues_023.json",
+      "source_index": 78,
+      "source_turn": 26,
+      "target_turn": 32
+    },
+    "service": "Trains_1",
+    "constraint_slot": "number_of_adults",
+    "constraint_text": "Good! I want to buy a conditionally refundable tickets for 1 person.",
+    "constraint_value": "1",
+    "target_task": "What is the departure station?",
+    "target_intent": "GetTrainTickets",
+    "oracle_response": "The departure station is Santa Fe Depot",
+    "old_state": {
+      "number_of_adults": [
+        "1"
+      ]
+    },
+    "active_state": {
+      "number_of_adults": [
+        "1"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I have to make a payment with Margaret"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Which account do you want to pay?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I prefer from my bank account"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is the payment amount?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to transfer $49"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "A transaction visible to the public from you debit card: $49 with Margaret. Do you confirm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I confirm, thanks"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Payment has been made successfully"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks. Now I need a train"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is the day of the trip?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to leave on 3rd of March"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is the destination? What is the city of departure?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need a ticket from San Diego to Sacramento, CA"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 9 trains. There's a train departing at 6:10 am which costs $149 in total"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the departure station?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The train leaves Santa Fe Depot"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the arrival station?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It arrives at Sacramento Valley Station"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Are there any other trains available?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, there's a train departing at 6:40 am which costs $154 in total"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, It's fine for me!"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to buy the ticket now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not now, maybe later. How's the weather in Sacramento, CA on next Thursday?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Average temperature: 80 degrees Fahrenheit. Chance of rain: 22 percent"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Will it be a wet and windy day?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Average wind speed: 4 miles per hour. Humidity: around 34 percent"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Good! I want to buy a conditionally refundable tickets for 1 person."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you prefer travel insurance?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please, I want the trip insurance."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "A value ticket for 1 people with trip insurance, from San Diego to Sacramento, on March 3rd at 6:40 am. Do you confirm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, It's correct, I confirm."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your ticket has been purchased"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the departure station?"
+      }
+    ],
+    "case_id": "sgd-carryover-12"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "dev",
+      "dialogue_id": "17_00094",
+      "source_file": "dev/dialogues_017.json",
+      "source_index": 94,
+      "source_turn": 26,
+      "target_turn": 32
+    },
+    "service": "Hotels_4",
+    "constraint_slot": "star_rating",
+    "constraint_text": "Cool, thanks. I also need 2 rooms at a 4 star hotel.",
+    "constraint_value": "4",
+    "target_task": "Thanks, are there any other hotels like the one I'm looking for?",
+    "target_intent": "SearchHotel",
+    "oracle_response": "There is a 4 star hotel called Ac Hotel New York Times Square.",
+    "old_state": {
+      "star_rating": [
+        "4"
+      ]
+    },
+    "active_state": {
+      "star_rating": [
+        "4"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I'm looking for something fun to do."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where would you like to do something? Is there anything you are specifically looking for like music or sports?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How about sports events in NYC."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The Mets Vs Braves is playing on March 13th at 6 pm at Citi Field."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That could be fun."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like me to purchase tickets now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not right now. Can you find me a bus there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where will you be leaving from?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Leaving from Washington."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to leave on March 13th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I want to leave on the 2nd of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a $32 bus ticket leaving at 8:10 am with 0 transfers."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else is there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a $34 8:20 am bus with 0 transfers as well."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What station would I be leaving and arriving at?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You will be leaving from Union Station and arriving at Port Authority Station."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Are there other bus options?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a $35 ticket leaving at 11:10 am with 0 transfers."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for looking. What about roundtrip flights?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "When do you want your return flight day to be?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to come back on the 14th. Can you make those premium economy tickets?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to leave march 13th or March 2nd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to leave this Sunday."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 3 possible flights. There is a $227 American Airlines flight leaving at 4:10 am with a return flight leaving at 2:10 pm local time."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "When does that flight arrive? And what airport is it going to?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The flight arrives at 5:20 am at JFK International Airport."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Cool, thanks. I also need 2 rooms at a 4 star hotel."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "1 Hotel Brooklyn Bridge is a 4 star hotel."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else is there? Actually, I just need 1 room."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 9 possible hotels. 6 Columbus Hotel is a 4 star hotel in the area."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How much would that be? And what's their contact number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The cost is $296. You can reach them at +1 212-204-3000"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks, are there any other hotels like the one I'm looking for?"
+      }
+    ],
+    "case_id": "sgd-carryover-13"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "74_00010",
+      "source_file": "train/dialogues_074.json",
+      "source_index": 10,
+      "source_turn": 26,
+      "target_turn": 32
+    },
+    "service": "Hotels_1",
+    "constraint_slot": "star_rating",
+    "constraint_text": "That works for me. I need two rooms in a 3 star hotel that has wifi.",
+    "constraint_value": "3",
+    "target_task": "What else can you find?",
+    "target_intent": "SearchHotel",
+    "oracle_response": "11 Howard has wifi and is 3 stars.",
+    "old_state": {
+      "star_rating": [
+        "3"
+      ]
+    },
+    "active_state": {
+      "star_rating": [
+        "3"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Find me event dates."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What event do you want and in what city shall I look?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to see Mets Vs Pirates in New York."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Mets Vs Pirates are playing at Citi Field on March 5th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What other days are they playing?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Mets Vs Pirates are playing at Citi Field on March 6th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is their address?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their address is 123-01 Roosevelt Avenue."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What time is first pitch?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "First pitch is at 5:30 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What other days are they playing?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Mets Vs Pirates are playing at Citi Field on March 8th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That works for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I get you tickets?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not at the moment."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need more help?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need a bus to get there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is your city of departure?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am departing Washington."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Are you departing March 8th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I am departing next Tuesday."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is an Economy bus departing at 8:10 am and costs $36."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else can you find?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is an Economy bus departing at 8:20 am and costs $39."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the departing and arrival station?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The departing station is Union Station and the arrival station is Port Authority Station."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That works for me. I need two rooms in a 3 star hotel that has wifi."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "1 Hotel Brooklyn Bridge has wifi and is a 3 star hotel."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else can you find?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "1 Hotel Central Park has wifi and is a 3 star place."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is their location and contact number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They are located at 1414 6th Avenue and you can reach them at +1 212-703-2001."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else can you find?"
+      }
+    ],
+    "case_id": "sgd-carryover-14"
+  },
+  {
+    "case_type": "carryover",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "26_00084",
+      "source_file": "test/dialogues_026.json",
+      "source_index": 84,
+      "source_turn": 24,
+      "target_turn": 30
+    },
+    "service": "Travel_1",
+    "constraint_slot": "category",
+    "constraint_text": "Okay, That sounds perfect. Please find me museum there.",
+    "constraint_value": "Museum",
+    "target_task": "Okay, cool. Find me a house to stay there.",
+    "target_intent": "FindAttractions",
+    "oracle_response": "I found 10 nice houses. How about a house with 4.6 rating located at 10 East Thomas Road?",
+    "old_state": {
+      "category": [
+        "Museum"
+      ]
+    },
+    "active_state": {
+      "category": [
+        "Museum"
+      ]
+    },
+    "persistence_turns": 3,
+    "textual_evidence": [
+      "source_utterance_contains_old_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I am looking for conditionally refundable tickets in a train going from Anaheim, CA to Phoenix, AZ."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is the date of departure?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to depart on 4th of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 4 trains that might be suitable for you. How about a train departing at 6:30 am with the ticket cost of $122?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you find me the names of the stations it arrives at and depart from?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It departs from Anaheim Intermodal Center and arrives at Phoenix Union Station."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you show me any other trains suitable to my requirements?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about a train departing at 6:40 am with the ticket cost of $123?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you show me any other trains suitable to my requirements?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about a train departing at 12 pm with the ticket cost of $137?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This train sounds good to me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like me to book the tickets for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I don't want to book the tickets now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I assist with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Find me something interesting to do there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of events do you prefer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I mostly prefer Theater."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about a very popular show called Boondocks Improv taking place at Dearing Acting Studio on March 10th at 6:30 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This event sounds good. Are there any other available event?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about a very popular show called Chaos Comedy Improv Show taking place at Dearing Acting Studio on March 7th at 5 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Find me the address of the venue and the cost of one ticket?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The address of the venue is 10806 north 32nd Street and the cost of one ticket is $20."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "It sounds good. But can you find me a musical performance event on the 11th?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 10 events you may like. How about a very popular event called Dreamers taking place at The Van Buren on March 11th at 7:30 pm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, That sounds perfect. Please find me museum there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 7 museum. How about Arizona Capitol Museum?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is this museum child friendly?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, This museum is child friendly."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you check whether the fee for entrance is free?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "No, The entry is not free."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, cool. Find me a house to stay there."
+      }
+    ],
+    "case_id": "sgd-carryover-15"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "dev",
+      "dialogue_id": "17_00127",
+      "source_file": "dev/dialogues_017.json",
+      "source_index": 127,
+      "source_turn": 44,
+      "target_turn": 46
+    },
+    "service": "Restaurants_2",
+    "constraint_slot": "time",
+    "constraint_text": "I want to have the reservation at this restaurant at half past 11 in the morning.",
+    "constraint_value": "half past 11 in the morning",
+    "target_task": "That is not right, because I want the reservation to be for 10:45.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "Then can you please confirm that you want your reservation to be for March 12th at 10:45 am?",
+    "old_state": {
+      "time": [
+        "half past 11 in the morning"
+      ]
+    },
+    "active_state": {
+      "time": [
+        "10:45"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want you to find a therapist for me which is considered to be a Psychologist."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me in which city I should search for the therapist?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am interested in a therapist which is located in Sausalito."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You might consider Richard J. Leary, which is a Psychologist in Sausalito."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there some other therapist you can recommend, if I am looking for a Family Counselor in Campbell?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I can suggest Beth Kane, which is a Family Counselor in Campbell."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you give me the address of this therapist, and the phone number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "If you want to call them you can at 408-378-7868. The address of the therapist is 621 E Campbell Ave # 17."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That seems nice."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Are you interested in booking an appointment with this therapist?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I want to have an appointment booked for me with this therapist."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me the date for when you want to have the appointment be reserved for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to have the appointment to be reserved for 11th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me the time for when I should make the reservation for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I will be free to have the appointment at 16:30."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you please confirm that you want to book an appointment with Beth Kane at 4:30 pm on March 11th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I apologize but I could not make your requested reservation for the appointment. Can I do something else to help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you try again to make the reservation for the appointment at 13:30?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you please confirm that you want to book an appointment with Beth Kane at 1:30 pm on March 11th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that suits me well."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I apologize but I could not make your requested reservation for the appointment. Is there something else I can help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want you to try again to make a booking for the appointment for 12th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you pleae confirm that you want to have an appointment booked for you with Beth Kane on March 12th at 1:30 pm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that would work."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your requested reservation for the appointment has been made, and an email should arrive to you soon confirming that."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I appreciate it very much! Thank you! Now I want to know my balance."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to know the balance for your checking account or four savings account?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to know the balance in my savings account."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The balance in your savings account is $10,493.81."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that is nice."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you want to make a transfer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I am not interested in making a transfer, but I want to find a restaurant there, so that I can eat something."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me the kind of food you would like to have?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am interested in a restaurant which serves Noodles."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "A good restaurant in Campbell that I can suggest is Best Taste Sushi & Chinese Restaurant."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you give me their phone number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "If you want to call them you can at 408-377-7666."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there some other restaurant you can suggest?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Another good restaurant in Campbell is Blue Sky."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you give me their address? Can you also check if they have outdoor seating?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Unfortunately they do not have outdoor seating. You can find the restaurant at 2028 Winchester Boulevard."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Alright, that is nice. I would like to book a table for four people at this restaurant for that day."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me the time for when I should book the table?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to have the reservation at this restaurant at half past 11 in the morning."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you please confirm that you want to book a table for 4 people at Blue Sky restaurant in Campbell on March 12th at 11:30 am?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is not right, because I want the reservation to be for 10:45."
+      }
+    ],
+    "case_id": "sgd-overwrite-01"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "78_00087",
+      "source_file": "train/dialogues_078.json",
+      "source_index": 87,
+      "source_turn": 42,
+      "target_turn": 44
+    },
+    "service": "Services_2",
+    "constraint_slot": "appointment_time",
+    "constraint_text": "Is there anything at two PM?",
+    "constraint_value": "two PM",
+    "target_task": "No, something after 12:00 please.",
+    "target_intent": "BookAppointment",
+    "oracle_response": "Please confirm the following details: Book an appointment with Advanced Ceramics Dental Sudio at 12 PM.",
+    "old_state": {
+      "appointment_time": [
+        "two PM"
+      ]
+    },
+    "active_state": {
+      "appointment_time": [
+        "12:00"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I would like to find a doctor, and particularly a General Practitioner."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "In which city would you like to search?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need someone in San Fran."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 10 results which match your selection: One is Abazari Mina MD in San Francisco. This is a General Practitioner."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What's their number?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The contact number is 949-916-9100."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Any other options? I also need a Dermatologist in San Ramon, please."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 3 results which match your selection. There is Advanced Laser & Skin Care center in San Ramon. This is a Dermatologist."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there any other options?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, another is Dr. Robert Greenberg in San Ramon. This is a Dermatologist."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Give me their phone number, please. Also, what is their address?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They are located at 3511 School Street, and can be reached at 925-277-1300."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, this works."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to now schedule an appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, please for March 7th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time will work best for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like it at 3:30 in the afternoon."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm the following information: Scheduling an appointment now with Dr. Robert Greenberg at 3:30 PM on March 7th. Is this correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, sounds great."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, but I was unable to book an appointment at this time. Is there anything else that I may help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you try another time? How about 3:15 in the afternoon?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm the following information: Schedule an appointment with Dr. Robert Greenberg at 3:15 PM on March 7th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that sounds great. What is their rating?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their rating is 3.7 out of 5 stars. I was unable to book this appoinment. How about Dr. Robert Greenberg on March 7th at 3 PM?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that works."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your appointment has been successfull booked."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for that. When am I free on that day?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Which date would you like it on?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The date is March 14th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The date is set to be March 14th, and there is an empty slot beginning at 8 AM. The empty slot will end at 4:30 PM."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to add this as an event in your calendar?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, please skip adding that event."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there anything else that I may assist you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can I find a dentist in the same area?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, please search in San Ramon."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, that works."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 10 dentists which match your selection. One is Advanced Ceramics Dental Sudio in San Ramon."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay, I like that one."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to book an appointment now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please book it now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Which time would you like to designate?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there anything at two PM?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm the following information: Book an appointment with Advanced Ceramics Dental Sudio at 2 PM on March 14th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, something after 12:00 please."
+      }
+    ],
+    "case_id": "sgd-overwrite-02"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "83_00090",
+      "source_file": "train/dialogues_083.json",
+      "source_index": 90,
+      "source_turn": 40,
+      "target_turn": 42
+    },
+    "service": "Music_1",
+    "constraint_slot": "song_name",
+    "constraint_text": "I would like to listen to Cheap Smell please.",
+    "constraint_value": "Cheap Smell",
+    "target_task": "Could you change the song to Hey Hey Hey instead?",
+    "target_intent": "PlaySong",
+    "oracle_response": "No problem, please confirm your action to play Hey Hey Hey on the TV.",
+    "old_state": {
+      "song_name": [
+        "Cheap Smell"
+      ]
+    },
+    "active_state": {
+      "song_name": [
+        "Hey Hey Hey"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Hi there, are there any places which I can dine at?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you have any preference for the location of the restaurant?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would prefer one located in Lafayette please."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Any preference on the type of food, such as Chinese, American food?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, a restaurant serving pizza would be great for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have found 3 restaurants for you, one of which is called Locanda Positano which is located in Lafayette."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "May I have their address and what is the price range of their food?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can visit them at 1005 Brown Avenue and they are moderate priced."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This is fine with me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like me to make a table reservation for you"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Perhaps at a later time."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Will you require any further assistance?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Could you also help me search for a salon in Lafayette?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, there is a nice salon called 18|8 Fine Men'S Salons - Lafayette which is located in Lafayette."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that sounds fine to me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like me to schedule an appointment there?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sure, could you help me do so please?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "When would you like the appointment scheduled?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I will be travelling there on the 4th of this month at evening 5:45."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, please confirm your appointment at 18|8 Fine Men'S Salons - Lafayette on March 4th at 5:45 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sorry, could you schedule the appointment at 3:15 pm on the 11th of March instead?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, please confirm your appointment at 3:15 pm on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sure, that sounds great to me, may I have their address to?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can visit them at 15 Fiesta Lane. Unfortunately, I was not able to make the appointment. Would you like me to schedule an appointment at at 18|8 Fine Men'S Salons - Lafayette on March 11th at 3 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that sounds great to me!"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your appointment has been scheduled."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is this a unisex salon?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, it is."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you! Could you now make a reservation at the restaurant we previously discussed about at 4:30 in the evening?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, please confirm your reservation for 2 at Locanda Positano in Lafayette at 4:30 pm on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I am fine with that."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, I could not make your reservation, could I further assist you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes please, could you try booking again at 17:15 instead?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, please confirm your reservation for 2 at Locanda Positano in Lafayette at 5:15 pm on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am fine with this arrangement. May i have their contact number and do they serve liquor?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can contact them at 925-310-4337 and they do serve alcohol. Unfortunately, I was not able to make your reservation. would you like a reservation for 2 at Locanda Positano in Lafayette at 5:30 pm on March 11th instead?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I am fine with that too."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, your reservation has been made."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you so much! Could you play so music for me please?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, what song do you want to listen to?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to listen to Cheap Smell please."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm your action to play Cheap Smell on the TV."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Could you change the song to Hey Hey Hey instead?"
+      }
+    ],
+    "case_id": "sgd-overwrite-03"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "73_00060",
+      "source_file": "train/dialogues_073.json",
+      "source_index": 60,
+      "source_turn": 36,
+      "target_turn": 38
+    },
+    "service": "Events_2",
+    "constraint_slot": "number_of_tickets",
+    "constraint_text": "No, not now. At present I want to book the tickets for the event that I have chose before and I need 3 tickets.",
+    "constraint_value": "3",
+    "target_task": "Make it for 4 tickets.",
+    "target_intent": "BuyEventTickets",
+    "oracle_response": "Please confirm to book 4 tickets to the event in San Francisco.",
+    "old_state": {
+      "number_of_tickets": [
+        "3"
+      ]
+    },
+    "active_state": {
+      "number_of_tickets": [
+        "4"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to search for dates of some nice events which should be an enjoyable one. Can you find the best one for me?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is your favorite category of event that you want me to search and in which City you like to search for that event?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I think the event Giants Vs Rockies is the good one and I need to search it in San Francisco."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about the date March 1st on which the event Giants Vs Rockies will take place at Oracle Park?. Is that convenient to you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "check about other dates for this event."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "This event Giants Vs Rockies will also be held at Oracle Park on March 3rd. How about this date?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is the convenient one. Thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I book the tickets to this event now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, will think about it later. Now, I want to book two Flexible tickets to a bus to go there. I want your help in this regard."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about your departure date? shall I go with March 3rd or something else? And also let me know your current location to search the bus."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Departure date is confirmed as March 3rd and I want to book it from Sacramento."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Got 10 bus details that match your requirements and what about the one leaves at 7:40 am for flexible ticket price $41?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Let me know about the final destination of this bus."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I will reach finally to Salesforce Transit Center."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Search for something else as I need the one which is exactly meet my requirements."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How about another one bus which leaves at 8:30 am for the flexible ticket cost $41?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "From which station this bus will leave?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It will leave from Sacramento Valley Station and hope this will meet your requirements."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sorry to say, this is also not suitable one. Can you search for some other buses which will leave by tomorrow?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, what about the one under price of flexible ticket is $44 which will leave at 10:20 am?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This the perfect one."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I book the tickets now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, will be later. Thanks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How can I help you further?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Search for me some nice hotels with Wi-fi connection. I need to boo two rooms there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Got 10 results and what about the one which is in the name of Amsterdam Hostel San Francisco with 1 star?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Get me their contact number, so that I can use for my future reference."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their phone number is +1 415-673-3277 by which you can contact them at any time."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Also I want to know the address of that hotel."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "This hotel is located at 749 Taylor Street."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for the details. I need to search for some 3 star hotels, can you search for the one?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, what about a best hotel named Argonaut Hotel? which is a 3 star hotel and is the best one among the 10 results I got."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sorry, that is also not suitable to me. Can you search for something else?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, What about Bei Hotel San Francisco which is a 3 Star Hotel and it is a homely one."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is the one I want."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I book the rooms there."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not now. At present I want to book the tickets for the event that I have chose before and I need 3 tickets."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to book 3 tickets to the event Giants Vs Rockies in San Francisco on March 3rd."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Make it for 4 tickets."
+      }
+    ],
+    "case_id": "sgd-overwrite-04"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "22_00091",
+      "source_file": "test/dialogues_022.json",
+      "source_index": 91,
+      "source_turn": 34,
+      "target_turn": 36
+    },
+    "service": "Restaurants_2",
+    "constraint_slot": "number_of_seats",
+    "constraint_text": "No, I'd like the reservation at 1:30 pm for 1 person.",
+    "constraint_value": "1",
+    "target_task": "No, the table is for 2 people.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "Please confirm details for a reservation at 1:30 pm for 2 people.",
+    "old_state": {
+      "number_of_seats": [
+        "1"
+      ]
+    },
+    "active_state": {
+      "number_of_seats": [
+        "2"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Please find me a psychologist therapist in Oakland."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can try Alameda Children's Specialized a psychologist in Oakland."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That sounds nice."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to book an appointment with the therapist."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I'd like to book the appointment."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is the preference for your appointment?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The appointment should be around 1:30 pm."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Tell me the date for the appointment."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Will you make an appointment for the 3rd of this month?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details for an appointment with Alameda Children's Specialized at 1:30 pm March 3rd."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that works for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, something is wrong and I couldn't book the appointment. Will there be anything I can assist with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you try booking the appointment again with an appointment time of 11:45 in the morning? Can you book the appointment for Wednesday next week."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details to book an appointment with Alameda Children's specialized at 11:45 am March 6th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that will work for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, it didn't go right and I couldn't book the appointment so you may want to try Alameda Children's Specialized. You may get a March 6th appointment for 11:30 am."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that will work for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The appointment was a success in being booked. You should receive an email confirmation soon."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need to request a payment I remembered with Wilson a private transfer for 60 bucks."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details for a private transaction with Wilson for $60."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, the person to make the transaction with will be Mary for 104 dollars."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details that you are making a transaction with Mary for $104."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is it."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The payment request was a success."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need to find a restaurant for a meal that day."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of food are you searching for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need something Cambodian."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "In Oakland is 3 Seasons Thai Bistro a nice restaurant."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that will be good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Will you assist with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need to book a table at a restaurant."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time should I reserve for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The reservation is needed at 1:15 pm."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details that you are booking a table at 3 Seasons Thai Bistro in Oakland for 1:15 pm March 6th for 2 people."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I'd like the reservation at 1:30 pm for 1 person."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm details for a reservation at 1:30 pm for 1 person."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, the table is for 2 people."
+      }
+    ],
+    "case_id": "sgd-overwrite-05"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "82_00065",
+      "source_file": "train/dialogues_082.json",
+      "source_index": 65,
+      "source_turn": 32,
+      "target_turn": 34
+    },
+    "service": "RideSharing_2",
+    "constraint_slot": "ride_type",
+    "constraint_text": "I would like to get a ride to 33 South Central Avenue. I would like a pool ride.",
+    "constraint_value": "Pool",
+    "target_task": "No, I would rather have a luxury ride.",
+    "target_intent": "GetRide",
+    "oracle_response": "Please confirm these details: You want a luxury ride with 4 seats.",
+    "old_state": {
+      "ride_type": [
+        "Pool"
+      ]
+    },
+    "active_state": {
+      "ride_type": [
+        "Luxury"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I would like to find an imax movie to watch. I like Ghost movies and would like to watch one at Pruneyard Cinemas."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where are you located?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you do a search for movies showing in Campbell? I really enjoy fantasy movies."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about Dumbo or Hellboy?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Dumbo would be great."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to purchase tickets for this movie?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I don't want to buy tickets now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need help with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I also would like to find a restaurant there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of food are you interested in?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I think pizza and pasta would be fantastic."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a nice restaurant in Campbell called A Bellagio Italian Restaurant."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is their phone number? What is their price level?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They have a moderate price range. Their phone number is 408-370-7705."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is fine with me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to make a reservation for a table there?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Maybe later, not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there anything else I can help you with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What time will I be able to watch that movie you found?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to watch it on March 7th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes that sounds fine."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is one showing at 3 pm in Pruneyard Dine-In Cinemas."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the price of the ticket?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It costs $14 per person."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That sounds good. Would you try to book a table for 4 people at the restaurant that I liked?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time do you want the reservation for?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like the reservation to be at 7 pm."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm these details: you would like to book a table at A Bellagio Italian Restaurant in Campbell. You want the reservation to be at 7 pm on the date of March 7th for 4 people."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes that is fine with me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your reservation has been made successfully."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Would you be able to get me a cab going there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of ride do you want? You can choose Regular or Luxury or something else. Are you going to 1875 South Bascom Avenue or 33 South Central Avenue?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to get a ride to 33 South Central Avenue. I would like a pool ride."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm these details: You would like a pool ride with 4 seats to 33 South Central Avenue."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I would rather have a luxury ride."
+      }
+    ],
+    "case_id": "sgd-overwrite-06"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "32_00117",
+      "source_file": "test/dialogues_032.json",
+      "source_index": 117,
+      "source_turn": 32,
+      "target_turn": 36
+    },
+    "service": "RideSharing_2",
+    "constraint_slot": "number_of_seats",
+    "constraint_text": "Book it for 4 persons.",
+    "constraint_value": "4",
+    "target_task": "Book it for only 1 person.",
+    "target_intent": "GetRide",
+    "oracle_response": "Okay, confirm to book a Car for 1 person to go to 25173 Cypress Avenue.",
+    "old_state": {
+      "number_of_seats": [
+        "4"
+      ]
+    },
+    "active_state": {
+      "number_of_seats": [
+        "1"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to search for some nice house to live. I need your help to find the good one for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Le me know the number of bedrooms required by you in that house."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need three bed rooms."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you have any specific area to search for the house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Search for the one in Hayward."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Also I want to confirm one more thing that let me clarify whether you need this house for rent or you want to buy it."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need this house for rent only."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "That's nice, Please also let me know the required number baths in that house."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I need two baths."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, thanks for the details. Please note that I got 10 houses and the best one is in the name Amberwood Garden Apartments located at 26100 Gading Road for the cost $3,900. Do you like to live in this house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Search for something else and I need three baths."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What about Amador Apartments located at 24660 Amador Street and the cost for which is $4,300."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Check for availability of Garage and Laundry machines there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "They do not have any garage as well as laundry machines."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Then, search for some other places which should fulfill my requirements."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Another house named Amador Royal located at 25173 Cypress Avenue for the Cost $3,900. Do you like this house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I like this place and I want to book it."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I make a schedule of visit to that house now?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, make it for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay, What is your convenient date to visit to that house?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Make a schedule for the 10th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I need your confirmation to book a visit schedule to Amador Royal on March 10th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is confirmed to proceed."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have successfully booked the visit schedule."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is very nice and thanks. Now I want to share my location for which I need your help."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "To Whom you want to share the location?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "share it with Ruth."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm to share the location 25173 Cypress Avenue with Ruth."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is confirmed to proceed."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have shared it successfully."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for your help and please get a cab to go there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Let me know your required number of seats to book a Cab."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Book it for 4 persons."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you like to take a Regular ride or Luxury ride?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like to travel through a Luxury ride."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I need your confirmation to book a Car for Luxury ride to 25173 Cypress Avenue and the same is for 4 persons."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Book it for only 1 person."
+      }
+    ],
+    "case_id": "sgd-overwrite-07"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "83_00028",
+      "source_file": "train/dialogues_083.json",
+      "source_index": 28,
+      "source_turn": 32,
+      "target_turn": 36
+    },
+    "service": "Restaurants_1",
+    "constraint_slot": "time",
+    "constraint_text": "That works for me. Get me a table for one at 4:30 in the evening.",
+    "constraint_value": "4:30 in the evening",
+    "target_task": "Make the reservation for two people at half past 5 in the evening.",
+    "target_intent": "ReserveRestaurant",
+    "oracle_response": "You want a table for 2 at Jai Yun Restaurant in San Francisco for 5:30 pm on March 3rd. Is that correct.",
+    "old_state": {
+      "time": [
+        "4:30 in the evening"
+      ]
+    },
+    "active_state": {
+      "time": [
+        "half past 5 in the evening"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Find me a movie to see."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What city do you want to see it in?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Find me movies playing in SFO."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Search turned up 10 results. Do you like any of Ash Is Purest White, Captain Marvel or Citizen Kane?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, find me some other movies such as a regular Life history movie."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you like JT LeRoy?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "JT LeRoy works for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I get you tickets?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need more help?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Find me a costly priced restaurant near there."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of food do you like?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am in the mood for some Taiwanese food."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Search revealed 4 results. Hakkasan serves Taiwanese food in San Francisco."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How do I get in touch with them?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You can contact them at 415-829-8148."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else do you have?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Jai Yun Restaurant is another San Francisco restaurant."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Are there live bands there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "No, they don't have live bands."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is great."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I book you a table?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you need more help?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I wish to watch that movie from earlier."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Will you see it on March 3rd?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I will."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is one showing at 7 pm at Roxie Theater."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What is the theater's location?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Their physical location is 3117 16th ST."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What does a ticket cost?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "A single ticket is $16 a a person."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That works for me. Get me a table for one at 4:30 in the evening."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You want a table for 1 at Jai Yun Restaurant in San Francisco at 4:30 pm on March 3rd. Is that info right?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is right."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I can't make that booking. Do you need more help?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Make the reservation for two people at half past 5 in the evening."
+      }
+    ],
+    "case_id": "sgd-overwrite-08"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "80_00110",
+      "source_file": "train/dialogues_080.json",
+      "source_index": 110,
+      "source_turn": 32,
+      "target_turn": 36
+    },
+    "service": "Media_1",
+    "constraint_slot": "genre",
+    "constraint_text": "I like comedy films",
+    "constraint_value": "comedy",
+    "target_task": "Do you know anything else? Action movies okay for me and i love movies directed by Michael Schultz.",
+    "target_intent": "FindMovies",
+    "oracle_response": "I found 1 movie for you. what is your opinion about The Last dragon?",
+    "old_state": {
+      "genre": [
+        "comedy"
+      ]
+    },
+    "active_state": {
+      "genre": [
+        "Action"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Could you help me to search for a bus?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "To where are you going and on what date? From which place you are leaving?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like to go Anaheim on 9th of march and i like to leave from Los Angeles."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I searched 10 buses of your choice. One of them starts at 7 am with 0 transfers and cost of ticket is $13."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me any other available buses? I like to leave from Sacramento."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 1 bus for you which departs at 7:40 am with 1 transfers and ticket cost is $64."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell any other available buses?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 1 bus for you which departs at 8:30 am with 1 transfers and ticket cost is $65."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This is perfect. Can you search me a rental car there?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "To what date you need the car?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want the car till march 13th."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Are you like to have the car from march 9th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want the car from 11th of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time you need the car?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like to pick up the car around 1:45 in the afternoon."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Are you like to pick it up from Anaheim?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes. This is perfect."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have selected 6 cars of your liking.There is a nice Standard car Accord available at John Wayne Airport for pick up on March 11th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me the total fare?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The total fare is $62."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me any other available cars? I want the car from the 12th around 5 in the evening."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have selected 5 cars of your liking.There is a nice Standard car Altima available at John Wayne Airport for pick up on March 12th"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me any other available cars? I want the car till 14th of march and i need a small car."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found a nice compact Bolt car available at John Wayne Airport for pick up on march 12th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me the total fare?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The total fare is $58."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "This is perfect. I like to book the car."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please give confirmation details: You are picking a Compact car from John Wayne Airport on March 12th at 5 pm and the drop off will be on March 14th"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is fine"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your car booking is over."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like to search a film to watch online."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of film you want?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like comedy films"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is A Madea Family Funeral, Auntie Mame or Dr. Strangelove okay for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you tell me anything else?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is Family, Gloria Bell or Green book okay for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Do you know anything else? Action movies okay for me and i love movies directed by Michael Schultz."
+      }
+    ],
+    "case_id": "sgd-overwrite-09"
+  },
+  {
+    "case_type": "overwrite",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "25_00098",
+      "source_file": "test/dialogues_025.json",
+      "source_index": 98,
+      "source_turn": 30,
+      "target_turn": 34
+    },
+    "service": "Messaging_1",
+    "constraint_slot": "contact_name",
+    "constraint_text": "I'd like to share it with Karen.",
+    "constraint_value": "Karen",
+    "target_task": "No, I'd like to share it with Theresa.",
+    "target_intent": "ShareLocation",
+    "oracle_response": "Please confirm you're sharing the location Peachtree Station with Theresa.",
+    "old_state": {
+      "contact_name": [
+        "Karen"
+      ]
+    },
+    "active_state": {
+      "contact_name": [
+        "Theresa"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_contains_new_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Please show me my alarms."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is an alarm for Running at 7 am."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Ok, sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Did you want to add another alarm?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not right now. I'd like to find a restaurant in Pinole and I will need vegetarian options."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of food did you prefer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like something serving noodles."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 3 restaurants for you. China Delights is a nice restaurant in Pinole."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that sounds good."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Did you want to book a table here?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Not right now."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Did you need help with anything else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like to book a car. I will need it from tomorrow and I'd like to pick it up at half past 10 in the morning."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Until when did you need the car?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I will need it until the day after tomorrow."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What type of car did you prefer?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like a SUV."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Did you need insurance?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I don't."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where did you want to pick the car up?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Peachtree Station is convenient for me."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm you're picking up a SUV car from Peachtree Station on March 2nd at 10:30 am and dropping it off on March 3rd."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your car has been booked."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How much will it cost per day and what is the car's name?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The name of the car is GMC Terrain and it will cost $34.00 a day."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you. Could you help share the location?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Which address did you wish to share: Peachtree Station, 1501 Tara Hills Drive, or something else?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like to share 1501 Tara Hills Drive."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Who did you want to share it with?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like to share it with Karen."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm you're sharing the location 1501 Tara Hills Drive with Karen."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I am actually sharing the address Peachtree Station."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please confirm you're sharing the location Peachtree Station with Karen."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I'd like to share it with Theresa."
+      }
+    ],
+    "case_id": "sgd-overwrite-10"
+  },
+  {
+    "case_type": "revocation",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "96_00017",
+      "source_file": "train/dialogues_096.json",
+      "source_index": 17,
+      "source_turn": 18,
+      "target_turn": 24
+    },
+    "service": "Flights_2",
+    "constraint_slot": "airlines",
+    "constraint_text": "Thanks! I'd also like to get a one-way flight to go there. I prefer United Airlines and I'd like to leave on the 2nd of this month.",
+    "constraint_value": "United Airlines",
+    "target_task": "Could you try again? Maybe for the 3rd. Any airline is okay but I'd like economy tickets.",
+    "target_intent": "SearchOnewayFlight",
+    "oracle_response": "I found 2 flights. There's Air Canada which leaves at 1:25 pm with 1 stop for $149.",
+    "old_state": {
+      "airlines": [
+        "United Airlines"
+      ]
+    },
+    "active_state": {
+      "airlines": [
+        "dontcare"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_removes_or_relaxes_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Can you find me something interesting to do?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What kind of thing would you like? You can say music, sports or something else."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like sports, especially baseball."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What city shall I look in?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Look in the San Francisco area."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There's the Giants vs Brewers playing at Oracle Park on March 5th at 7 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "On second thought could you look for something on the 12th of this month in around Philadelphia."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I found 3 games. There's the Phillies vs Braves at Citizens Bank Park on March 12th at 8 pm."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What's the address?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It's 1 Citizens Bank Way."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That would be perfect."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Shall I order tickets?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, please do."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How many tickets should I order?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like four tickets."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Please Confirm: You want 4 tickets for the Phillies vs Braves game in Philadelphia on March 12th."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is correct."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your tickets are confirmed. Enjoy the game!"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks! I'd also like to get a one-way flight to go there. I prefer United Airlines and I'd like to leave on the 2nd of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Where would you like to leave from?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd be leaving from Toronto, Ontario."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There's a United Airlines flight with 1 stop leaving at 5:35 pm. The ticket is $189."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is there any other flights?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sorry, I couldn't find another flight. Can I do anything else for you?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Could you try again? Maybe for the 3rd. Any airline is okay but I'd like economy tickets."
+      }
+    ],
+    "case_id": "sgd-revocation-01"
+  },
+  {
+    "case_type": "revocation",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "54_00037",
+      "source_file": "train/dialogues_054.json",
+      "source_index": 37,
+      "source_turn": 16,
+      "target_turn": 18
+    },
+    "service": "Buses_2",
+    "constraint_slot": "fare_type",
+    "constraint_text": "Can you check other times? I'm after 4 economy extra tickets.",
+    "constraint_value": "Economy extra",
+    "target_task": "What else is there? Can you check for 2 tickets, any class is fine.",
+    "target_intent": "FindBus",
+    "oracle_response": "Okay there's 8 buses that match. There's one departing 8:30 am. Economy tickets are $48.",
+    "old_state": {
+      "fare_type": [
+        "Economy extra"
+      ]
+    },
+    "active_state": {
+      "fare_type": [
+        "dontcare"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_removes_or_relaxes_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I need to book a one way flight"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, where od you want to go?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Going to SFO"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What is your departure date?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "7th of March"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "And your departure city?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Flying out of LAX please"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have 4 flights that match. There's a 0 stop Alaska Airlines flight departing 5:50 pm. The one way ticket is $92."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else is available, I need a refundable ticket just in case."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Okay there's a 0 stop American Airlines flight departing 3:15 pm. The one way ticket is $107."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay sounds good"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like me to book you a ticket?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, thanks. Is there a bus instead?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Still departing March 7th?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, can you look for buses leaving on the 1st."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a bus departing at 6:20 am. An economy ticket is $45."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you check other times? I'm after 4 economy extra tickets."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There's 9 buses that match. There's on departing 8:20 am. Economy extra tickets are $62"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "What else is there? Can you check for 2 tickets, any class is fine."
+      }
+    ],
+    "case_id": "sgd-revocation-02"
+  },
+  {
+    "case_type": "revocation",
+    "eligible": true,
+    "source": {
+      "split": "dev",
+      "dialogue_id": "5_00125",
+      "source_file": "dev/dialogues_005.json",
+      "source_index": 125,
+      "source_turn": 4,
+      "target_turn": 6
+    },
+    "service": "Media_2",
+    "constraint_slot": "subtitle_language",
+    "constraint_text": "The Mustang is great. I want to rent it. Can you find it with English Subtitles?",
+    "constraint_value": "English",
+    "target_task": "No I don't want any subtitles.",
+    "target_intent": "RentMovie",
+    "oracle_response": "Playing The Mustang with no subtitles. Is that correct?",
+    "old_state": {
+      "subtitle_language": [
+        "English"
+      ]
+    },
+    "active_state": {
+      "subtitle_language": [
+        "None"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_removes_or_relaxes_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I want to see a Movie."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What genre would you like to watch?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I like drama movies directed by Laure de Clermont-tonnerre."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have 1 option for you and it is The Mustang."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The Mustang is great. I want to rent it. Can you find it with English Subtitles?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Playing The Mustang with English subtitles. Is that correct?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No I don't want any subtitles."
+      }
+    ],
+    "case_id": "sgd-revocation-03"
+  },
+  {
+    "case_type": "revocation",
+    "eligible": true,
+    "source": {
+      "split": "train",
+      "dialogue_id": "6_00070",
+      "source_file": "train/dialogues_006.json",
+      "source_index": 70,
+      "source_turn": 0,
+      "target_turn": 2
+    },
+    "service": "Music_2",
+    "constraint_slot": "artist",
+    "constraint_text": "I feel like listening to some music. Could you find me something by Ben Platt?",
+    "constraint_value": "Ben Platt",
+    "target_task": "Are any other songs available? The singer doesn't matter, but I'd like for the genre to be Electropop.",
+    "target_intent": "LookupMusic",
+    "oracle_response": "How about the Linkin Park song Battle Symphony, from their album One More Light?",
+    "old_state": {
+      "artist": [
+        "Ben Platt"
+      ]
+    },
+    "active_state": {
+      "artist": [
+        "dontcare"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_removes_or_relaxes_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I feel like listening to some music. Could you find me something by Ben Platt?"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How does the Ben Platt song Bad Habit, from his album Sing To Me Instead, sound?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Are any other songs available? The singer doesn't matter, but I'd like for the genre to be Electropop."
+      }
+    ],
+    "case_id": "sgd-revocation-04"
+  },
+  {
+    "case_type": "revocation",
+    "eligible": true,
+    "source": {
+      "split": "test",
+      "dialogue_id": "19_00092",
+      "source_file": "test/dialogues_019.json",
+      "source_index": 92,
+      "source_turn": 0,
+      "target_turn": 6
+    },
+    "service": "RentalCars_3",
+    "constraint_slot": "car_type",
+    "constraint_text": "I'm looking to rent a nice SUV in the San Diego area. I'll be picking it up at three in the afternoon.",
+    "constraint_value": "SUV",
+    "target_task": "I'll actually be needing the car later today. For that reason, can you find something else? Any car will do fine for me.",
+    "target_intent": "GetCarsAvailable",
+    "oracle_response": "At the Santa Fe Depot, there is a Hyundai Ioniq Sedan.",
+    "old_state": {
+      "car_type": [
+        "SUV"
+      ]
+    },
+    "active_state": {
+      "car_type": [
+        "dontcare"
+      ]
+    },
+    "persistence_turns": 0,
+    "textual_evidence": [
+      "source_utterance_contains_old_value",
+      "target_utterance_removes_or_relaxes_value"
+    ],
+    "target_separable": true,
+    "context_turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I'm looking to rent a nice SUV in the San Diego area. I'll be picking it up at three in the afternoon."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How long do you wish to keep the car?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'll rent the car until the 6th of March."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What date will you be picking the car up from?"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The rental will start on the 3rd of this month."
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "3 cars are available for rent in that area. It is a Citroen C5 SUV ready for pick up at SAN International Airport."
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'll actually be needing the car later today. For that reason, can you find something else? Any car will do fine for me."
+      }
+    ],
+    "case_id": "sgd-revocation-05"
+  }
+]

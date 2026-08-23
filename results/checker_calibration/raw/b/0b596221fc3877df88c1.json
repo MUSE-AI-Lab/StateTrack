@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "fail",
+    "constraint": "fail",
+    "recall": "fail",
+    "task_rationale": "The behavior response is empty and does not provide information about machine learning.",
+    "constraint_rationale": "The behavior response is empty and does not include exactly 3 bullet points.",
+    "recall_rationale": "The recall response is incomplete and does not name the active rule."
+  },
+  "raw_content": "{\"task\":\"fail\",\"constraint\":\"fail\",\"recall\":\"fail\",\"task_rationale\":\"The behavior response is empty and does not provide information about machine learning.\",\"constraint_rationale\":\"The behavior response is empty and does not include exactly 3 bullet points.\",\"recall_rationale\":\"The recall response is incomplete and does not name the active rule.\"}",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 413,
+    "total_tokens": 578,
+    "completion_tokens_details": {
+      "reasoning_tokens": 340
+    }
+  },
+  "duration_s": 2.1662492002360523,
+  "request_id": "chatcmpl-adccc34e0ff300e6facc35a7ea2c8adf"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The response successfully tells a classic joke.",
+    "constraint_rationale": "The response is entirely in all capital letters.",
+    "recall_rationale": "No recall response was provided."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"fail\",\"task_rationale\":\"The response successfully tells a classic joke.\",\"constraint_rationale\":\"The response is entirely in all capital letters.\",\"recall_rationale\":\"No recall response was provided.\"}",
+  "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 267,
+    "total_tokens": 456,
+    "completion_tokens_details": {
+      "reasoning_tokens": 213
+    }
+  },
+  "duration_s": 3.7984832003712654,
+  "request_id": "chatcmpl-b521b1043552ec94d40be42d3f8942c2"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response addresses the probe by explaining that current local system time is not directly available.",
+    "constraint_rationale": "Both the behavior and recall responses start with 'CONFIRMED:' and end with '[END]'.",
+    "recall_rationale": "The recall response accurately states the persistent setup requirement to start responses with 'CONFIRMED:' and end with '[END]'."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The response addresses the probe by explaining that current local system time is not directly available.\",\n  \"constraint_rationale\": \"Both the behavior and recall responses start with 'CONFIRMED:' and end with '[END]'.\",\n  \"recall_rationale\": \"The recall response accurately states the persistent setup requirement to start responses with 'CONFIRMED:' and end with '[END]'.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 742,
+    "total_tokens": 992,
+    "completion_tokens_details": {
+      "reasoning_tokens": 620
+    }
+  },
+  "duration_s": 3.617946300189942,
+  "request_id": "chatcmpl-a517290227aa1faeb97b6950fb58e1a8"
+}

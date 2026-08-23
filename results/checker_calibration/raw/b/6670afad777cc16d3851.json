@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response accurately provided all requested project details.",
+    "constraint_rationale": "No constraints were violated in the response.",
+    "recall_rationale": "The separate recall response accurately stated the active persistent setup instruction."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The behavior response accurately provided all requested project details.\",\n  \"constraint_rationale\": \"No constraints were violated in the response.\",\n  \"recall_rationale\": \"The separate recall response accurately stated the active persistent setup instruction.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 265,
+    "completion_tokens": 601,
+    "total_tokens": 866,
+    "completion_tokens_details": {
+      "reasoning_tokens": 512
+    }
+  },
+  "duration_s": 2.3845708002336323,
+  "request_id": "chatcmpl-218dc2eedac21cc64c7b5ad80a31bbac"
+}

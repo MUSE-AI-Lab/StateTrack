@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response successfully tells a joke as requested.",
+    "constraint_rationale": "Both the behavior and recall responses strictly adhere to the ALL CAPS constraint.",
+    "recall_rationale": "The recall response explicitly states the active persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The response successfully tells a joke as requested.\",\"constraint_rationale\":\"Both the behavior and recall responses strictly adhere to the ALL CAPS constraint.\",\"recall_rationale\":\"The recall response explicitly states the active persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 486,
+    "total_tokens": 682,
+    "completion_tokens_details": {
+      "reasoning_tokens": 422
+    }
+  },
+  "duration_s": 5.747567200101912,
+  "request_id": "chatcmpl-bc09dc987c62487976f75eabd809b7b2"
+}

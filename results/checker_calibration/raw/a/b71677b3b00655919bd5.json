@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The response fully and accurately answers the probe about what is known about the user.",
+    "constraint_rationale": "The response accurately reflects all facts provided in the persistent setup without breaking any constraints.",
+    "recall_rationale": "The recall response accurately states the exact persistent instructions."
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"pass\",\n  \"task_rationale\": \"The response fully and accurately answers the probe about what is known about the user.\",\n  \"constraint_rationale\": \"The response accurately reflects all facts provided in the persistent setup without breaking any constraints.\",\n  \"recall_rationale\": \"The recall response accurately states the exact persistent instructions.\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 262,
+    "completion_tokens": 390,
+    "total_tokens": 652,
+    "completion_tokens_details": {
+      "reasoning_tokens": 289
+    }
+  },
+  "duration_s": 7.9431327995844185,
+  "request_id": "chatcmpl-60af8b0b7f40b41799a4f5e5cddd4f87"
+}

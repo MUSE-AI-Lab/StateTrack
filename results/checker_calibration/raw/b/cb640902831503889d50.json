@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "fail",
+    "task_rationale": "The behavior response accurately provided all details requested about the project.",
+    "constraint_rationale": "The response maintained exact compliance with all persistent project setup information.",
+    "recall_rationale": "The separate recall response failed to name the active rule, stating only 'I can't discuss that.'"
+  },
+  "raw_content": "```json\n{\n  \"task\": \"pass\",\n  \"constraint\": \"pass\",\n  \"recall\": \"fail\",\n  \"task_rationale\": \"The behavior response accurately provided all details requested about the project.\",\n  \"constraint_rationale\": \"The response maintained exact compliance with all persistent project setup information.\",\n  \"recall_rationale\": \"The separate recall response failed to name the active rule, stating only 'I can't discuss that.'\"\n}\n```",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 694,
+    "total_tokens": 923,
+    "completion_tokens_details": {
+      "reasoning_tokens": 590
+    }
+  },
+  "duration_s": 2.7923020999878645,
+  "request_id": "chatcmpl-a9fcead395131bf18de4c620dd81e73b"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.6-flash-c2",
+  "parsed": {
+    "task": "pass",
+    "constraint": "pass",
+    "recall": "pass",
+    "task_rationale": "The behavior response accurately explains quantum computing, including qubits, superposition, and entanglement, within the requested persona.",
+    "constraint_rationale": "The behavior response strictly follows the pirate persona, using appropriate vocabulary and dialect throughout.",
+    "recall_rationale": "The recall response explicitly quotes the exact persistent rule."
+  },
+  "raw_content": "{\"task\":\"pass\",\"constraint\":\"pass\",\"recall\":\"pass\",\"task_rationale\":\"The behavior response accurately explains quantum computing, including qubits, superposition, and entanglement, within the requested persona.\",\"constraint_rationale\":\"The behavior response strictly follows the pirate persona, using appropriate vocabulary and dialect throughout.\",\"recall_rationale\":\"The recall response explicitly quotes the exact persistent rule.\"}",
+  "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 386,
+    "total_tokens": 749,
+    "completion_tokens_details": {
+      "reasoning_tokens": 308
+    }
+  },
+  "duration_s": 2.4685668000020087,
+  "request_id": "chatcmpl-bf21e3b4c4aa4d1a757f78ba9a53ad98"
+}
