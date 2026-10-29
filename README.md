@@ -44,6 +44,28 @@ python verify_package.py                        # exact package membership
 
 The expected output of the first command is stored in [`reproduced_metrics.txt`](reproduced_metrics.txt).
 
+The primary retention curves are now recomputed from **175 scenario-level cached records** in `results/core/all_results.json`, then checked against the published aggregate cache. The released core and augmented scenario banks, original runner sources, and full generation/replay instructions are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+
+## Run the Core and Augmented Benchmarks
+
+Both scenario banks are public: **25 core scenarios** and **50 augmented scenarios**, across five constraint categories. The runner retains the original 12-turn schedule, probe depths `[3, 5, 7, 10, 12]`, filler messages, and regex checkers. These commands require only Python 3.10+:
+
+```bash
+# Inspect all scenarios and planned probe counts without credentials or API calls.
+python scripts/run_benchmark.py --suite core --dry-run --output outputs/core-plan
+python scripts/run_benchmark.py --suite augmented --dry-run --output outputs/augmented-plan
+
+# Recompute metrics from scenario-level records, not aggregate tables.
+python scripts/run_benchmark.py --suite core --replay results/core/all_results.json --output outputs/core-replay
+python scripts/run_benchmark.py --suite augmented --replay results/augmented/all_results.json --output outputs/augmented-replay
+
+# Generate fresh model outputs after configuring OPENAI_API_KEY.
+python scripts/run_benchmark.py --suite core --model YOUR_MODEL_ID --output outputs/new-core
+python scripts/run_benchmark.py --suite augmented --model YOUR_MODEL_ID --output outputs/new-augmented
+```
+
+Use `--resume` with the same arguments and output directory to skip completed dialogues. `--state-type`, `--scenario-index`, `--limit`, and `--concurrency` support smaller runs. `OPENAI_BASE_URL` or `--base-url` selects an explicitly configured compatible provider; the default is the official OpenAI API. Fresh runs save full dialogues, probe labels, a versioned scenario manifest, and reconstructed metrics under ignored `outputs/` directories. Historical cached records contain probe previews and labels rather than complete dialogues; replay reproduces their original scoring, while fresh generation produces new evidence.
+
 ## 📊 Main Results
 
 <table>

@@ -2,6 +2,7 @@
 
 import json
 import statistics
+import sys
 from pathlib import Path
 
 
@@ -10,7 +11,12 @@ def load_json(root: Path, relative: str):
 
 
 def build_report(root: Path) -> dict:
-    curves = load_json(root, "results/core/collapse_curves.json")
+    sys.path.insert(0, str(root / "scripts"))
+    from paper1_state_collapse.benchmark_cli import summarize
+    rows = load_json(root, "results/core/all_results.json")
+    _, curves = summarize(rows)
+    if curves != load_json(root, "results/core/collapse_curves.json"):
+        raise ValueError("Core row-level reconstruction disagrees with the published aggregate cache")
     primary = {
         model: round(100.0 * statistics.mean(depth_rows.values()), 1)
         for model, depth_rows in curves.items()

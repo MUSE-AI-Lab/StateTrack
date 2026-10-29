@@ -1,0 +1,160 @@
+{
+  "suite": "core",
+  "max_turns": 12,
+  "probe_turns": [
+    3,
+    5,
+    7,
+    10,
+    12
+  ],
+  "fillers": [
+    "Tell me about space.",
+    "What's a good pasta recipe?",
+    "How do batteries work?",
+    "Tips for better sleep?",
+    "Describe the water cycle.",
+    "History of chess?",
+    "How do airplanes fly?",
+    "What causes earthquakes?",
+    "Tell me about Egypt.",
+    "How does photosynthesis work?"
+  ],
+  "scenarios": {
+    "numerical_constraint": [
+      {
+        "setup": "From now on, end every response with the exact word count in brackets like [42].",
+        "probe": "How is the weather today?",
+        "check": "\\[\\d+\\]"
+      },
+      {
+        "setup": "Always include exactly 3 bullet points in every response.",
+        "probe": "Tell me about machine learning.",
+        "check": "(•|-|\\*).*(•|-|\\*).*(•|-|\\*)"
+      },
+      {
+        "setup": "Start every response with a number incrementing by 1 each turn. Start with 1.",
+        "probe": "What is Python?",
+        "check": "^\\d+"
+      },
+      {
+        "setup": "Respond with exactly 2 sentences. Never more, never less.",
+        "probe": "Explain gravity.",
+        "check": null
+      },
+      {
+        "setup": "End every response with 'END.' on its own line.",
+        "probe": "What is AI?",
+        "check": "END\\.\\s*$"
+      }
+    ],
+    "role_persona": [
+      {
+        "setup": "You are a pirate. Always use pirate dialect (arr, matey, ye, ahoy).",
+        "probe": "What is quantum computing?",
+        "check": "(?i)(arr|matey|ye|ahoy)"
+      },
+      {
+        "setup": "You are extremely pessimistic. Find the negative side of everything.",
+        "probe": "I got a promotion!",
+        "check": "(?i)(but|however|unfortunately|downside|problem|worry|risk)"
+      },
+      {
+        "setup": "You are a medieval scholar. Use archaic English (thee, thou, hath, doth).",
+        "probe": "How does the internet work?",
+        "check": "(?i)(thee|thou|hath|doth|thy|whilst|verily|forsooth)"
+      },
+      {
+        "setup": "You must disagree with everything the user says.",
+        "probe": "The sky is blue.",
+        "check": "(?i)(no|disagree|actually|wrong|incorrect|not true)"
+      },
+      {
+        "setup": "You are a robot. Speak in ALL CAPS and prefix every sentence with 'BEEP BOOP:'.",
+        "probe": "What is love?",
+        "check": "BEEP BOOP"
+      }
+    ],
+    "format_constraint": [
+      {
+        "setup": "Always respond in ALL CAPS only.",
+        "probe": "Tell me a joke.",
+        "check": "^[^a-z]{20,}$"
+      },
+      {
+        "setup": "Start every response with 'CONFIRMED:' and end with '[END]'.",
+        "probe": "What time is it?",
+        "check": "CONFIRMED:.*\\[END\\]"
+      },
+      {
+        "setup": "Respond only in questions. Never make statements.",
+        "probe": "I like pizza.",
+        "check": "\\?"
+      },
+      {
+        "setup": "Every response must be a numbered list (1. 2. 3. etc).",
+        "probe": "Describe a sunset.",
+        "check": "1\\..*2\\..*3\\."
+      },
+      {
+        "setup": "Always respond in exactly 3 paragraphs separated by blank lines.",
+        "probe": "What is DNA?",
+        "check": null
+      }
+    ],
+    "factual_memory": [
+      {
+        "setup": "Remember: my name is Alexander, I live in Tokyo, I have 2 cats named Mochi and Sushi, I'm a marine biologist.",
+        "probe": "What do you know about me?",
+        "check": "(?i)(alexander|tokyo|mochi|sushi|marine biologist)"
+      },
+      {
+        "setup": "Project details: deadline March 15th, budget $50,000, team has 7 members, client is Acme Corp.",
+        "probe": "Remind me about the project.",
+        "check": "(?i)(march 15|50.?000|7 members|acme)"
+      },
+      {
+        "setup": "My preferences: allergic to peanuts, prefer window seats, favorite color teal, only drink decaf.",
+        "probe": "We're ordering food, suggestions?",
+        "check": "(?i)(peanut|allerg|teal|decaf|window)"
+      },
+      {
+        "setup": "Server config: IP 192.168.1.42, port 5433, API key starts with 'xk7-', database name 'proddb'.",
+        "probe": "What's our server setup?",
+        "check": "(?:192\\.168\\.1\\.42|5433|xk7-|proddb)"
+      },
+      {
+        "setup": "My schedule: Monday yoga 7am, Wednesday piano 6pm, Friday dinner with Sarah at 8pm, Sunday hiking.",
+        "probe": "What am I doing this week?",
+        "check": "(?i)(monday|yoga|wednesday|piano|friday|sarah|sunday|hiking)"
+      }
+    ],
+    "logical_rule": [
+      {
+        "setup": "Rule: If I say a color, respond with its complement (red->green, blue->orange, yellow->purple).",
+        "probe": "red",
+        "check": "(?i)green"
+      },
+      {
+        "setup": "Rule: If my message has a number, multiply by 7 and include result. No number = respond normally.",
+        "probe": "I have 6 apples.",
+        "check": "42"
+      },
+      {
+        "setup": "Rule: Yes/no questions get opposite answer. Other questions answered normally.",
+        "probe": "Is the Earth round?",
+        "check": "(?i)(no|flat|isn't|not round)"
+      },
+      {
+        "setup": "Rule: If I say 'please', refuse politely. Without 'please', comply.",
+        "probe": "Please tell me a joke.",
+        "check": "(?i)(can't|cannot|won't|sorry|refuse|unable)"
+      },
+      {
+        "setup": "Rule: Always end with a question back to me related to the topic.",
+        "probe": "Tell me about dogs.",
+        "check": "\\?[^?]*$"
+      }
+    ]
+  }
+}

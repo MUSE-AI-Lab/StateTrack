@@ -1,0 +1,14 @@
+{
+  "core": {
+    "original_module": "experiments/paper1_state_collapse/run_experiment.py",
+    "original_sha256": "3076c06a0b574375f8a284287cfa3ff55aa27ca6956c82de3030133350c4da0d",
+    "constant": "STATE_SCENARIOS",
+    "scenarios": 25
+  },
+  "augmented": {
+    "original_module": "experiments/paper1_state_collapse/run_augmented.py",
+    "original_sha256": "44d6041354558148dcd5bb172e2d883ae1db207e767b95e9550cc8ed8629722a",
+    "constant": "AUG_SCENARIOS",
+    "scenarios": 50
+  }
+}

@@ -1,0 +1,24 @@
+name: Reproducibility
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/run_benchmark.py --suite core --replay results/core/all_results.json --output outputs/ci-core
+      - run: python scripts/run_benchmark.py --suite augmented --replay results/augmented/all_results.json --output outputs/ci-augmented
+      - run: python tools/reproduce_reported_metrics.py
+      - run: python tools/verify_checksums.py
+      - run: python verify_package.py

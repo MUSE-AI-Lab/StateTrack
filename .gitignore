@@ -6,3 +6,5 @@ venv/
 .env
 *.log
 .DS_Store
+outputs/
+experiment_config.json

@@ -1,6 +1,6 @@
 {
     "release_type": "public",
-    "release_date": "2026-08-24",
+    "release_date": "2026-10-29",
     "members": [
         {
             "path": ".gitattributes",
@@ -8,24 +8,19 @@
             "sha256": "0994e0a8bdaa5a382e37627ab40267cdd0e9a8907b948b7fcea0fbfa6ac25746"
         },
         {
-            "path": ".gitignore",
-            "bytes": 72,
-            "sha256": "bfed0fdd24b6d6ba1766052d7708ce629e24b7de9313bd0ee05c3d7bce157abd"
+            "path": ".github/workflows/ci.yml",
+            "bytes": 810,
+            "sha256": "65d7f5c5814fd811a4e8530ddabc16fcded2f3b7342d7e6aab48f39dec97df8c"
         },
         {
-            "path": "assets/protocol.jpg",
-            "bytes": 127030,
-            "sha256": "ca78dd15e2ec7f2a19e624bb26b81a377464c762df17953dc8a26f2d3fe7807b"
+            "path": ".gitignore",
+            "bytes": 104,
+            "sha256": "d046c2930dc46e500dcdd432acb06e49bfe340024d2f0cc642c272a9bb4685d6"
         },
         {
             "path": "CITATION.cff",
             "bytes": 512,
             "sha256": "bf6c86fcf51cb580fafdc4cb5ddd683a0229c1ca1605b71e5d05693cb71d05ad"
-        },
-        {
-            "path": "experiment_config.example.json",
-            "bytes": 496,
-            "sha256": "4bcc9be0ed35b76914683e09d6b0c9aa2e89bcbbe9c04326fd73d2f92602b5de"
         },
         {
             "path": "LICENSE",
@@ -38,19 +33,64 @@
             "sha256": "7dd7016cabf22530bdb647dabc5f82ac17dc6a73467b99fea4a958af09d800ad"
         },
         {
+            "path": "README.md",
+            "bytes": 9633,
+            "sha256": "fce2946e629e054d00849bb7d59347aed5d280d9c305918ce23df76b46b57210"
+        },
+        {
+            "path": "REPRODUCIBILITY.md",
+            "bytes": 6130,
+            "sha256": "7736c10a64b61e116ec3d08a988486957c213bee7c61ac60327f1fcc46b5db9d"
+        },
+        {
+            "path": "SECURITY.md",
+            "bytes": 483,
+            "sha256": "75c7d63b41e2270072f7ab3ddf3691d57e06eb47d048a303ffa4d8d426435290"
+        },
+        {
+            "path": "SHA256SUMS.txt",
+            "bytes": 24736,
+            "sha256": "206112e0f27337f945225fea8db442d39037785159dfb2d7d8bd4cccd5b53b77"
+        },
+        {
+            "path": "assets/protocol.jpg",
+            "bytes": 127030,
+            "sha256": "ca78dd15e2ec7f2a19e624bb26b81a377464c762df17953dc8a26f2d3fe7807b"
+        },
+        {
+            "path": "benchmarks/PROVENANCE.json",
+            "bytes": 487,
+            "sha256": "5fd07ae131df3906bb8b3ab7afd6fdda0357018987c951de72ed409d124859ed"
+        },
+        {
+            "path": "benchmarks/augmented.json",
+            "bytes": 10286,
+            "sha256": "59a48a9cb71c6022d23a89a4cb57f062e3b3c25de42f6ff8c0e6b3325eda1c4c"
+        },
+        {
+            "path": "benchmarks/core.json",
+            "bytes": 5501,
+            "sha256": "5ec72db1cea1b7fa43097a03d8ef3e38d67ff094de9a64efef3e04d7890cff56"
+        },
+        {
+            "path": "experiment_config.example.json",
+            "bytes": 496,
+            "sha256": "4bcc9be0ed35b76914683e09d6b0c9aa2e89bcbbe9c04326fd73d2f92602b5de"
+        },
+        {
             "path": "metadata/snapshot_manifest.csv",
             "bytes": 303,
             "sha256": "22a197d348da594a90e3fb2a5ecdf50811671baca146c3de1a97a99e4f808dc5"
         },
         {
-            "path": "README.md",
-            "bytes": 7480,
-            "sha256": "7ecae6ca7c9a5bf0e3c7c6fba6756c9150f6db1a96ca1c40d489e009f506b23f"
-        },
-        {
             "path": "reproduced_metrics.txt",
             "bytes": 742,
             "sha256": "88abd370d64e826f30bfc87710e65aa9acc72398966224c1731998d377d63a27"
+        },
+        {
+            "path": "results/augmented/all_results.json",
+            "bytes": 358793,
+            "sha256": "52a845276189517cfea85a0bca6c2f876efb0b0e1d95575d760d296f44ddbe1b"
         },
         {
             "path": "results/checker_calibration/raw/a/0013020fc0ac749a533f.json",
@@ -773,9 +813,24 @@
             "sha256": "a786801cacd8f30b7658a26566fbb94c7421205645f4edb4882fd4265cea9d5a"
         },
         {
+            "path": "results/core/all_results.json",
+            "bytes": 200732,
+            "sha256": "741e104705ab0277611a968c090c89aafe5a6bfa4fbc64831accbe6c86415b6b"
+        },
+        {
             "path": "results/core/collapse_curves.json",
             "bytes": 717,
             "sha256": "84ce1625c9c38a9685707b1280b42e50e6446e06e66985d3e08a6b65e3d5519b"
+        },
+        {
+            "path": "results/core/state_retention_matrix.json",
+            "bytes": 4147,
+            "sha256": "3edb56125dc29d100a8724fbb3ba8bbb36afd2bd2611525a256f620d0e796656"
+        },
+        {
+            "path": "results/ecological_pilot/README.md",
+            "bytes": 1892,
+            "sha256": "60a939225edb68482050b544ccd74565dff02b9e59cd0a9a41db2fcb825c99b5"
         },
         {
             "path": "results/ecological_pilot/case_audit.csv",
@@ -796,11 +851,6 @@
             "path": "results/ecological_pilot/raw_subject_outputs.json",
             "bytes": 275656,
             "sha256": "d452414cc8428c3bd4e364eceece363ebc143fd55f742ec668501cbd8954d10e"
-        },
-        {
-            "path": "results/ecological_pilot/README.md",
-            "bytes": 1892,
-            "sha256": "60a939225edb68482050b544ccd74565dff02b9e59cd0a9a41db2fcb825c99b5"
         },
         {
             "path": "results/ecological_pilot/selected_cases.json",
@@ -898,6 +948,26 @@
             "sha256": "52e610b211870a3cbb8a838e4f02b2f00b0d0110caae668530dd4330e5894fac"
         },
         {
+            "path": "scripts/common/utils.py",
+            "bytes": 1254,
+            "sha256": "efb77d323e8ef9f232681e15a9d523fa3744bad2e0d7cf0977f71321c94a8c3a"
+        },
+        {
+            "path": "scripts/paper1_state_collapse/benchmark_cli.py",
+            "bytes": 13787,
+            "sha256": "2a7fca1be3b816d067c74d166d9b18e5cad511de2fb17cd19ba07364d9b9c6d7"
+        },
+        {
+            "path": "scripts/paper1_state_collapse/run_augmented.py",
+            "bytes": 12333,
+            "sha256": "588f6b1765fff4637405152f8a719e806965398b6e8f1e9777f4523509813fde"
+        },
+        {
+            "path": "scripts/paper1_state_collapse/run_experiment.py",
+            "bytes": 8791,
+            "sha256": "00bb8313851c09893aa34e1c301ba7ae0a5f7c3f1d6ec055db4f9829bf82aa37"
+        },
+        {
             "path": "scripts/paper1_state_collapse/run_model_assisted_checker_audit.py",
             "bytes": 7975,
             "sha256": "abe08a02e07135c5d81dba828098a325791054d78ecd6da82674bf0e73b0d988"
@@ -916,6 +986,11 @@
             "path": "scripts/paper1_state_collapse/run_symbolic_depth_audit.py",
             "bytes": 22452,
             "sha256": "0caf194c1939353f868496518dc08d45d20be0f5fc23f42cf414adb06dde1970"
+        },
+        {
+            "path": "scripts/run_benchmark.py",
+            "bytes": 211,
+            "sha256": "ff69d2c193b8ef896ebbc4bdc498a2a4f7cb77ac336fe3abb4e88130c8892fbb"
         },
         {
             "path": "scripts/sgd_ecological_pilot/prompts.py",
@@ -938,14 +1013,9 @@
             "sha256": "7b40c5d3696e806b1f1ace58ba20316b9f6725d4a60c2599c66648ad9e113405"
         },
         {
-            "path": "SECURITY.md",
-            "bytes": 483,
-            "sha256": "75c7d63b41e2270072f7ab3ddf3691d57e06eb47d048a303ffa4d8d426435290"
-        },
-        {
-            "path": "SHA256SUMS.txt",
-            "bytes": 23277,
-            "sha256": "0b78f7df3286b236785be5186c47e16e70315d62fe0841988d5f8bd34b0ede4b"
+            "path": "tests/test_benchmark_cli.py",
+            "bytes": 7105,
+            "sha256": "38327b382bb819796753db56129f81b0cc24882fa49cf484f9cecd643b9e66f4"
         },
         {
             "path": "tests/test_cached_evidence.py",
@@ -964,8 +1034,13 @@
         },
         {
             "path": "tools/reproduce_reported_metrics.py",
-            "bytes": 5337,
-            "sha256": "93c37a158cd1fc0d16cb0c30423d6e4e929540174bcc9af41da1436e5e9c6bc7"
+            "bytes": 5656,
+            "sha256": "b37fb790b373747937aa5bdd35cd5560fa7ae10db6f1ae64b4b0116e2471edd2"
+        },
+        {
+            "path": "tools/update_manifests.py",
+            "bytes": 1419,
+            "sha256": "32ade02e8146da7c4b2db78728b1f382f72a211318f75fa5765e34a53cd846d0"
         },
         {
             "path": "tools/verify_checksums.py",
@@ -974,8 +1049,8 @@
         },
         {
             "path": "verify_package.py",
-            "bytes": 1527,
-            "sha256": "684e95953e61cd9bfdd2dba8bc306431d48410b569762a7a295c6a3316d5a5b2"
+            "bytes": 2068,
+            "sha256": "5c20d64051f3ed7ac37b28c81a302c95f3fab8289a75a9d35e88b59d51825de3"
         }
     ]
 }

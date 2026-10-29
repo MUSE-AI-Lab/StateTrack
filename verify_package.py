@@ -15,14 +15,26 @@ def sha256(path: Path) -> str:
             digest.update(chunk)
     return digest.hexdigest()
 
+
+def release_files(root: Path) -> set[str]:
+    """Exclude only documented runtime state, keeping unknown extras detectable."""
+    ignored_dirs = {".git", "__pycache__", ".pytest_cache", ".venv", "venv"}
+    result = set()
+    for path in root.rglob("*"):
+        relative = path.relative_to(root)
+        if not path.is_file() or path == root / "PACKAGE_MANIFEST.json":
+            continue
+        if set(relative.parts) & ignored_dirs or relative.parts[0] == "outputs":
+            continue
+        if path.suffix in {".pyc", ".pyo", ".log"} or relative.as_posix() in {".env", "experiment_config.json", ".DS_Store"}:
+            continue
+        result.add(relative.as_posix())
+    return result
+
 def main() -> int:
     payload = json.loads(MANIFEST.read_text(encoding="utf-8"))
     expected = {item["path"]: item for item in payload["members"]}
-    actual = {
-        path.relative_to(ROOT).as_posix()
-        for path in ROOT.rglob("*")
-        if path.is_file() and path != MANIFEST and ".git" not in path.relative_to(ROOT).parts
-    }
+    actual = release_files(ROOT)
     errors: list[str] = []
     if set(expected) != actual:
         errors.append(
