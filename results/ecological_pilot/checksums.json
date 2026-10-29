@@ -3,38 +3,38 @@
   "files": [
     {
       "path": "case_audit.csv",
-      "size": 8000,
-      "sha256": "efa292096b9c40d34de828d362ea26a39f31ab5d03cbae81119fc54d0f6b0a5f"
+      "size": 7969,
+      "sha256": "0a35d6673dea563f4e4cb1d2827fa9ed9fde464e79309d2a6b46d52a98368d66"
     },
     {
       "path": "judged_outputs.json",
-      "size": 96595,
-      "sha256": "dd92f4a9b9a870a8a82eedd4ad1572353e8b1f70e70d396eca3769596ae7f216"
+      "size": 93654,
+      "sha256": "1b3bad67b06966130ee39e4fbacf15e265922ca88dd5cfa0b7baa1497d323e01"
     },
     {
       "path": "raw_subject_outputs.json",
-      "size": 280277,
-      "sha256": "d2bd5c7c5284d837b5028ddacf201b60320f59124921b6209bdde7f5abb55870"
+      "size": 275656,
+      "sha256": "d452414cc8428c3bd4e364eceece363ebc143fd55f742ec668501cbd8954d10e"
     },
     {
       "path": "selected_cases.json",
-      "size": 161149,
-      "sha256": "6da365b27edba98b855b5695596a0ee274905a6e05047c68c560d49222a74ee3"
+      "size": 155989,
+      "sha256": "ee2b96b0356bc55114ea16ab037ee3b1c4415d0c15fff13c792c6e70b97ff605"
     },
     {
       "path": "sgd_manifest.json",
-      "size": 84222,
-      "sha256": "6d69602339894f7268f5fad9195ff8a00d62a619ce3f61be0e193dc30d684ad4"
+      "size": 82555,
+      "sha256": "3a75a27e22562270136adb92a4734f2b6797091d7f2c4ae4436bfe445d3975e0"
     },
     {
       "path": "summary.json",
-      "size": 14666,
-      "sha256": "bd433dad035056df91a7051fee4240cdaf5aa9c7c4e58cbbd93b79c82f7d9fb9"
+      "size": 14090,
+      "sha256": "9be8e7378e0834c7de54f05f40419023886ee91be0d575a8ac34c8bd166a556a"
     },
     {
       "path": "summary.md",
-      "size": 506,
-      "sha256": "4707fbdc0f39a7bed1e15c0500035bf2d4e3d375fe341d0fc7b24e2445585aa6"
+      "size": 494,
+      "sha256": "e39422e53fa9a4747e94da2db475d2280715b1d91245ff4e1b069680ca273a27"
     }
   ]
 }

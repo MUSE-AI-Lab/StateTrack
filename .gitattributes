@@ -1,0 +1,2 @@
+# Keep every file byte-identical on all platforms so that the SHA-256 manifests verify everywhere.
+* -text
