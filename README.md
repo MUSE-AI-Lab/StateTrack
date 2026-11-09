@@ -15,6 +15,8 @@ School of Artificial Intelligence, Shenzhen University
 <a href="#-reproduce-the-paper-offline"><img src="https://img.shields.io/badge/Reproduce-offline%2C%20stdlib%20only-3776ab?logo=python&logoColor=white" alt="Offline reproduction"></a>
 <a href="LICENSE_DATA_AND_CODE.txt"><img src="https://img.shields.io/badge/License-MIT%20(code)%20%7C%20CC%20BY%204.0%20(data)-lightgrey" alt="License"></a>
 
+[English](README.md) · [简体中文](README_zh.md)
+
 </div>
 
 <p align="center"><img src="assets/protocol.jpg" width="75%"><br><em>StateTrack-Bench evaluation protocol: a persistent constraint is planted in the dialogue, probed at increasing depths, and every failure is re-examined with a forked recall test.</em></p>
