@@ -11,6 +11,7 @@ School of Artificial Intelligence, Shenzhen University
 **EMNLP 2026（主会）**
 
 <a href="https://arxiv.org/abs/2610.31314"><img src="https://img.shields.io/badge/arXiv-2610.31314-b31b1b" alt="arXiv"></a>
+<a href="https://aclanthology.org/2026.emnlp-main.583/"><img src="https://img.shields.io/badge/Paper-EMNLP%202026-blue" alt="Paper"></a>
 <a href="#-已发布资源"><img src="https://img.shields.io/badge/Benchmark-StateTrack--Bench-green" alt="StateTrack-Bench"></a>
 <a href="#-离线复现论文结果"><img src="https://img.shields.io/badge/Reproduce-offline%2C%20stdlib%20only-3776ab?logo=python&logoColor=white" alt="Offline reproduction"></a>
 <a href="LICENSE_DATA_AND_CODE.txt"><img src="https://img.shields.io/badge/License-MIT%20(code)%20%7C%20CC%20BY%204.0%20(data)-lightgrey" alt="License"></a>
